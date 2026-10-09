@@ -1,0 +1,6 @@
+interface:
+  display_name: "孙宇晨 Agent | Justin Sun Agent"
+  short_description: "基于公开发言与访谈，模拟决策思路，查证观点变化并给出可执行建议"
+  default_prompt: "使用 $sun-yuchen-agent，基于公开资料分析我的问题，区分史料与推演，并给出可执行建议。"
+policy:
+  allow_implicit_invocation: true
