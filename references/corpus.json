@@ -1,0 +1,5186 @@
+{
+  "metadata": {
+    "title": "孙宇晨 Agent 历史研究知识库",
+    "version": "1.0",
+    "cutoff": "2026-10-09T18:50:00+08:00",
+    "scope": "2011年至截止时点可获得的公开资料；无法保证全网穷尽",
+    "main_records": 94,
+    "source_count": 147,
+    "indices": 11,
+    "course_guides": 12,
+    "themes": 14,
+    "boundaries": 12,
+    "principles": 11,
+    "corpus_form": "编写者摘要与归纳，不是原始逐字稿；原文需按链接核验",
+    "record_grades": {
+      "A": 14,
+      "B": 31,
+      "C": 49
+    }
+  },
+  "aliases": {
+    "E01": "R001",
+    "E02": "R002",
+    "E03": "R003",
+    "E04": "R004",
+    "E05": "R005",
+    "E06": "R006",
+    "E07": "R007",
+    "E08": "R008",
+    "E09": "R009",
+    "E10": "R010",
+    "E11": "R011",
+    "E12": "R012",
+    "E13": "R013",
+    "E14": "R014",
+    "E15": "R015",
+    "E16": "R016",
+    "E17": "R017",
+    "E18": "R018",
+    "E19": "R019",
+    "E20": "R020",
+    "E21": "R021",
+    "E22": "R022",
+    "E23": "R023",
+    "E24": "R024",
+    "E25": "R025",
+    "E26": "R026",
+    "E27": "R027",
+    "E28": "R028",
+    "MID-01": "R029",
+    "MID-02": "R030",
+    "MID-03": "R031",
+    "MID-04": "R032",
+    "MID-05": "R033",
+    "MID-06": "R034",
+    "MID-28": "R035",
+    "MID-07": "R036",
+    "MID-08": "R037",
+    "MID-09": "R038",
+    "MID-10": "R039",
+    "MID-27": "R040",
+    "MID-11": "R041",
+    "MID-12": "R042",
+    "MID-13": "R043",
+    "MID-14": "R044",
+    "MID-15": "R045",
+    "MID-16": "R046",
+    "MID-17": "R047",
+    "MID-19": "R048",
+    "MID-20": "R049",
+    "MID-21": "R050",
+    "MID-22": "R051",
+    "MID-23": "R052",
+    "MID-24": "R053",
+    "MID-25": "R054",
+    "MID-26": "R055",
+    "R25-01": "R056",
+    "R25-02": "R057",
+    "R25-03": "R058",
+    "R25-04": "R059",
+    "R25-05": "R060",
+    "R25-06": "R061",
+    "R25-07": "R062",
+    "R25-08": "R063",
+    "R25-09": "R064",
+    "R25-10": "R065",
+    "R25-11": "R066",
+    "R25-12": "R067",
+    "R25-13": "R068",
+    "ROOT01": "R069",
+    "ROOT02": "R070",
+    "ROOT03": "R071",
+    "R25-14": "R072",
+    "R25-15": "R073",
+    "ROOT04": "R074",
+    "ROOT05": "R075",
+    "R26-01": "R076",
+    "ROOT06": "R077",
+    "R26-02": "R078",
+    "ROOT07": "R079",
+    "ROOT08": "R080",
+    "R26-03": "R081",
+    "R26-04": "R082",
+    "R26-05": "R083",
+    "R26-06": "R084",
+    "R26-S01": "R085",
+    "ROOT09": "R086",
+    "R26-S02": "R087",
+    "ROOT10": "R088",
+    "R26-S03": "R089",
+    "R26-07": "R090",
+    "ROOT11": "R091",
+    "ROOT12": "R092",
+    "R26-08": "R093",
+    "R26-09": "R094",
+    "E-I04": "I01",
+    "E-I05": "I02",
+    "E-I01": "I03",
+    "E-I02": "I04",
+    "E-I03": "I05",
+    "MID-18": "I06",
+    "R26-10": "I07",
+    "IDX-R2": "I08",
+    "IDX-R3": "I09",
+    "IDX-R4": "I10",
+    "IDX-R6": "I11",
+    "E-S01": "S001",
+    "E-S02": "S002",
+    "E-S03": "S003",
+    "E-S04": "S004",
+    "E-S05": "S005",
+    "E-S06": "S006",
+    "E-S07": "S007",
+    "E-S08": "S008",
+    "E-S09": "S009",
+    "E-S10": "S010",
+    "E-S11": "S011",
+    "E-S12": "S012",
+    "E-S13": "S013",
+    "E-S14": "S014",
+    "E-S14b": "S015",
+    "E-S15": "S016",
+    "E-S16": "S017",
+    "E-S17": "S018",
+    "E-S18": "S019",
+    "E-S19": "S020",
+    "E-S20": "S021",
+    "E-S21": "S022",
+    "E-S22": "S023",
+    "E-S23": "S024",
+    "E-S24": "S025",
+    "E-S25": "S026",
+    "E-S25b": "S027",
+    "E-S26": "S028",
+    "E-S27": "S029",
+    "E-S28": "S030",
+    "E-S28b": "S031",
+    "E-S29": "S032",
+    "E-S30": "S033",
+    "E-S31": "S034",
+    "E-S32": "S035",
+    "E-S33": "S036",
+    "E-S34": "S037",
+    "MID-S01": "S038",
+    "MID-S02": "S039",
+    "MID-S03": "S040",
+    "MID-S04": "S041",
+    "MID-S05": "S042",
+    "MID-S06": "S043",
+    "MID-S07": "S044",
+    "MID-S08": "S045",
+    "MID-S09": "S046",
+    "MID-S10": "S047",
+    "MID-S11": "S048",
+    "MID-S12": "S049",
+    "MID-S13": "S050",
+    "MID-S14": "S051",
+    "MID-S15": "S052",
+    "MID-S16": "S053",
+    "MID-S17": "S054",
+    "MID-S17B": "S055",
+    "MID-S18": "S056",
+    "MID-S19": "S057",
+    "MID-S19B": "S058",
+    "MID-S20": "S059",
+    "MID-S21": "S060",
+    "MID-S22": "S061",
+    "MID-S23": "S062",
+    "MID-S24": "S063",
+    "MID-S25": "S064",
+    "MID-S26": "S065",
+    "MID-S24B": "S066",
+    "MID-S24C": "S067",
+    "R25-01-S": "S068",
+    "R25-02-S": "S069",
+    "R25-03-S": "S070",
+    "R25-04-S": "S071",
+    "R25-05-S": "S072",
+    "R25-06-S": "S073",
+    "R25-07-S": "S074",
+    "R25-08-S": "S075",
+    "R25-09-S": "S076",
+    "R25-10-S": "S077",
+    "EXTRA_78": "S078",
+    "EXTRA_79": "S079",
+    "R25-11-S": "S080",
+    "EXTRA_81": "S081",
+    "R25-12-S": "S082",
+    "R25-13-S": "S083",
+    "R25-14-S": "S084",
+    "R25-15-S": "S085",
+    "R26-01-S": "S086",
+    "R26-02-S": "S087",
+    "R26-03-S": "S088",
+    "R26-04-S": "S089",
+    "R26-05-S": "S090",
+    "R26-06-S": "S091",
+    "R26-07-S": "S092",
+    "EXTRA_93": "S093",
+    "R26-08-S": "S094",
+    "R26-09-S": "S095",
+    "R26-10-S": "S096",
+    "EXTRA_97": "S097",
+    "EXTRA_98": "S098",
+    "EXTRA_99": "S099",
+    "EXTRA_100": "S100",
+    "SRC_ROOT01": "S101",
+    "SRC_ROOT02": "S102",
+    "SRC_ROOT03": "S103",
+    "SRC_ROOT04": "S104",
+    "SRC_ROOT05": "S105",
+    "SRC_ROOT06": "S106",
+    "SRC_ROOT08": "S107",
+    "SRC_ROOT09": "S108",
+    "SRC_ROOT10": "S109",
+    "SRC_ROOT11": "S110",
+    "SRC_ROOT12": "S111",
+    "ROOT_SRC_OFFICIAL_MEDIA": "S112",
+    "ROOT_SRC_PODCAST": "S113",
+    "ROOT_SRC_X": "S114",
+    "ROOT_SRC_SEC_2026": "S115",
+    "ROOT_SRC_JUDGMENT": "S116",
+    "ROOT_SRC_PRIZE": "S117",
+    "ROOT_SRC_PRIZE_LATER": "S118",
+    "MID-S27": "S119",
+    "MID-S28": "S120",
+    "R26-S01-X": "S121",
+    "R26-S01-CD": "S122",
+    "R26-S01-R": "S123",
+    "R26-S01-PDF": "S124",
+    "R26-S01-PRE": "S125",
+    "R26-S02-R": "S126",
+    "R26-S03-G": "S127",
+    "R26-S-DOCKET": "S128",
+    "R26-S-INDEX": "S129",
+    "COURSE_C01": "S130",
+    "COURSE_C02": "S131",
+    "COURSE_C03": "S132",
+    "COURSE_C04": "S133",
+    "COURSE_C05": "S134",
+    "COURSE_C06": "S135",
+    "COURSE_C07": "S136",
+    "COURSE_C08": "S137",
+    "COURSE_C09": "S138",
+    "COURSE_C10": "S139",
+    "COURSE_C11": "S140",
+    "COURSE_C12": "S141",
+    "C_SOURCE_XYZ6": "S142",
+    "C_SOURCE_XYZCAT": "S143",
+    "SRC_IDX-R2": "S144",
+    "SRC_IDX-R3": "S145",
+    "SRC_IDX-R4": "S146",
+    "SRC_IDX-R6": "S147",
+    "C01": "C01",
+    "C02": "C02",
+    "C03": "C03",
+    "C04": "C04",
+    "C05": "C05",
+    "C06": "C06",
+    "C07": "C07",
+    "C08": "C08",
+    "C09": "C09",
+    "C10": "C10",
+    "C11": "C11",
+    "C12": "C12"
+  },
+  "items": [
+    {
+      "title": "《就会商制度致北大师生校友的一封信》",
+      "summary": "他针对北大拟推行的学生会商制度公开表达反对，认为把部分学生划为重点对象，尤其以思想是否偏激来分类，可能造成标签化、偏见与歧视。他将问题从少数学生的待遇扩大到所有学生都有被划入其中的可能，并诉诸大学应保护独立思考与多样性的原则。这份公开信是其早期以学生身份参与教育公共议题的材料。",
+      "limitations": "人人网原帖未取得，摘要仅依据同期文章中可核验的引语及标题；报道中的其他学者评论不计入孙宇晨观点。",
+      "topics": [
+        "大学教育",
+        "学生权利",
+        "标签化",
+        "公共表达"
+      ],
+      "event_date": "2011-03-26",
+      "publication_date": "2011-04-15",
+      "date_precision": "公开信发布日期由同期报道明确；所用报道发表于4月15日",
+      "medium": "人人网公开信；《京华周刊》同期报道存档",
+      "host_or_author": "孙宇晨",
+      "url": "https://paper.people.com.cn/jhzk/html/2011-04/15/content_962416.htm?div=-1",
+      "grade": "C",
+      "id": "R001",
+      "legacy_id": "E01",
+      "kind": "record",
+      "date": "2011-03-26",
+      "source_ids": [
+        "S001"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《北大孙宇晨的北大之梦》",
+      "summary": "他回顾受韩寒和文学理想影响进入北大、转向历史学，以及赴香港中文大学交换的经历。按其口述，民主与社会课程、阅读和学生自治活动改变了他理解公共生活的方式。他批评学生会过于官僚化、主要承担晚会事务，希望学生能更多参与与自身利益相关的事务；对会商制度的批评则与其追求思想自由、兼容并包的大学理想相连。",
+      "limitations": "记者整理的口述并非四小时逐字稿；人物所述经历和评价仍属自述，原刊日期未核。没有采纳报道中的他人评价或无关私人细节。",
+      "topics": [
+        "成长自述",
+        "文学与历史",
+        "香港交换",
+        "学生自治",
+        "教育批评"
+      ],
+      "event_date": "2011-06或更早",
+      "publication_date": "2011-06-29",
+      "date_precision": "存档发布日期确定；四小时采访的具体日期未注明",
+      "medium": "《亚洲周刊》人物采访；OhMyMedia/中国数字时代转载存档",
+      "host_or_author": "张洁平",
+      "url": "https://chinadigitaltimes.net/chinese/164673.html",
+      "grade": "B",
+      "id": "R002",
+      "legacy_id": "E02",
+      "kind": "record",
+      "date": "2011-06-29 刊",
+      "source_ids": [
+        "S002"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《拥抱风险》／《90后创业者孙宇晨：我对安全感的定义不一样》",
+      "summary": "他把创业解释为主动拥抱风险，并讲述从留学、接触比特币到回国推动Ripple协议本土化的选择。其项目叙事围绕跨境汇兑缓慢、昂贵与金融体系割裂，试图用价值网络降低清算摩擦。他还把年轻人的安全感同自由选择和个性化联系起来，批评被少量文化产品限定的集体记忆，认为互联网扩大了个人自主选择的空间。",
+      "limitations": "技术解释包含当时的简化与主张，不作为技术事实背书。此处称2013-04-11首次从《纽约时报》知道比特币，与2018、2020采访所述2012年有差异，应并列保存。",
+      "topics": [
+        "风险与创业",
+        "比特币入行",
+        "Ripple锐波",
+        "价值网络",
+        "代际文化"
+      ],
+      "publication_date": "2014-07-24",
+      "date_precision": "刊发日确定；腾讯产品家沙龙演讲日未注明",
+      "medium": "腾讯产品家沙龙演讲；虎嗅刊载演讲全文",
+      "host_or_author": "孙宇晨",
+      "url": "https://www.huxiu.com/article/38515.html",
+      "grade": "B",
+      "id": "R003",
+      "legacy_id": "E03",
+      "kind": "record",
+      "date": "2014-07-24 刊",
+      "source_ids": [
+        "S003"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《电商者说》：为互联网＋而生",
+      "summary": "他用跨境支付的代理行链条解释锐波要解决的中介多、费用高、到账慢问题，并称创业目标是把相关技术带入中国金融场景。他看好互联网与金融、医疗及跨境电商结合的机会，认为融资渠道和创业环境改善有助于小微企业进入市场。他表示希望长期投入互联网相关事业，当前从金融切入，并不排除未来扩展至其他行业。",
+      "limitations": "行业机遇与监管环境评价是2015年的受访观点；不能当作当前政策、项目业绩或技术效率的独立验证。",
+      "topics": [
+        "互联网金融",
+        "跨境清算",
+        "创业环境",
+        "互联网＋"
+      ],
+      "event_date": "2015-05-08",
+      "publication_date": "2015-05-08",
+      "date_precision": "采访与报道同日",
+      "medium": "央视网；2015中国电子商务创新发展峰会",
+      "host_or_author": "央视网记者王寒英、兰军、宋丹、唐晓艳、张土昌",
+      "url": "https://e.cntv.cn/2015/05/08/ARTI1431072726848161.shtml",
+      "grade": "B",
+      "id": "R004",
+      "legacy_id": "E04",
+      "kind": "record",
+      "date": "2015-05-08",
+      "source_ids": [
+        "S004"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《孙宇晨央视〈对话〉访谈：互联网三代创业者的光荣与梦想》",
+      "summary": "文章将互联网创业分为三代：早期用户和资本稀缺，后来市场扩大而竞争加强，移动互联网时代融资和用户基础更完善但模仿更快、竞争周期更短。他把速度与颠覆性创新视为年轻创业者的生存条件，并将锐波的去中心化金融、社交产品定位为创造新关系和新规则的尝试。其核心判断是资源越充分，并不意味着创业越轻松。",
+      "limitations": "这是录制后的第一人称回顾，不是央视节目逐字稿；页面署名为投资界综合，故不标成可核实的本人原站文章。",
+      "topics": [
+        "创业代际",
+        "竞争速度",
+        "商业模式",
+        "去中心化",
+        "创新"
+      ],
+      "publication_date": "2015-05-20",
+      "date_precision": "回顾文章刊发日确定；所述《对话》录制日期未明确",
+      "medium": "投资界刊载的第一人称节目参与回顾",
+      "host_or_author": "孙宇晨口吻的回顾文章；节目主持陈伟鸿",
+      "url": "https://news.pedaily.cn/201505/20150520382901.shtml",
+      "grade": "B",
+      "id": "R005",
+      "legacy_id": "E05",
+      "kind": "record",
+      "date": "2015-05-20 刊",
+      "source_ids": [
+        "S005"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《90后是一种价值观，而非一代人》",
+      "summary": "他反对用个别创业者的争议概括整个年龄群体，把所谓90后理解为自由、颠覆、个性化的价值取向。其产品判断是，年轻用户可以在移动互联网中自建生活与文化体系，因此企业需要在认知、精神和趣味层面赢得认同。他强调企业与用户之间的相互欣赏，认为仅靠传统广告或金钱投入不足以形成长期关系，产品本身须容纳用户表达与创造。",
+      "limitations": "代际概括属演讲者经验判断，并非经样本研究证实的90后群体规律。",
+      "topics": [
+        "代际价值观",
+        "用户洞察",
+        "品牌关系",
+        "移动产品",
+        "内容文化"
+      ],
+      "event_date": "2015-10-23",
+      "publication_date": "2015-10-23",
+      "date_precision": "演讲与刊发同日",
+      "medium": "第四届安卓全球开发者大会；新浪科技演讲全文",
+      "host_or_author": "孙宇晨；报道李根",
+      "url": "https://tech.sina.com.cn/i/2015-10-23/doc-ifxizwsf8773304.shtml?from=wap",
+      "grade": "B",
+      "id": "R006",
+      "legacy_id": "E06",
+      "kind": "record",
+      "date": "2015-10-23",
+      "source_ids": [
+        "S006"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《专访孙宇晨：马云不会贴标签说你是90后》",
+      "summary": "他把湖畔学习的价值放在理解顶尖创业者的精神状态、承受持续痛苦并想清楚创业目的，而不只是获得操作技巧。谈陪我APP时，他强调即时语音匹配提高陌生人发现效率，并把付费聊天解释为社交能力变现。他认为年轻用户的认知、互动方式和文化内容能够构成产品壁垒；对年龄标签则表示，希望年轻创业不再因稀少而特别受关注。",
+      "limitations": "关于马云看法、用户规模、收入和匹配速度均是孙宇晨转述或项目自报，未独立验证。",
+      "topics": [
+        "湖畔大学",
+        "创业动机",
+        "陪我APP",
+        "产品效率",
+        "文化壁垒"
+      ],
+      "event_date": "2015-12-09或之前",
+      "publication_date": "2015-12-09",
+      "date_precision": "报道日期确定；会后采访无单独时间戳",
+      "medium": "新浪科技采访实录",
+      "host_or_author": "新浪科技",
+      "url": "https://tech.sina.com.cn/i/2015-12-09/doc-ifxmnurf8469097.shtml?from=wap",
+      "grade": "B",
+      "id": "R007",
+      "legacy_id": "E07",
+      "kind": "record",
+      "date": "2015-12-09 刊",
+      "source_ids": [
+        "S007"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《专访90后创业者孙宇晨：创业越早越好，高学历对创业没啥用》",
+      "summary": "他认为创业胜负主要取决于实际经验、创新和制定规则的能力，学历带来的外部加分不等于经营能力，因此主张尽早创业。围绕陪我，他把陌生人语音匹配与付费聊天解释为年轻人追求乐趣、即时倾诉和社交的新消费，并认为会聊天也是可被市场识别的能力。他不赞成把买房买车作为青年生活的唯一中心，强调文化、体验与个人选择。",
+      "limitations": "“学历无用”等为其个人立场，不是教育回报研究结论；报道还包含对平台治理的记者质疑，摘要没有混写成受访者自认。",
+      "topics": [
+        "学历与创业",
+        "实战经验",
+        "陪我APP",
+        "情绪与社交消费",
+        "青年生活"
+      ],
+      "publication_date": "2015-12-29",
+      "date_precision": "刊发日确定；采访日未注明",
+      "medium": "澎湃新闻《思想市场》",
+      "host_or_author": "朱凡",
+      "url": "https://www.thepaper.cn/newsDetail_forward_1413224?commTag=true",
+      "grade": "C",
+      "id": "R008",
+      "legacy_id": "E08",
+      "kind": "record",
+      "date": "2015-12-29 刊",
+      "source_ids": [
+        "S008"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《关于五分钟通向财富自由的一组问答》",
+      "summary": "他把财富自由与青年价值观联系起来，认为对金钱和利己的道德污名会阻碍个人追求合法收益，主张通过为世界提供价值、获得报酬来争取更自主的生活。报道将其建议概括为年轻阶段不买房、不买车、不结婚的三不主义。其论述重点是减少既有生活安排的束缚、提高个人选择空间，同时公开为追求财富与个人利益辩护。",
+      "limitations": "未取得完整微博原文；不补写报道没有提供的五分钟问答细节，也不将宣传性阅读量与支持人数当成核验事实。",
+      "topics": [
+        "财富自由",
+        "三不主义",
+        "青年价值观",
+        "利己与报酬"
+      ],
+      "event_date": "2016-10-30",
+      "publication_date": "2016-11-08",
+      "date_precision": "原微博长文日期由同期报道明确",
+      "medium": "新浪微博长文；齐鲁晚报在新浪的报道",
+      "host_or_author": "孙宇晨",
+      "url": "https://news.sina.cn/2016-11-08/detail-ifxxnffr7055250.d.html?vt=4",
+      "grade": "C",
+      "id": "R009",
+      "legacy_id": "E09",
+      "kind": "record",
+      "date": "2016-10-30",
+      "source_ids": [
+        "S009"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《这世界既残酷也温柔》新书发布会主题演讲",
+      "summary": "他用2007至2017年的十年经历讲述从备考、求学、留学到创业的路径，强调看似固定的起点并不必然限定终点。谈到创业挫折时，他提及资金紧张、难以发薪和投资落空，以此说明坚持与反复尝试的意义。整场表达延续了其通过个人奋斗获得财富自由、以个人行动改善世界的自我叙事，并将这些经历作为向青年读者提供的经验。",
+      "limitations": "这是发布会报道，不能据此宣称已通读该书；冯仑等嘉宾发言未归于孙宇晨。",
+      "topics": [
+        "著作与写作",
+        "成长自述",
+        "创业挫折",
+        "财富自由"
+      ],
+      "event_date": "2017-03-12",
+      "publication_date": "2017-03-14",
+      "date_precision": "发布会3月12日15点，报道3月14日",
+      "medium": "对外经济贸易大学宁远楼国际报告厅；新浪读书报道",
+      "host_or_author": "孙宇晨；主持慕岩",
+      "url": "https://book.sina.com.cn/zixun/compose/2017-03-14/doc-ifychhuq4569434.shtml?from=wap",
+      "grade": "C",
+      "id": "R010",
+      "legacy_id": "E10",
+      "kind": "record",
+      "date": "2017-03-12",
+      "source_ids": [
+        "S010"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Interview with Justin Sun, founder of TRON ($TRX)",
+      "summary": "他将波场的基础分为技术团队、支持者社区和市场，认为区块链可以改善数字娱乐内容的透明度、跨平台流转和创作者回报。TRX在其设想中用于连接内容提供者与用户、度量并激励生态贡献，降低对中心化分发渠道的依赖。他还谈到将陪我APP接入TRX、建设自主主链，再按不同娱乐应用优化网络的阶段性路线。",
+      "limitations": "访问者页面含交易推广链接，属于投资社区访谈；用户数、市场规模和合作关系为当时项目自报，摘要不据其认定业绩。",
+      "topics": [
+        "波场早期定位",
+        "内容分发",
+        "TRX激励",
+        "社区",
+        "产品路线图"
+      ],
+      "publication_date": "2017-11-20",
+      "date_precision": "文字采访刊发日确定；采访问答完成日未注明",
+      "medium": "Crypto Rand／现Rand Group的Medium",
+      "host_or_author": "Crypto Rand",
+      "url": "https://randgroup.medium.com/interview-with-justin-sun-founder-of-tron-trx-9a59b762d2f8",
+      "grade": "B",
+      "id": "R011",
+      "legacy_id": "E11",
+      "kind": "record",
+      "date": "2017-11-20 刊",
+      "source_ids": [
+        "S011"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《波场：90后孙宇晨又回来了》",
+      "summary": "他解释回国是为管理扩大的中国团队，也希望在区块链受到更多主流关注时阐明项目理念。面对套现及白皮书争议，他以基金会钱包公开可查、锁仓安排和中文原版与志愿者翻译的区分作回应。他反对把波场说成以太坊的简单复制，称团队在架构和应用性能上寻求改进。此篇集中呈现其面对早期强烈质疑时的自我解释。",
+      "limitations": "否认、解释和规模数字均属当事人说法；不能据此断言相关指控已被证伪，也不将媒体指控写成既定事实。",
+      "topics": [
+        "波场发展",
+        "争议回应",
+        "白皮书",
+        "团队管理",
+        "透明度"
+      ],
+      "publication_date": "2018-04-12",
+      "date_precision": "报道日确定；采访发生在其回国期间，未注明具体日",
+      "medium": "深链财经采访；新浪财经存档",
+      "host_or_author": "深链财经",
+      "url": "https://finance.sina.com.cn/blockchain/coin/2018-04-12/doc-ifyzeyqa9927227.shtml",
+      "grade": "B",
+      "id": "R012",
+      "legacy_id": "E12",
+      "kind": "record",
+      "date": "2018-04-12 刊",
+      "source_ids": [
+        "S012"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《王峰十问》孙宇晨对话",
+      "summary": "他将创始人亲自直播、真实回应和持续沟通解释为早期去中心化社区的治理需要，认为单靠公告无法建立联系。谈竞争时，他重视路线选择和执行力，并回顾从Ripple的机构路径转向波场社区路径的过程。他还讨论超级代表、开发者激励、基金会持仓及交易所钱包，区分中心化平台开放与用户拥有数据的去中心化开放愿景。",
+      "limitations": "全文转载标题含强烈观点概括，记录使用中性对话名。钱包归属、技术指标和激励规模是受访者陈述；2012年入行自述与2014演讲存在差异。",
+      "topics": [
+        "创始人传播",
+        "社区治理",
+        "DAO",
+        "路线选择",
+        "开发者生态"
+      ],
+      "event_date": "2018-04-25 21:30",
+      "publication_date": "2018-04-26",
+      "date_precision": "对话时间与次日转载时间均明确",
+      "medium": "3点钟火星财经创始学习群；新浪转载原文整理",
+      "host_or_author": "王峰",
+      "url": "https://tech.sina.cn/2018-04-26/detail-ifztkpin5319923.d.html",
+      "grade": "B",
+      "id": "R013",
+      "legacy_id": "E13",
+      "kind": "record",
+      "date": "2018-04-25",
+      "source_ids": [
+        "S013"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《对话孙宇晨：以太坊当年也割韭菜，但是他们赢了》",
+      "summary": "他回顾曾偏重金融机构、轻视公众社区的思路，承认以太坊崛起促使他重新审视原有判断，并坚定采用社区路线。他把决定做什么、不做什么和技术路线选择放在创业核心位置，认为成功会逐渐改变外界对新组织方式的理解。对于波场价格操纵等批评，他明确否认；对未来则表示真正困难可能是既有规划完成后寻找下一方向。",
+      "limitations": "标题中的“割韭菜”是在他回述当年对以太坊的偏见语境中出现，不应摘成作者认可此评价或行业违法定论。",
+      "topics": [
+        "战略转变",
+        "Ripple与以太坊",
+        "社区融资",
+        "技术选择",
+        "争议回应"
+      ],
+      "event_date": "2018-05-03之前",
+      "publication_date": "2018-05-03",
+      "date_precision": "界面移动版检索元数据为5月3日，搜狐同稿5月4日；采访日未注明",
+      "medium": "区块律动BlockBeats；界面财经号/搜狐转载",
+      "host_or_author": "区块律动BlockBeats",
+      "url": "https://m.jiemian.com/article/2108206.html",
+      "grade": "B",
+      "id": "R014",
+      "legacy_id": "E14",
+      "kind": "record",
+      "date": "2018-05-03 刊",
+      "source_ids": [
+        "S014",
+        "S015"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Post BitTorrent acquisition letter from Justin Sun to TRON employees",
+      "summary": "他把收购BitTorrent的首要理由解释为双方认同互联网开放、去中心化的价值，而用户与商业机会是附带优势。他认为大型平台集中数据和分发权会削弱早期互联网的开放性，提出从TRON协议、BitTorrent协议到存储、云计算及去中心化应用的分层建设。他把目标设为十至二十年的长期事业，承诺投入一生推动互联网结构改变。",
+      "limitations": "系愿景与战略承诺，不能等同于产品已实现；文中Web代际划分为其本人叙事，不作为通行学术定义。",
+      "topics": [
+        "BitTorrent收购",
+        "互联网史叙事",
+        "平台权力",
+        "长期主义",
+        "基础设施"
+      ],
+      "event_date": "2018-08-06",
+      "publication_date": "2018-08-15",
+      "date_precision": "全员会8月6日、公开刊载8月15日",
+      "medium": "TRON官方Medium；收购后致员工信",
+      "host_or_author": "孙宇晨",
+      "url": "https://medium.com/tron-foundation/post-bittorrent-acquisition-letter-from-justin-sun-to-tron-employees-19afa72e2e87",
+      "grade": "A",
+      "id": "R015",
+      "legacy_id": "E15",
+      "kind": "record",
+      "date": "2018-08-06",
+      "source_ids": [
+        "S016"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "TRON CEO, Justin Sun, On The Future Of Content And New LINE Partnership",
+      "summary": "他表示波场已从早期单纯激励内容的设想转向建设去中心化应用生态，为开发者提供可负担、有效率的基础设施。他介绍主网、虚拟机和Project Atlas的进展，设想通过代币奖励BitTorrent用户贡献资源，并说明交易所合作要考虑安全和可靠性。对熊市，他强调产品交付、里程碑与用户采用，试图将关注点放在生态建设上。",
+      "limitations": "属于Forbes独立撰稿人文章，不代表其编辑部为项目背书；完成情况、活跃数和市场领先性为项目方自述。",
+      "topics": [
+        "公链基础设施",
+        "DApp",
+        "路线调整",
+        "BitTorrent",
+        "交易所合作"
+      ],
+      "publication_date": "2018-08-16",
+      "date_precision": "刊发日确定；采访时间未注明",
+      "medium": "Forbes Contributor问答",
+      "host_or_author": "Yoav Vilner",
+      "url": "https://www.forbes.com/sites/yoavvilner/2018/08/16/tron-ceo-justin-sun-on-the-future-of-content-and-new-line-partnership/",
+      "grade": "B",
+      "id": "R016",
+      "legacy_id": "E16",
+      "kind": "record",
+      "date": "2018-08-16 刊",
+      "source_ids": [
+        "S017"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Interview: Justin Sun on the Future of Tron, BitTorrent and Project Atlas",
+      "summary": "他将Project Atlas解释为内容分发的新基础：提高下载与做种激励、保持兼容，并使创作者能够直接接触用户。收购BitTorrent在其叙述中并非从零发明奖励机制，而是延续该协议已有互惠激励和团队此前的区块链研究。他也谈到慈善的透明效率、传统行业采用，以及机构资产管理者进入加密领域可能带来的作用。",
+      "limitations": "与CoinCentral同源问答合并；没有将其技术目标、采用规模或2019展望作为已证实成果。",
+      "topics": [
+        "Project Atlas",
+        "内容创作者",
+        "文件分发",
+        "慈善透明",
+        "机构采用"
+      ],
+      "publication_date": "2018-11-01",
+      "date_precision": "Daily Hodl刊发日确定；相同采访另见CoinCentral，不重复计数",
+      "medium": "CoinCentral访谈；The Daily Hodl刊载",
+      "host_or_author": "Alex Moskov",
+      "url": "https://dailyhodl.com/2018/11/01/interview-justin-sun-on-the-future-of-tron-bittorrent-and-project-atlas/",
+      "grade": "B",
+      "id": "R017",
+      "legacy_id": "E17",
+      "kind": "record",
+      "date": "2018-11-01 刊",
+      "source_ids": [
+        "S018"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《孙宇晨拟邀李林V神等赴巴菲特午宴，望修正其投资论》",
+      "summary": "他将竞拍巴菲特午餐定位为加密行业与传统投资人的交流，称自己既受价值投资影响，也希望讨论技术变化如何促使投资框架修正。他否认目的只是炒作，同时承认三小时不可能改变巴菲特的看法，认为让行业问题得到充分回答就有意义。他拟邀请不同加密领域代表参加，并表示最认同的身份仍是波场创始人和区块链创业者。",
+      "limitations": "这是当时动机与邀请意向，不等于名单最终落实；价值投资来源与个人财富说法均为自述。",
+      "topics": [
+        "巴菲特午餐",
+        "价值投资",
+        "行业沟通",
+        "个人品牌",
+        "慈善"
+      ],
+      "event_date": "2019-06-04",
+      "publication_date": "2019-06-04",
+      "date_precision": "当日午间专访、18:27转载",
+      "medium": "新京报独家问答；荔枝网转载",
+      "host_or_author": "新京报",
+      "url": "https://news.jstv.com/a/20190604/155964404514.shtml",
+      "grade": "B",
+      "id": "R018",
+      "legacy_id": "E18",
+      "kind": "record",
+      "date": "2019-06-04",
+      "source_ids": [
+        "S019"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《专访孙宇晨：与巴菲特午餐时我会给他的手机里装币》",
+      "summary": "他称竞拍支出属于既有慈善投入计划，并把个人财富积累追溯至股票投资及价值投资理念。谈午餐目标时，他不期待当场说服巴菲特买币，而希望安装钱包、转入少量代币，展示发送接收和应用体验。他强调是否投资由巴菲特自己判断，同时回应外界对财富与身份的质疑，区分企业所有者、创业者和职业管理者的角色。",
+      "limitations": "捐赠总额及财富来源属受访者自报；关于其他企业家身份的评价不能作为本报告事实判断。",
+      "topics": [
+        "巴菲特午餐",
+        "体验演示",
+        "慈善叙事",
+        "财富来源",
+        "创业身份"
+      ],
+      "event_date": "2019-06-05",
+      "publication_date": "2019-06",
+      "date_precision": "正文明确6月5日采访；页面可见正文未直接显示独立刊发日",
+      "medium": "界面新闻科技独家专访",
+      "host_or_author": "林腾、郑洁瑶",
+      "url": "https://www.jiemian.com/article/3190285.html",
+      "grade": "B",
+      "id": "R019",
+      "legacy_id": "E19",
+      "kind": "record",
+      "date": "2019-06-05",
+      "source_ids": [
+        "S020"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "关于取消原定巴菲特午餐的微博声明",
+      "summary": "他宣布因突发肾结石正在接受治疗，取消原定与巴菲特的午餐会面，并称身体状况稳定、处于恢复阶段，暂时无法接受采访。他同时明确表示向格莱德基金会的捐赠已经完成且继续有效，称恢复后会再与外界见面。这条声明把会面安排与慈善捐赠分开，是后续道歉和重新安排晚餐的前置公开记录。",
+      "limitations": "病因与恢复状态是当事人声明，未核验医疗材料；不使用其他报道对取消原因的推测替代其原话。",
+      "topics": [
+        "巴菲特午餐",
+        "延期声明",
+        "健康自述",
+        "捐赠"
+      ],
+      "event_date": "2019-07-23",
+      "publication_date": "2019-07-23",
+      "date_precision": "微博声明与报道同日",
+      "medium": "个人微博；中国网报道的新浪存档",
+      "host_or_author": "孙宇晨",
+      "url": "https://news.sina.com.cn/o/2019-07-23/doc-ihytcerm5600305.shtml",
+      "grade": "A",
+      "id": "R020",
+      "legacy_id": "E20",
+      "kind": "record",
+      "date": "2019-07-23",
+      "source_ids": [
+        "S021"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "关于过度营销与巴菲特午餐事件的致歉信",
+      "summary": "他承认午餐活动虽起于对巴菲特与慈善的兴趣，也含推广行业和个人的动机，后来因言行不成熟演变为过度营销。他向公众、媒体和监管方面致歉，表示对围绕王小川的炒作后悔，并承诺更积极介绍业务、配合调研、保持沟通。这份信表明他在风波后重新强调社会责任、表达克制与对监管要求的回应。",
+      "limitations": "信中致歉不应自动解释为对报道所涉所有法律指控的承认；有关财新调查的叙述须独立归因，不能混成孙宇晨自认。",
+      "topics": [
+        "危机沟通",
+        "过度营销",
+        "道歉",
+        "监管关系",
+        "社会责任"
+      ],
+      "event_date": "2019-07-25 02:46",
+      "publication_date": "2019-07-25",
+      "date_precision": "微博发信时间与报道日期明确",
+      "medium": "个人微博；澎湃新闻报道及原信截图",
+      "host_or_author": "孙宇晨",
+      "url": "https://www.thepaper.cn/newsDetail_forward_4001422",
+      "grade": "C",
+      "id": "R021",
+      "legacy_id": "E21",
+      "kind": "record",
+      "date": "2019-07-25",
+      "source_ids": [
+        "S022"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "WHAT I LEARNED FROM WARREN BUFFETT’S DINNER BY JUSTIN SUN",
+      "summary": "他回顾在奥马哈与巴菲特及同行者共进晚餐，说明赠送手机与数字资产、展示转账及为延期道歉的经过。他把谈话主题整理为慈善、合作伙伴、投资和科技，并称自己强调比特币属于下一代互联网货币。同一复盘也记载巴菲特仍质疑比特币是否具备投资价值；因此其叙事同时包含学习传统投资经验和向传统金融展示区块链的双重目的。",
+      "limitations": "巴菲特说法均由孙宇晨转述，并非双方核定逐字稿；赠币不能推出巴菲特认可、主动投资或持续持有加密资产。",
+      "topics": [
+        "巴菲特晚餐",
+        "价值投资",
+        "慈善",
+        "跨圈交流",
+        "区块链演示"
+      ],
+      "event_date": "2020-01-23 18:00 CT",
+      "publication_date": "2020-02-08",
+      "date_precision": "本人复盘明确晚餐时间；官方文章2月8日发布，首次推文披露另为2月6日",
+      "medium": "TRON DAO官方Medium；孙宇晨第一人称复盘",
+      "host_or_author": "孙宇晨",
+      "url": "https://trondao.medium.com/what-i-learned-from-warren-buffetts-dinner-by-justin-sun-2fc9f4c3f7a0",
+      "grade": "A",
+      "id": "R022",
+      "legacy_id": "E22",
+      "kind": "record",
+      "date": "2020-01-23",
+      "source_ids": [
+        "S023"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "CNN First Move：TRON、BitTorrent与巴菲特晚餐",
+      "summary": "他用iOS与Android作比喻解释波场是供应用运行的基础系统，声称去中心化能够让用户保有数据与资产控制权，并以BitTorrent作为大规模文件分发的实例。他表示长期持有多类加密资产，预测比特币在2025年前后会超过十万美元；谈巴菲特时，他称重点展示基础应用而非价格，并把对方给他的投资启发概括为谨慎、重视确定性。",
+      "limitations": "官方转录可能含口语转写错误；预测按2020年原话保存，不构成当前建议，用户隐私与持有资产等说法未独立核验。",
+      "topics": [
+        "平台解释",
+        "数据控制",
+        "比特币预测",
+        "长期持有",
+        "巴菲特"
+      ],
+      "event_date": "2020-02-21播出",
+      "publication_date": "2020-02-21",
+      "date_precision": "CNN节目播出日明确；访谈录制日未注明",
+      "medium": "CNN《First Move》官方文字转录",
+      "host_or_author": "Julia Chatterley",
+      "url": "https://transcripts.cnn.com/show/fmjc/date/2020-02-21/segment/01",
+      "grade": "B",
+      "id": "R023",
+      "legacy_id": "E23",
+      "kind": "record",
+      "date": "2020-02-21",
+      "source_ids": [
+        "S024"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Open Letter To Steem Community",
+      "summary": "在收购Steemit及意外软分叉发生后，他表示要加强与社区联系，将团队与社区塑造成推动Steem发展的力量。信中提出接入TRX及相关代币、简化注册、增加交易所与硬件支持、引入创作者等方向，并邀请部分前五十名见证人参加拟于3月6日举行的沟通会议。他把收购后的下一阶段表述为共同制定可以执行的增长计划。",
+      "limitations": "原站访问失败，使用标明作者和时间的镜像；所列措施与会议是提议，不等于已经完成，不能据此消解后续治理争议。",
+      "topics": [
+        "Steem",
+        "收购整合",
+        "社区沟通",
+        "平台增长",
+        "治理"
+      ],
+      "event_date": "2020-02-24",
+      "publication_date": "2020-02-24",
+      "date_precision": "链上内容镜像显示创建与更新同日；原Steemit链接此次无法打开",
+      "medium": "@justinsunsteemit公开信；Shrewdies链上内容镜像",
+      "host_or_author": "孙宇晨账号justinsunsteemit",
+      "url": "https://shrewdies.com/blog/justinsunsteemit/open-letter-to-steem-community",
+      "grade": "A",
+      "id": "R024",
+      "legacy_id": "E24",
+      "kind": "record",
+      "date": "2020-02-24",
+      "source_ids": [
+        "S025"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《波场三年，孙宇晨的“七十二变”背后的秘密》",
+      "summary": "他称熊市适合布局和收购，选择标的是细分赛道领先、与主营业务有协同、原团队可继续经营的项目。对Steem争议，他将冻结持仓指为侵犯私有产权，把其后的反向操作解释为保护网络及资产，并主张社区自治需要与核心开发者推动并存。他还明确把DeFi、BitTorrent生态、跨链和降低普通用户使用门槛列为2020年的重点。",
+      "limitations": "有关恶意黑客、侵权及保护网络是受访者一方的定性，不作为事实结论；主持人问题也存在预设。技术领先及资产规模未独立验证。",
+      "topics": [
+        "并购原则",
+        "Steem争议",
+        "私有产权",
+        "DeFi",
+        "用户门槛"
+      ],
+      "event_date": "2020-03-12晚",
+      "publication_date": "2020-03-13",
+      "date_precision": "直播日明确；链得得/搜狐转载日明确，PANews为同稿",
+      "medium": "Beep币扑《Plan B》AMA；PANews及链得得转载",
+      "host_or_author": "小喵",
+      "url": "https://www.panewslab.com/zh/articles/1584108339888019",
+      "grade": "B",
+      "id": "R025",
+      "legacy_id": "E25",
+      "kind": "record",
+      "date": "2020-03-12",
+      "source_ids": [
+        "S026",
+        "S027"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Justin Sun’s AMA with WazirX: Everything You Need to Know About BitTorrent",
+      "summary": "他把BTT解释为贯穿下载、分布式存储和直播的激励工具：在BitTorrent Speed改善资源共享，在BTFS奖励存储贡献，在DLive参与打赏和激励。他说明停止剩余TRX持有者空投后，计划将资源转向更直接的使用与贡献奖励，并强调开发者支持和印度市场潜力。其核心主张是把既有BitTorrent用户逐步带入代币经济和区块链应用。",
+      "limitations": "官方推广性问答，收益、规模和领先地位均不能视作独立验证；不把面向币持有者的乐观承诺改写为无风险收益。",
+      "topics": [
+        "BTT",
+        "BitTorrent Speed",
+        "BTFS",
+        "DLive",
+        "激励设计"
+      ],
+      "publication_date": "2020-07-30",
+      "date_precision": "官方问答整理刊发日确定；AMA实际举行日未独立注明",
+      "medium": "WazirX社群AMA；BitTorrent官方Medium",
+      "host_or_author": "WazirX主持人",
+      "url": "https://medium.com/@BitTorrent/justin-suns-ama-with-wazirx-everything-you-need-to-know-about-bittorrent-86da69a07afe",
+      "grade": "B",
+      "id": "R026",
+      "legacy_id": "E26",
+      "kind": "record",
+      "date": "2020-07-30 刊",
+      "source_ids": [
+        "S028"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "BitTorrent Presents: All You Need to Know About BitTorrent on Defi",
+      "summary": "他宣布把DeFi与稳定币作为下半年的重点，设想通过JUST、JustSwap和JustLend把BTT、交易、借贷及存储结合起来。他区分USDJ的稳定币用途与JST的治理功能，并把BitTorrent庞大用户基础视为新金融产品的潜在入口。问答还展示了以使用奖励、收益预期、交叉导流和生态协同推动产品采用的营销与增长逻辑。",
+      "limitations": "原文含“零风险”及高收益营销表述，不采信为风险判断；公布的产品时间表和数字是当时主张。",
+      "topics": [
+        "DeFi",
+        "JUST",
+        "稳定币",
+        "治理代币",
+        "生态协同",
+        "增长"
+      ],
+      "publication_date": "2020-08-18",
+      "date_precision": "官方问答整理刊发日确定；AMA具体举行日未注明",
+      "medium": "BitTorrent官方Medium AMA",
+      "host_or_author": "BitTorrent AMA主持人",
+      "url": "https://medium.com/@BitTorrent/bittorrent-presents-all-you-need-to-know-about-bittorrent-on-defi-7e72aa16b43f",
+      "grade": "B",
+      "id": "R027",
+      "legacy_id": "E27",
+      "kind": "record",
+      "date": "2020-08-18 刊",
+      "source_ids": [
+        "S029"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《区块链技术带来金融服务的信任变革》",
+      "summary": "他把区块链的作用概括为以算法支持的机器信任降低金融交易的信任成本，改善中介依赖和信息不对称，并讨论跨境支付、征信、供应链金融等应用。文章把技术创新与中国金融发展联系起来，主张扩大数字经济话语权、支持人民币国际化和央行数字货币发展，并通过信息共享改善小微企业及低收入群体获得金融服务的条件。",
+      "limitations": "原报正文此次无法直接打开，使用项目账号全文转载并由同期报道核对标题日期；文章的技术、政策判断是作者观点，发表平台不等于监管对其业务背书。",
+      "topics": [
+        "机器信任",
+        "金融效率",
+        "央行数字货币",
+        "人民币国际化",
+        "普惠金融"
+      ],
+      "event_date": "2020-11-06",
+      "publication_date": "2020-11-06（原报）；转载日未显示",
+      "date_precision": "原报日期由原URL及11月7日同期报道相互印证",
+      "medium": "《学习时报》署名文；波场账号在AiCoin的全文转载",
+      "host_or_author": "孙宇晨",
+      "url": "https://www.aicoin.com/zh-Hans/article/233753",
+      "grade": "A",
+      "id": "R028",
+      "legacy_id": "E28",
+      "kind": "record",
+      "date": "2020-11-06",
+      "source_ids": [
+        "S030",
+        "S031"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "告别 TRON 日常管理，转向格林纳达外交与国家级区块链采纳",
+      "summary": "孙宇晨把下一阶段工作定义为推动主权国家承认和采用区块链，认为行业不能完全依赖美国，较小国家有机会先行试验，再影响大国。他将加勒比地区的语言、区位和制度条件视为优势，并表示退出 TRON 日常管理后仍会推广其品牌。报道同时转述他的公开信：基金会拟于次年解散、相关超级节点退出，社区承担更多治理职责；这些是当时宣示的权力转移方向。",
+      "limitations": "采访发生于报道前的周二；原页面首次发表 2021-12-17，2023-05-11 为更新日期。 记者采访与公开信节选结合；原 Medium 信件未成功读取。退出日常职务不等于已独立验证其经济利益、治理影响或控制权全部终止。",
+      "topics": [
+        "TRON DAO",
+        "格林纳达",
+        "WTO",
+        "国家采纳",
+        "个人角色"
+      ],
+      "event_date": "2021-12",
+      "publication_date": "2021-12-17",
+      "medium": "CoinDesk 专访及公开信报道",
+      "url": "https://www.coindesk.com/business/2021/12/17/justin-sun-is-retiring-from-tron-but-not-crypto",
+      "grade": "C",
+      "id": "R029",
+      "legacy_id": "MID-01",
+      "kind": "record",
+      "date": "2021-12-17 刊",
+      "source_ids": [
+        "S038"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "公布 Blue Origin 拍卖身份与“星辰大海”太空邀请计划",
+      "summary": "孙宇晨公开表示，他是以 2,800 万美元赢得 Blue Origin 席位拍卖的人，此前因时间冲突未参加飞行，计划于 2022 年带五位受邀者同行。他以太空属于所有人为宣传主题，希望把加密社区成员及科技、时尚、创业等领域人士纳入候选，并提出携带格林纳达国旗。该声明把个人太空愿望、社区营销和新外交身份连接起来。",
+      "limitations": "宣布日期；实际飞行时间仅为计划。 这是 2021 年的飞行与选人计划，不可据此写成已完成太空飞行；本文仅收录当时表态。",
+      "topics": [
+        "太空",
+        "Blue Origin",
+        "个人营销",
+        "格林纳达"
+      ],
+      "event_date": "2021-12-22",
+      "publication_date": "2021-12-22",
+      "medium": "Reuters 报道，Euronews 转载",
+      "url": "https://www.euronews.com/2021/12/22/space-exploration-blue-origin-justin-sun",
+      "grade": "C",
+      "id": "R030",
+      "legacy_id": "MID-02",
+      "kind": "record",
+      "date": "2021-12-22",
+      "source_ids": [
+        "S039"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Artnet 完整问答：后 90 一代、风险偏好与 NFT 的艺术价值",
+      "summary": "孙宇晨将自己的冒险精神与后 90 一代的互联网经验相连：媒介分散使这一代不再共享单一偶像，个人可以建立自己的影响力。他说历史训练帮助自己理解变化，投资既需研究也需信念；收藏则重视某类作品在数字艺术史中的先发意义。他把 NFT 视为 Web3 的所有权和交易基础，强调溯源、转售分成及社区共同策展，并以 APENFT 和虚拟展馆说明连接传统艺术与数字原生社群的设想。",
+      "limitations": "网页为发表日期。 页面明确为 Artnet NFT 与 APENFT 合作内容。NFT 的权利、分成和价值主张均为受访者观点，不等于所有 NFT 均具有对应法律权利或可靠价值。",
+      "topics": [
+        "NFT",
+        "艺术收藏",
+        "代际身份",
+        "风险偏好",
+        "Web3"
+      ],
+      "event_date": "2022-01（采访日期未披露）",
+      "publication_date": "2022-01-24",
+      "medium": "Artnet NFT 与 APENFT 合作访谈",
+      "url": "https://news.artnet.com/market/justin-sun-interview-apenft-2062888",
+      "grade": "B",
+      "id": "R031",
+      "legacy_id": "MID-03",
+      "kind": "record",
+      "date": "2022-01-24 刊",
+      "source_ids": [
+        "S040"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "宣布 USDD：算法稳定币、储备组织与金融自主权",
+      "summary": "孙宇晨通过公开信宣布推出 USDD，将其定位为不依赖单一中心机构的稳定币，并提出由 TRON DAO Reserve 支持其稳定及生态发展。他以 TRX 与 USDD 的铸造、赎回和套利机制说明维持美元锚定的设计，把透明储备和可访问性放在宣传核心。在价值层面，他把使用金融服务和支配个人财产的自由视为人人应有的权利，希望稳定币降低传统金融的准入门槛。",
+      "limitations": "Business Wire 原稿日期与 URL 对应；Chainwire 镜像次日发布。 项目方新闻稿节录本人公开信，并非已核对的完整原信；设计承诺、储备目标和美元锚定不等于实际履行或无风险保证。",
+      "topics": [
+        "USDD",
+        "稳定币",
+        "TRON DAO Reserve",
+        "金融自主",
+        "算法机制"
+      ],
+      "event_date": "2022-04-21",
+      "publication_date": "2022-04-21",
+      "medium": "TRON DAO 新闻稿，转述孙宇晨公开信",
+      "url": "https://www.businesswire.com/news/home/20220421005765/en/TRON-Founder-H.E.-Justin-Sun-Announces-the-Launch-of-USDD-A-Decentralized-Stablecoin",
+      "grade": "C",
+      "id": "R032",
+      "legacy_id": "MID-04",
+      "kind": "record",
+      "date": "2022-04-21",
+      "source_ids": [
+        "S041"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "CoinDesk 完整问答：LUNA/UST 崩溃后为何仍相信 USDD",
+      "summary": "孙宇晨仍认可算法稳定币方向，把 Terra 崩溃主要归因于增长过快、杠杆过高以及储备和流动性执行不足。他主张控制 USDD 发行节奏，并以算法机制加多元资产储备构成两层防线；百亿美元储备是筹建目标。他一面批评 Anchor 收益不可持续，一面在追问下把 USDD 的高收益解释为早期营销安排，称之后应动态调整。他否认自己发动了对 UST 的攻击，并强调稳定币需要实际支付用途。",
+      "limitations": "CoinDesk 页面 2023-05-11 为更新日期；原访谈发生在 Terra 危机期间。 属于当事人的风险解释及承诺，不是独立审计。记者的质疑须与孙的回答区分；储备目标不可写成采访时已足额到位。",
+      "topics": [
+        "USDD",
+        "Terra",
+        "算法稳定币",
+        "收益营销",
+        "危机回应"
+      ],
+      "event_date": "2022-05（访谈在发表前）",
+      "publication_date": "2022-05-14",
+      "medium": "CoinDesk Zoom 访谈，编辑后的问答全文",
+      "url": "https://www.coindesk.com/markets/2022/05/14/justin-sun-talks-usdd-stablecoin-in-wake-of-lunaust-unravel",
+      "grade": "B",
+      "id": "R033",
+      "legacy_id": "MID-05",
+      "kind": "record",
+      "date": "2022-05-14 刊",
+      "source_ids": [
+        "S042"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "署名公开信：从 Terra 教训调整 USDD 的增长、收益与储备",
+      "summary": "孙宇晨在署名信中承认 Terra 对 USDD 的启发，继而把快速扩张与过度依赖高收益存款视为应避免的问题。他提出循序增加供应、设置阶段性发行上限，并称初期较高收益会随发展改为按期限和条件分层的安排。储备方面，他强调 USDT、USDC、比特币和 TRX 等多种资产及公开可查的信息；应用方面则希望先建设交易、清算和支付场景，再扩大跨链使用。",
+      "limitations": "日期来自转载正文末尾署名，未核得原始英文信页面。 证据为第三方平台刊登的署名中文全文，未独立核对原始英文版本；个别数值译法存在疑点，摘要不采用。措施均为当时主张或计划。",
+      "topics": [
+        "USDD",
+        "Terra 教训",
+        "储备",
+        "收益政策",
+        "公开信"
+      ],
+      "event_date": "2022-05-31",
+      "publication_date": "未显示；文末署名 2022-05-31",
+      "medium": "PANews 专栏转载的署名公开信",
+      "url": "https://www.panewslab.com/ja/articles/hy169o6e5k3q",
+      "grade": "A",
+      "id": "R034",
+      "legacy_id": "MID-06",
+      "kind": "record",
+      "date": "2022-05-31",
+      "source_ids": [
+        "S043"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "BitKeep AMA 整理：USDD 储备、白名单赎回与 Terra 教训",
+      "summary": "孙宇晨在 BitKeep 社区介绍 USDD，将波联储描述为管理储备、缓解市场恐慌的 DAO，并提出分阶段补充储备。他强调多资产超额抵押、审慎扩大发行及建设跨链流动性，以回应 Terra 的教训。整理文还说明初期铸造和赎回仅向白名单成员开放，未来再扩大参与；百亿美元储备属于长期目标。",
+      "limitations": "Foresight News 标注 2022-08-03 18:23；正文称当周社区直播，但没有单独列出直播日期。 页面称为直播实录，但可见内容是主题式整理，缺少完整逐题对答及原音，不能称整场完整采访。直接打开超时，搜索缓存提供从导语至文末的完整整理正文。文中抵押率混列储备与已销毁 TRX，摘要不采用这些口径未核的数值。",
+      "topics": [
+        "USDD",
+        "TRON DAO Reserve",
+        "储备",
+        "赎回机制",
+        "Terra",
+        "跨链"
+      ],
+      "event_date": "2022年（不晚于 2022-08-03；确切直播日未核）",
+      "publication_date": "2022-08-03",
+      "medium": "BitKeep 社区直播内容的主题式整理，Foresight News 刊载",
+      "url": "https://foresightnews.pro/article/detail/10782",
+      "grade": "C",
+      "id": "R035",
+      "legacy_id": "MID-28",
+      "kind": "record",
+      "date": "2022-08-03 刊",
+      "source_ids": [
+        "S120"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "IdeaMensch 创业问答：组织方式、学习习惯与 Web3 机会",
+      "summary": "孙宇晨把寻找未被充分服务的需求、把知识转化为解决方案视为创业起点，认为好的团队、严格安排日程和持续开会协调有助于推进想法。他反复强调好奇心、阅读、坚持和从失败经验中学习，并建议通过财务数据理解企业健康状况。对于机会，他看好 DeFi、稳定币和仍缺乏突破性产品的 Web3 社交；他也表达了支持以太坊工作量证明分叉的少数派判断。",
+      "limitations": "网页发表日期明确。 属于简短标准化创业问答；开头人物介绍含宣传式概括，摘要只采用明确的问答内容，不将其成功经验视为可复制的投资建议。",
+      "topics": [
+        "创业",
+        "管理",
+        "学习方法",
+        "Web3 社交",
+        "以太坊"
+      ],
+      "event_date": "2022（采访日期未披露）",
+      "publication_date": "2022-10-04",
+      "medium": "IdeaMensch 完整文字问答",
+      "url": "https://ideamensch.com/justin-sun/",
+      "grade": "B",
+      "id": "R036",
+      "legacy_id": "MID-07",
+      "kind": "record",
+      "date": "2022-10-04 刊",
+      "source_ids": [
+        "S044"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "解释火币顾问身份：HT 核心地位与全球扩张",
+      "summary": "孙宇晨在成为火币顾问后，称自己持有数量庞大的 HT，并把平台代币视为火币的重要价值中心。他表示希望推动火币全球扩张，甚至提出在监管允许的前提下将来重新进入中国市场。对于外界关注的收购关系，他在这次采访中强调自己没有取得交易所股权。这组发言呈现了他以顾问身份提出经营方向、同时区分代币持有与公司股权的公开表述。",
+      "limitations": "Decrypt 次周回顾；原 Bloomberg 报道为 10-14，采访在此前周四。 Bloomberg 采访的二次报道；持仓、股权及顾问身份均按当时本人说法记录，不能据此最终确定实际控制关系。钱包分析师的推断未作为本人陈述。",
+      "topics": [
+        "火币",
+        "HT",
+        "全球化",
+        "持有披露",
+        "身份回应"
+      ],
+      "event_date": "2022-10-13（Bloomberg TV 采访）",
+      "publication_date": "2022-10-17",
+      "medium": "Decrypt 引述 Bloomberg TV 采访",
+      "url": "https://decrypt.co/112118/huobi-token-moons-the-week-justin-sun-becomes-exchange-advisor",
+      "grade": "C",
+      "id": "R037",
+      "legacy_id": "MID-08",
+      "kind": "record",
+      "date": "2022-10-13",
+      "source_ids": [
+        "S045"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "FTX 危机初期：声称为 TRON 系代币持有人寻找解决方案",
+      "summary": "孙宇晨表示支持在 FTX 持有 TRX、BTT、JST、SUN、HT 等代币的用户，称正在与 FTX 研究解决方案。他把当时局面描述为流动性紧张可能进一步伤害行业和投资者，强调团队协作及阻止事态恶化。发言当时没有披露完整资金安排、适用条件或法律结构，所称支持的具体对象是列出的 TRON 生态代币持有人，不能泛化为保证兑付全部 FTX 债权人。",
+      "limitations": "The Block 发表 23:21 EST，11-10 凌晨更新；跨时区日期不同。 只记录本人公开帖文；火币/TRON 另行发布的兑换安排不自动等同于其个人承诺。后续破产回收结果与此声明应分开核查。",
+      "topics": [
+        "FTX",
+        "危机回应",
+        "TRON 生态",
+        "流动性",
+        "用户资产"
+      ],
+      "event_date": "2022-11-10（UTC；报道为美东 11-09）",
+      "publication_date": "2022-11-09",
+      "medium": "The Block 报道本人 Twitter 帖文",
+      "url": "https://www.theblock.co/news/deals/2022-11-09-justin-sun-says-he-is-working-on-solution-to-ftx-crisis-185148",
+      "grade": "C",
+      "id": "R038",
+      "legacy_id": "MID-09",
+      "kind": "record",
+      "date": "2022-11-10",
+      "source_ids": [
+        "S046"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Decrypt 访谈：USDD 与多米尼克的现实世界连接",
+      "summary": "孙宇晨以多米尼克合作为例，提出区块链应连接日常社会，而不只服务投机交易：国家关联代币、数字身份及支付有望用于旅游和公共服务。他认为比特币偏向数字黄金，稳定币则更适合日常交换，因此把 USDD 与 TRON 的低成本基础设施并列为应用入口。面对 Terra 之后的信任问题，他继续强调资产支持、储备透明、风险管理和品牌信誉，试图将国家合作与稳定币采用结合。",
+      "limitations": "页面 11-17 为更新日期。 页面明确由 TRON 赞助，未提供完整逐字稿。Dominica 指多米尼克，不能混为多米尼加或格林纳达；服务构想不等于已经普遍上线。",
+      "topics": [
+        "多米尼克",
+        "USDD",
+        "数字身份",
+        "现实应用",
+        "国家合作"
+      ],
+      "event_date": "2022-11（采访日期未披露）",
+      "publication_date": "2022-11-14",
+      "medium": "Decrypt 赞助访谈报道",
+      "url": "https://decrypt.co/113856/from-usdd-stablecoin-dominica-trons-road-ahead",
+      "grade": "C",
+      "id": "R039",
+      "legacy_id": "MID-10",
+      "kind": "record",
+      "date": "2022-11-14 刊",
+      "source_ids": [
+        "S047"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "TipRanks 完整问答：NFT 熊市、实际用途及国家应用",
+      "summary": "孙宇晨把 NFT 熊市归于风险资产撤退、P2E 热度消退与加息、强美元等因素，对年内迅速反弹保持不确定。他承认当时 NFT 实用性有限，但看好分割持有、游戏与 Web3 新用途，强调改善体验、降低学习门槛。他还把多米尼克 DMC 解释为旅游粉丝代币，并认为央行数字货币有望减少支付中介及成本。",
+      "limitations": "正文围绕 2022 年市场，明确注明采访发生在 FTX 崩溃前；不以抓取日或更新日替代原发表日期。 完整七组问答可读，未见未经编辑的音视频；时间只有年份及 FTX 之前的相对边界。文中基础设施优越性、采用前景及国家应用是受访者判断，未独立验证。",
+      "topics": [
+        "NFT",
+        "熊市",
+        "用户体验",
+        "多米尼克",
+        "CBDC"
+      ],
+      "event_date": "2022年（FTX 崩溃前，确日未核）",
+      "publication_date": "2022年（网页未显示确日）",
+      "medium": "TipRanks 完整文字问答",
+      "url": "https://www.tipranks.com/news/article/deciphering-the-present-and-future-of-nfts-interview-with-justin-sun",
+      "grade": "B",
+      "id": "R040",
+      "legacy_id": "MID-27",
+      "kind": "record",
+      "date": "2022 刊",
+      "source_ids": [
+        "S119"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Bloomberg Daybreak Asia：AI、香港试验及火币转亏为盈预期",
+      "summary": "孙宇晨把人工智能视为区块链的下一项机会，主张让去中心化支付为 AI 开发者和应用提供结算能力，并提到交易平台对相关代币的布局。他将香港称作中国探索虚拟资产的试验场，计划增加香港及海外业务。他依据成本压缩和市场回暖，表达火币一季度有望扭亏的预期；对于稳定币监管，他希望借 USDD 的去中心化定位和兑换设施扩展需求。",
+      "limitations": "正文明确原采访为当地时间 2 月 10 日；个人网站的 3 月 25 日不是采访发生日期。 本人网站展示的是选编中文摘要，标注来源深潮，未取得 Bloomberg 全部原话。盈利是采访时预测，不可写成实际财务结果。",
+      "topics": [
+        "AI",
+        "香港",
+        "火币",
+        "USDD",
+        "国际化"
+      ],
+      "event_date": "2023-02-10",
+      "publication_date": "2023-03-25（个人网站转载）",
+      "medium": "孙宇晨个人网站转载的中文采访摘要",
+      "url": "https://www.hejustinsun.com/zh/cn-中文页-media-媒体---articles-文章/孙宇晨彭博社专访：波场引领区块链-ai融合新趋势，火必一季度有望扭亏",
+      "grade": "C",
+      "id": "R041",
+      "legacy_id": "MID-11",
+      "kind": "record",
+      "date": "2023-02-10",
+      "source_ids": [
+        "S048"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "回应 SEC 民事起诉：主张诉状缺乏依据并要求清晰监管",
+      "summary": "在美国 SEC 起诉后，孙宇晨公开称诉状缺乏依据，将争议放在数字资产监管框架仍在发展的背景下，表示会继续建设去中心化金融并与监管明确的司法辖区合作。他援引多米尼克对 TRX、BTT 的认可，为项目的合法性与公共用途辩护。这是当事人对监管行动的否认与政策立场；他援引其他地区待遇，并不能自动解决美国证券法下的争点。",
+      "limitations": "CryptoSlate 后续更新日期不代表新声明。 原帖直连读取失败，新闻保留较完整声明。SEC 当时提出的是民事指控，不能写成已经定罪；本人否认同样不是法院裁判。",
+      "topics": [
+        "SEC",
+        "诉讼回应",
+        "监管",
+        "TRX",
+        "BTT"
+      ],
+      "event_date": "2023-03-23",
+      "publication_date": "2023-03-23",
+      "medium": "CryptoSlate 引述本人 Twitter 声明",
+      "url": "https://cryptoslate.com/tron-founder-justin-sun-says-sec-complaint-lacks-merit/",
+      "grade": "C",
+      "id": "R042",
+      "legacy_id": "MID-12",
+      "kind": "record",
+      "date": "2023-03-23",
+      "source_ids": [
+        "S049"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "The Scoop：Meme 上币、小型资产市场与交易所竞争",
+      "summary": "孙宇晨认为，加密市场已经大到无法由单一交易所覆盖；大型平台的上币门槛较高，为其他交易所服务较小 Meme 资产留下空间。他因此把火币和 Poloniex 的上币速度及细分市场作为竞争议题。节目原页还列出其个人选择 Meme 资产的标准、两家平台收入来源和全球监管环境等讨论范围，但未展示这些部分的逐字回答，不能替他补写具体筛选标准或收入数字。",
+      "limitations": "The Scoop 第 5 季第 48 期。 核验到节目原页摘要及一段直接引语，未逐字核听完整音频；摘要之外的议题仅作为目录，不推定结论。",
+      "topics": [
+        "Meme",
+        "火币",
+        "Poloniex",
+        "上币",
+        "交易所竞争"
+      ],
+      "event_date": "2023-05（录制日期未披露）",
+      "publication_date": "2023-05-19",
+      "medium": "The Block 播客原页及节目摘要",
+      "url": "https://www.theblock.co/podcasts/the-scoop/2023-05-19-justin-sun-founder-tron-2-231544",
+      "grade": "C",
+      "id": "R043",
+      "legacy_id": "MID-13",
+      "kind": "record",
+      "date": "2023-05-19 刊",
+      "source_ids": [
+        "S050"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "stUSDT 专访：把现实资产收益接入 TRON 的“Web3 余额宝”",
+      "summary": "孙宇晨把 stUSDT 定位为普通稳定币持有者接触现实世界固定收益的简单入口，以自动计息和可组合的凭证降低使用门槛。他借鉴 stETH 的思路，希望凭证还能参与借贷、交易等 DeFi 场景，并为 TRON 生态形成基础利率。他强调底层以政府债券等资产为主，提出保留流动性及通过市场退出的安排；治理方面倾向使用现有 JST，而非另发治理币。",
+      "limitations": "Foresight News 原文与 MarsBit 转载同日。 专访为结构化报道而非逐题问答；资产持有、托管、收益与赎回安排均按本人和项目披露记录，不能当作独立审计或本金保证。原始地址见来源表。",
+      "topics": [
+        "RWA",
+        "stUSDT",
+        "国债",
+        "DeFi",
+        "JST"
+      ],
+      "event_date": "2023-07（采访日期未披露）",
+      "publication_date": "2023-07-05",
+      "medium": "Foresight News 专访，MarsBit 完整转载",
+      "url": "https://news.marsbit.co/20230705160818446989.html",
+      "grade": "C",
+      "id": "R044",
+      "legacy_id": "MID-14",
+      "kind": "record",
+      "date": "2023-07-05 刊",
+      "source_ids": [
+        "S051"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "火币改名 HTX：十周年、TRON 生态与品牌新定位",
+      "summary": "孙宇晨在火币十周年活动解释 HTX 的命名：H 保留 Huobi 的历史，T 指向 TRON，X 代表交易所并对应罗马数字十。他把新名理解为 HT 与交易平台关系的延续，同时表明希望借 TRON 生态形成新的增长方向。活动中，他还宣布太空营销计划的后续安排，以抽取太空旅行机会连接社区参与和品牌推广。这份纪要展示了平台更名时的身份叙事。",
+      "limitations": "发言发生在 TOKEN2049 期间的新加坡十周年活动。 关联企业发布的活动回顾，不是完整演讲稿；公司另列的增长战略、合规及安全目标，不全部归为孙的逐字承诺。",
+      "topics": [
+        "HTX",
+        "品牌更名",
+        "TRON",
+        "十周年",
+        "太空营销"
+      ],
+      "event_date": "2023-09-13",
+      "publication_date": "2023-09-14",
+      "medium": "HTX 官方活动纪要",
+      "url": "https://square.htx.com/huobi-rebrands-to-htx-at-token2049/",
+      "grade": "C",
+      "id": "R045",
+      "legacy_id": "MID-15",
+      "kind": "record",
+      "date": "2023-09-13",
+      "source_ids": [
+        "S052"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Poloniex 被盗后：全额补偿、白帽赏金与恢复业务承诺",
+      "summary": "孙宇晨表示正在调查 Poloniex 热钱包遭攻击事件，称平台财务健康、会全额补偿受影响资金。他提出给予归还资金者百分之五白帽赏金及七日期限，随后表示已识别和冻结部分资产，损失处于可管理范围，可由经营收入覆盖。他还提到保存证据、修复系统和逐步恢复充提。这是一组危机期间安抚用户及追索资金的公开承诺，不能直接当作赔偿已经完成的证明。",
+      "limitations": "The Block 页面 11-12 更新，包含 11-10 当天的后续帖文。 盗损金额在报道更新中变化，估计来自安全公司，摘要不把估算归给孙。需用后续独立材料另核兑付和恢复进度。",
+      "topics": [
+        "Poloniex",
+        "黑客攻击",
+        "赔付承诺",
+        "白帽赏金",
+        "危机回应"
+      ],
+      "event_date": "2023-11-10",
+      "publication_date": "2023-11-10",
+      "medium": "The Block 引述本人多条 Twitter 帖文",
+      "url": "https://www.theblock.co/news/markets/2023-11-10-justin-suns-crypto-exchange-poloniex-seemingly-hit-by-60-million-hack-262563",
+      "grade": "C",
+      "id": "R046",
+      "legacy_id": "MID-16",
+      "kind": "record",
+      "date": "2023-11-10",
+      "source_ids": [
+        "S053"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Reuters 恐怖融资报道后：强调去中心化并承诺合作反制滥用",
+      "summary": "在 Reuters 报道 TRON 上部分资金与武装组织关联之后，孙宇晨发文称 TRON 与比特币、以太坊一样，是由全球节点和代表维持的去中心化协议。他表示致力于打击恐怖融资，正在结合分析项目与合作伙伴推进相关工作；同时强调去中心化、资产安全以及及时、低成本、可靠的转账服务。这份回应承认反滥用工作的重要性，并把网络开放属性与合规合作同时作为立场。",
+      "limitations": "ForkLog 文章当日更新加入孙宇晨回应；原帖 ID 可追溯。 原 X 帖文未成功直接读取；ForkLog 英文页注明机器翻译。Reuters 原文中的 Hayward Wong 回应是发言人说法，不能归为孙本人；未核得其针对 Circle 11-30 信函的单独回应。",
+      "topics": [
+        "反恐融资",
+        "Reuters 回应",
+        "合规",
+        "去中心化",
+        "TRON"
+      ],
+      "event_date": "2023-11-27",
+      "publication_date": "2023-11-27",
+      "medium": "ForkLog 转引本人 X 帖文",
+      "url": "https://forklog.com/en/reuters-terrorist-groups-switch-from-bitcoin-to-tron/",
+      "grade": "C",
+      "id": "R047",
+      "legacy_id": "MID-17",
+      "kind": "record",
+      "date": "2023-11-27",
+      "source_ids": [
+        "S054",
+        "S055"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Bankless 长访谈：TRON、Vitalik、变得谦逊及媒体质询",
+      "summary": "孙宇晨称自己从强调个人愿望转向寻找社会需要的位置，把 TRON 的价值放在发展中国家的低成本支付与金融可及性。他主张交易费销毁和扩大验证者参与，并后悔早年未实现与以太坊的完全兼容。面对主持人追问律师向媒体发函，他称难以控制法律团队并援引自己支持言论自由的捐款，未作明确禁令承诺。他也承认比特币跨链方案初期可能依赖受信任托管者，赞许 Vitalik 的长期思考，并希望更多帮助其他开发者。",
+      "limitations": "Bankless 自有页面标 3 月 7 日，公开视频及播客标 3 月 11 日；不是两场不同采访。 采访完整公开；第三方转录含 Tron、Ethereum 等识别错误，摘要依据语境谨慎转述。其验证者控制、捐款及资产情况为自述；技术兼容回答不应被改写为对全部白皮书抄袭指控的法律承认。",
+      "topics": [
+        "TRON",
+        "去中心化",
+        "媒体争议",
+        "以太坊",
+        "比特币 L2",
+        "个人转变"
+      ],
+      "event_date": "2024-03（录制日期未披露）",
+      "publication_date": "2024-03-07（先行版）；2024-03-11（公开版）",
+      "medium": "Bankless 视频播客及完整转录",
+      "url": "https://www.bankless.com/early-access-justin-sun",
+      "grade": "B",
+      "id": "R048",
+      "legacy_id": "MID-19",
+      "kind": "record",
+      "date": "2024-03-07 刊",
+      "source_ids": [
+        "S057",
+        "S058"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "宣布无需持有 Gas 代币的稳定币转账方案",
+      "summary": "孙宇晨表示团队正在开发稳定币转账方案，使用户不必另行持有网络 Gas 代币，相关费用由稳定币自身承担。他提出先于当年第四季度在 TRON 实施，再扩展到以太坊和其他 EVM 兼容网络，并判断这能让大型企业更容易部署稳定币服务，推动广泛采用。这里的重点是降低使用步骤和费用支付门槛，公开帖文没有充分披露具体技术实现。",
+      "limitations": "本人帖文提出未来时间表。 当时的开发计划，不能当作按期完成。无需用户持有 Gas 代币与所有经济成本为零含义不同；摘要不把媒体标题推定为另发一种新币。",
+      "topics": [
+        "稳定币支付",
+        "Gas",
+        "产品路线图",
+        "EVM",
+        "企业采用"
+      ],
+      "event_date": "2024-07-06",
+      "publication_date": "2024-07-06",
+      "medium": "The Block 引述本人 X 帖文",
+      "url": "https://www.theblock.co/news/business/2024-07-06-justin-sun-teases-gasless-stablecoin-coming-to-tron-by-end-of-year-with-ethereum-evm-chains-to-follow-303827",
+      "grade": "C",
+      "id": "R049",
+      "legacy_id": "MID-20",
+      "kind": "record",
+      "date": "2024-07-06",
+      "source_ids": [
+        "S059"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "WBTC 托管争议：称参与属于战略层面、没有私钥控制权",
+      "summary": "面对 WBTC 托管调整引发的疑问，孙宇晨表示自己参与项目仅限战略层面，不控制比特币储备私钥，也不能调动相关储备。他希望以此区分其商业关系与实际资产保管权限，回应市场对其影响力的担忧。报道还刊登了 BitGo 管理层对安排的辩护，但这些属于另一位受访者的说法；孙本人可以确认的重点，是对私钥和储备操作权的明确否认。",
+      "limitations": "报道转引前一日 X 回应。 控制权边界为本人声明，不能代替托管合同、签名权限和审计验证；文章中 BitGo CEO 的评价没有算入孙的观点。",
+      "topics": [
+        "WBTC",
+        "托管",
+        "私钥",
+        "治理争议",
+        "回应"
+      ],
+      "event_date": "2024-08-10",
+      "publication_date": "2024-08-11",
+      "medium": "The Block 报道中的本人声明",
+      "url": "https://www.theblock.co/news/business/2024-08-11-bitgo-ceo-mike-belshe-on-justin-suns-wbtc-involvement-a-big-nothingburger-310576",
+      "grade": "C",
+      "id": "R050",
+      "legacy_id": "MID-21",
+      "kind": "record",
+      "date": "2024-08-10",
+      "source_ids": [
+        "S060"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "SunPump 多场 Space：Meme 的高风险定位与生态建设",
+      "summary": "孙宇晨把 TRON 生态描述为稳定币支付、DeFi 与 SunPump 等不同层次，并明确将 Meme 所在层称为高风险、高回报。他认为既有 USDT 流动性、基础设施、社区和团队执行力能帮助 SunPump 竞争，并强调长期建设而非只看短期热度。谈到后续工作，他提出降低费用、改善体验、支持优质项目及投入技术和资金资源，同时把信誉、文化认同与社区共识视为 Meme 成功的重要条件。",
+      "limitations": "官方回顾合并三日多场 X Space，非单场逐字稿。 关联企业宣传性回顾，其他嘉宾有关牛市、审核或项目表现的判断不能归给孙；流动性和增长成绩未经此记录独立核验。",
+      "topics": [
+        "SunPump",
+        "Meme",
+        "TRON 生态",
+        "社区",
+        "费用",
+        "风险定位"
+      ],
+      "event_date": "2024-08-20—2024-08-22",
+      "publication_date": "2024-08-26",
+      "medium": "HTX 官方多场 X Space 回顾",
+      "url": "https://square.htx.com/justin-sun-and-crypto-influencers-share-insights-on-sunpumps-rise-and-future-positioned-to-reshape-the-meme-market/",
+      "grade": "C",
+      "id": "R051",
+      "legacy_id": "MID-22",
+      "kind": "record",
+      "date": "2024-08-20",
+      "source_ids": [
+        "S061"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "T3 金融犯罪联合行动：表态支持打击非法链上活动",
+      "summary": "在 Tether、TRON 与 TRM Labs 宣布成立 T3 金融犯罪工作组时，孙宇晨表示技术应被用于促进人的福祉，合作的目的在于让区块链真正帮助世界。他明确传达非法活动不受欢迎的立场，并把反犯罪协作作为行业持续发展的条件。联合公告将工作重点放在 TRON 上 USDT 的非法使用、链上分析及与执法部门合作；这些机制是公告背景，不能全部当成他亲自展开的论证。",
+      "limitations": "联合公告发表日期。 本人可归属内容为公告中的署名引语。工作组为企业合作，不等于主权执法机构；冻结金额和侦查成效由项目方披露，未在此独立审计。",
+      "topics": [
+        "T3 FCU",
+        "反洗钱",
+        "Tether",
+        "TRM Labs",
+        "合规"
+      ],
+      "event_date": "2024-09-10",
+      "publication_date": "2024-09-10",
+      "medium": "Tether、TRON、TRM Labs 联合公告中的署名引语",
+      "url": "https://tether.io/news/tether-tron-and-trm-labs-establish-first-ever-private-sector-financial-crime-unit-to-combat-crypto-crime/",
+      "grade": "C",
+      "id": "R052",
+      "legacy_id": "MID-23",
+      "kind": "record",
+      "date": "2024-09-10",
+      "source_ids": [
+        "S062"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Liberland 声明：最小政府、低税与自由主义的政治想象",
+      "summary": "孙宇晨在关于担任 Liberland“总理”的声明中，将该项目描绘为自由、个人自治和减少政府干预的象征。他提出降低政府支出、减轻税负和减少对经济的介入，认为小政府模式能促进繁荣，并希望把它推广为其他社会可以参考的样板。他还把 Liberland 设想为全球自由主义者的精神中心。这里记录的是他对一个自称微型国家项目的政治理念，不能视为获国际承认国家的正式执政纲领。",
+      "limitations": "DL News 10 月 10 日刊出本人采访；次日项目媒体及 BlockBeats 转引内容相近的 X 声明。与项目内部选举日期分开。 声明中的职位属于自称微型国家 Liberland 的内部安排；DL News 明确说明无联合国成员国承认其主权。本人 X 直连未成功读取，项目媒体有完整声明，独立采访内容相互印证。",
+      "topics": [
+        "Liberland",
+        "自由主义",
+        "小政府",
+        "税收",
+        "政治身份"
+      ],
+      "event_date": "2024-10-10—2024-10-11",
+      "publication_date": "2024-10-10（DL News）；2024-10-11（X 声明转载）",
+      "medium": "DL News 本人采访及 Liberland Press 转载的 X 声明",
+      "url": "https://www.dlnews.com/articles/people-culture/tron-founder-justin-sun-elected-prime-minister-of-liberland/",
+      "grade": "C",
+      "id": "R053",
+      "legacy_id": "MID-24",
+      "kind": "record",
+      "date": "2024-10-10",
+      "source_ids": [
+        "S063",
+        "S066",
+        "S067"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "宣布投资 World Liberty Financial：美国加密政策的新表态",
+      "summary": "孙宇晨宣布以 3,000 万美元投资与特朗普相关的 World Liberty Financial，并自称成为当时该项目最大的投资者。他把美国描述为正在形成的区块链中心，对特朗普带来的加密行业前景表达支持，同时表示 TRON 将支持美国创新。这是投资披露与政策乐观情绪并行的发言；金额和最大投资者身份应按当时声明与报道时间理解，不能移用为此后持续不变的持仓事实。",
+      "limitations": "声明与 The Block 报道同日。 政治关联项目的投资声明不自行证明利益交换、动机或违法行为；后续投资规模、顾问身份及监管事件需分期另记。",
+      "topics": [
+        "WLFI",
+        "美国",
+        "特朗普",
+        "投资披露",
+        "政策立场"
+      ],
+      "event_date": "2024-11-25",
+      "publication_date": "2024-11-25",
+      "medium": "The Block 引述本人 X 投资声明",
+      "url": "https://www.theblock.co/news/ecosystems/2024-11-25-justin-suns-tron-buys-30-million-of-trump-backed-world-liberty-financial-tokens-328180",
+      "grade": "C",
+      "id": "R054",
+      "legacy_id": "MID-25",
+      "kind": "record",
+      "date": "2024-11-25",
+      "source_ids": [
+        "S064"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "香港香蕉艺术活动：概念价值、加密支付与特朗普前景",
+      "summary": "孙宇晨在香港展示并食用《Comedian》所用香蕉时，把作品的概念价值类比为数字资产，强调收藏并非只购买一件可保存的实物。他对苏富比接受稳定币付款表示兴奋，并在现场采访中对特朗普上台后的美国加密前景表示乐观，同时肯定香港对 Web3 的吸引力。他说明自己与特朗普团队有接触，但尚未与特朗普本人直接交谈。",
+      "limitations": "香港吃香蕉活动及 FT 现场采访日期。 FT 页面有订阅墙，检索可读取报道正文；相关内容严格短摘要。有关 SEC 的问题由发言人拒评，不改写为孙本人的答辩。香蕉会替换，购买的是作品证书及展示规则等权利。",
+      "topics": [
+        "艺术收藏",
+        "Comedian",
+        "稳定币支付",
+        "香港",
+        "美国"
+      ],
+      "event_date": "2024-11-29",
+      "publication_date": "2024-11-29",
+      "medium": "Financial Times 现场采访",
+      "url": "https://www.ft.com/content/76289406-300d-4e6c-8401-aa30d4a8f4c7",
+      "grade": "C",
+      "id": "R055",
+      "legacy_id": "MID-26",
+      "kind": "record",
+      "date": "2024-11-29",
+      "source_ids": [
+        "S065"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "USDD 2.0 的 20% 年化补贴表态",
+      "summary": "孙宇晨在X预告USDD 2.0，宣称推出时提供20%的年化收益，由TRON DAO全额补贴，承诺利息将预先转入透明地址。他以资金充足解释补贴来源，并要求外界停止反复询问收益从何而来。此记录反映他以可见资金安排和强势语气回应商业可持续性质疑的方式；20%是当时的宣传承诺，不是对长期收益、资产安全或兑付能力的证明，也不应与传统存款利息等同。",
+      "limitations": "原 X 链接点击失败；核验的是 The Block 当日记录。版本尚未上线时的参数与后来产品设计须分开。",
+      "topics": [
+        "USDD",
+        "稳定币",
+        "收益承诺",
+        "社交媒体",
+        "风险沟通"
+      ],
+      "event_date": "2025-01-15（X 发帖）",
+      "publication_date": "2025-01-15 13:34 EST；13:38更新",
+      "medium": "X 发帖；The Block 直接引语报道",
+      "url": "https://www.theblock.co/news/markets/2025-01-15-justin-sun-says-stop-asking-questions-about-the-next-iteration-of-trons-usdd-stablecoin-and-its-20-yield-334835",
+      "grade": "C",
+      "id": "R056",
+      "legacy_id": "R25-01",
+      "kind": "record",
+      "date": "2025-01-15",
+      "source_ids": [
+        "S068"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Beluga 八问：香蕉艺术、Liberland、USDD、Ripple 与 WLFI",
+      "summary": "孙宇晨把香蕉艺术与区块链共同解释为重新定义价值、信任和所有权的实践；谈到Liberland时强调个人自治与社区参与。他回忆早期在Ripple推广跨境结算的经历，以此解释对稳定币的长期兴趣；介绍USDD 2.0的超额抵押、清算和治理设计。他又将Meme币视为降低参与门槛的入口，将WLFI顾问角色描述为推动金融自由，并提到通过聊天创建代币的AI Agent。",
+      "limitations": "问题全部可读，未提供未剪辑录音。链上规模、反洗钱冻结额度及产品安全性均为受访者陈述，本汇编不据此背书。",
+      "topics": [
+        "个人理念",
+        "艺术",
+        "Liberland",
+        "Ripple",
+        "USDD",
+        "Meme币"
+      ],
+      "event_date": "采访确日未披露；不晚于2025-02-13",
+      "publication_date": "页面更新于2025-02-13；首发日期未另列",
+      "medium": "Beluga 文字专访，8组问答",
+      "url": "https://heybeluga.com/articles/interview-justin-sun-tron/",
+      "grade": "B",
+      "id": "R057",
+      "legacy_id": "R25-02",
+      "kind": "record",
+      "date": "2025-02-13 刊",
+      "source_ids": [
+        "S069"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Forbes 封面人物报道中的自述：特朗普、全球视野与财富",
+      "summary": "他以少年观看《学徒》解释对特朗普的关注，将WLFI投资描述为金融科技布局，并认为政策转向能帮助加密行业。报道串联其求学及Ripple经历；他将全球史学习与整体看世界的观念联系起来。在财富问题上，他向记者声称资产超过400亿美元；报道明确没有照单全收，而是对难以核实的资产折价后估为85亿美元。两种数字不能混为同一事实。",
+      "limitations": "并非纯问答；记者对机会主义、模仿与政治利益的评判必须与孙本人表态分开。其净资产数字为当时口径，非2026最新估值。",
+      "topics": [
+        "人物自述",
+        "财富",
+        "特朗普",
+        "WLFI",
+        "教育",
+        "Ripple"
+      ],
+      "event_date": "多次采访的具体日期未披露",
+      "publication_date": "2025-03-27 06:30 EDT；03-31更新",
+      "medium": "Forbes 人物特写，含记者采访",
+      "url": "https://www.forbes.com/sites/ninabambysheva/2025/03/27/meet-the-crypto-billionaire-who-just-helped-the-trumps-net-400-milllion/",
+      "grade": "C",
+      "id": "R058",
+      "legacy_id": "R25-03",
+      "kind": "record",
+      "date": "2025-03-27 刊",
+      "source_ids": [
+        "S070"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "特朗普代币晚宴后接受南华早报访问",
+      "summary": "在特朗普为代币持有者举办晚宴后，孙宇晨把活动解释为面向行业的强烈政策信号，认为它会改变人们对美国加密政策的预期，并产生全球影响。文章将这段表态放在其TRUMP持仓与赴宴背景中。这能说明他当时主动把个人参与转化为行业合法性叙事，但不能仅凭他参加晚宴或表达乐观，就推导出监管机构给了他个人豁免或已经认可相关资产。",
+      "limitations": "本次仅能读取公开前段，完整视频与全文受访问条件限制；未把标题延伸出的对华政策预测写成完整采访结论。",
+      "topics": [
+        "特朗普",
+        "TRUMP",
+        "政策",
+        "公共关系"
+      ],
+      "event_date": "2025-05-22美国晚宴后的视频采访",
+      "publication_date": "2025-05-23 21:00 HKT；06-07更新",
+      "medium": "South China Morning Post 视频采访报道",
+      "url": "https://www.scmp.com/tech/blockchain/article/3311609/after-trump-crypto-dinner-justin-sun-celebrates-strong-signal-industry",
+      "grade": "C",
+      "id": "R059",
+      "legacy_id": "R25-04",
+      "kind": "record",
+      "date": "2025-05-22",
+      "source_ids": [
+        "S071"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Rumble Cloud 合作声明：开放网络与抗审查",
+      "summary": "在Rumble Cloud与TRON合作公告中，孙宇晨重申互联网应开放、具备抗审查能力并由用户拥有，并将合作解释为增强团队建设自由。公告交代第一阶段向TRON提供云基础设施服务，因此这段话有具体合作语境，属于把去中心化理念转化为基础设施采购与伙伴选择的公开说明。它不能单独证明使用商业云就实现完全去中心化，也不能把合作方其他政治表态归给孙宇晨。",
+      "limitations": "为企业公告，无采访问答；技术效果和去中心化程度未独立审计。",
+      "topics": [
+        "去中心化",
+        "抗审查",
+        "互联网",
+        "Rumble",
+        "合作"
+      ],
+      "event_date": "2025-05-27合作公告",
+      "publication_date": "2025-05-27",
+      "medium": "Rumble 公司官网合作公告中的孙宇晨引语",
+      "url": "https://www.rum.group/blog/rumble-cloud-enters-strategic-collaboration-with-tron/",
+      "grade": "C",
+      "id": "R060",
+      "legacy_id": "R25-05",
+      "kind": "record",
+      "date": "2025-05-27",
+      "source_ids": [
+        "S072"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Forbes 专访：为何看好迪拜与稳定币",
+      "summary": "孙宇晨把自己心目中的加密中心从新加坡转向迪拜，理由是行业关键参与者正在集聚，并说明相关业务正争取阿联酋监管许可、扩大团队和活动。他把稳定币视为Web3的基础组成，也谈及加密行业与特朗普政策的交汇。此处的重点是用人才、企业、监管与活动的集聚解释全球选址，而非只依赖单一市场；迪拜已经成为全球中心是他的判断，不是排名机构的统一结论。",
+      "limitations": "已读Forbes可见正文及作者同步说明；未见独立录音。本人网站写06-04，而原媒体写06-03，采用原媒体日期。",
+      "topics": [
+        "迪拜",
+        "全球布局",
+        "稳定币",
+        "监管",
+        "特朗普"
+      ],
+      "event_date": "2025年TOKEN2049迪拜期间（4月30日—5月1日）；确日未披露",
+      "publication_date": "2025-06-03 02:24 EDT",
+      "medium": "Forbes 撰稿人现场专访",
+      "url": "https://www.forbes.com/sites/irinaheaver/2025/06/03/justin-sun-is-bullish-on-dubai-and-stablecoins-here-is-why/",
+      "grade": "C",
+      "id": "R061",
+      "legacy_id": "R25-06",
+      "kind": "record",
+      "date": "2025-06-03 刊",
+      "source_ids": [
+        "S073"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "白话区块链专访：营销、产品与全球结算层",
+      "summary": "孙宇晨回应营销标签时，把产品和工程师、开发者的持续工作放在核心位置，认为长期欺骗用户的商业模式无法成立。他回顾从互联网创业转入加密行业，称早期区块链比被巨头占据的互联网更有机会；又把低成本、效率、用户基础与本地化团队列为波场扩张条件。在稳定币方向，他展望薪资、跨境电商与可编程支付，并为当时的WLFI投资和美元稳定币战略辩护。",
+      "limitations": "标题借亚洲周刊封面引入，但这是白话区块链自己的采访，不能与亚洲周刊原访谈合并。技术指标和投资评价属受访者主张。",
+      "topics": [
+        "营销",
+        "产品",
+        "创业",
+        "全球化",
+        "稳定币",
+        "WLFI"
+      ],
+      "event_date": "采访确日未披露；不晚于2025-07-09",
+      "publication_date": "2025-07-09 19:17:39",
+      "medium": "白话区块链“白话大咖说”完整文字问答",
+      "url": "https://www.hellobtc.com/kp/du/07/5930.html",
+      "grade": "B",
+      "id": "R062",
+      "legacy_id": "R25-07",
+      "kind": "record",
+      "date": "2025-07-09 刊",
+      "source_ids": [
+        "S074"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "CoinDesk 专访：把 TRUMP 变成全球加密品牌",
+      "summary": "孙宇晨把1亿美元TRUMP购入计划解释为响应美国亲加密政策，并希望通过跨链整合、推广与交易所覆盖，在亚洲和非洲扩大这一Meme资产的使用。他把TRON描绘为不仅承载稳定币，也承载热门资产的结算层；同时讨论Tron Inc.的资本市场计划。此时他对特朗普相关合作明显积极，应与2026年围绕WLFI的争议并列阅读，避免把不同时期立场拼成一成不变的关系。",
+      "limitations": "1亿美元为当时表态/计划语境，不替代逐笔成交证明；本人转载页日期为07-09，原媒体首发07-10，采用后者。",
+      "topics": [
+        "TRUMP",
+        "Meme币",
+        "全球品牌",
+        "Tron Inc.",
+        "特朗普"
+      ],
+      "event_date": "采访确日未披露；报道围绕2025-07-09购币公告",
+      "publication_date": "2025-07-10 03:08 EDT；07-14更新",
+      "medium": "CoinDesk 专访报道",
+      "url": "https://www.coindesk.com/markets/2025/07/10/justin-sun-wants-to-make-trump-a-global-crypto-brand-with-100m-buy",
+      "grade": "C",
+      "id": "R063",
+      "legacy_id": "R25-08",
+      "kind": "record",
+      "date": "2025-07-10 刊",
+      "source_ids": [
+        "S075"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "文汇报专访：香港稳定币条例与港元、离岸人民币双币战略",
+      "summary": "孙宇晨把香港稳定币立法视为提供确定性和吸引机构的重要举措，提出港元稳定币与离岸人民币稳定币相互补充的设想，希望扩展跨境贸易、支付及DeFi应用。他表示波场可提供网络与跨链技术，与银行、互联网企业、区块链企业合作；也建议支持科研、人才与初创项目，并推动跨境监管互认。这些内容主要是政策评价、合作意愿和发展倡议，不能当作已获牌照或已落地业务。",
+      "limitations": "文汇报原链接打开失败；转载明确标注原刊日期及记者。报道中关于保障、法例地位的概括不替代法规原文，本摘要不采纳其未经核实的法律断言。",
+      "topics": [
+        "香港",
+        "稳定币",
+        "人民币",
+        "港元",
+        "跨境支付",
+        "监管"
+      ],
+      "event_date": "采访确日未披露；2025-07-28文汇报刊发",
+      "publication_date": "原刊2025-07-28；可读新浪转载2025-07-31 17:41",
+      "medium": "文汇报专访；新浪转载完整报道",
+      "url": "https://finance.sina.com.cn/stock/t/2025-07-31/doc-infikeru9099204.shtml",
+      "grade": "C",
+      "id": "R064",
+      "legacy_id": "R25-09",
+      "kind": "record",
+      "date": "2025-07-28 刊",
+      "source_ids": [
+        "S076"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "商业太空飞行后的公开感言",
+      "summary": "孙宇晨返航后说，这次任务等待四年终于完成，并感谢贝索斯团队与父母；从太空看地球很小、是共同家园的体验，使他强调保护地球。他将长期个人愿望与前沿科技实践联系起来。飞行事实可由Blue Origin官方任务记录核对；其感言则由现场引语及本人相关发布保存。应区分短暂亚轨道旅行、航空航天职业资格，以及宣传稿中的最年轻、首次等称谓。",
+      "limitations": "Cointelegraph明确为TRON付费稿；不把宣传性身份称号写成独立结论。People正文有历史月份笔误，未采用该部分。",
+      "topics": [
+        "太空",
+        "人生体验",
+        "环境",
+        "前沿科技"
+      ],
+      "event_date": "2025-08-03 New Shepard NS-34飞行返回后",
+      "publication_date": "2025-08-03",
+      "medium": "Blue Origin任务直播；TRON委托公告与People采访报道",
+      "url": "https://cointelegraph.com/press-releases/justin-sun-makes-history-as-youngest-chinese-commercial-astronaut-with-blue-origin-s-ns-34-spaceflight",
+      "grade": "C",
+      "id": "R065",
+      "legacy_id": "R25-10",
+      "kind": "record",
+      "date": "2025-08-03",
+      "source_ids": [
+        "S077",
+        "S078",
+        "S079"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "晚点在场：金丝雀、自我评价与争议回应",
+      "summary": "在连续追问中，孙宇晨把使命排在名誉和金钱之前，认为后两者随外界判断波动；他把被称为骗子、卡Bug的形象归于认知超前及网络符号化。他将离开单一市场解释为全球化选择，区分SEC民事案件与刑事责任，并否认购买特朗普相关资产是为了保平安。他接受行业金丝雀的比喻，把Meme币解释为注意力转化成经济价值。以上均是其自我辩护，不能直接充当争议事实裁决。",
+      "limitations": "转载有明显语音识别错词，非官方逐字稿；关键措辞需回到原音。原视频：https://www.douyin.com/video/7542441550182190375 （本次未能读取视频）。",
+      "topics": [
+        "使命",
+        "名誉",
+        "金钱",
+        "监管",
+        "特朗普",
+        "Meme币"
+      ],
+      "event_date": "录制确日未披露；2025年8月公开",
+      "publication_date": "本人目录标2025-08-25；其他转载标8月26—28日",
+      "medium": "晚点LatePost/晚点在场长访谈；Cointelegraph中文转录转载",
+      "url": "https://cn.tradingview.com/news/cointelegraph:99380a435e3f9:0/",
+      "grade": "B",
+      "id": "R066",
+      "legacy_id": "R25-11",
+      "kind": "record",
+      "date": "2025-08-25 刊",
+      "source_ids": [
+        "S080"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "MetaEra 专访：Tron Inc. 与 TRX 企业财库",
+      "summary": "孙宇晨把Tron Inc.持有TRX的策略解释为向股票投资者提供间接数字资产敞口，并通过质押等安排提高资产使用效率。他认为上市公司的披露与治理框架有助于传统资本理解TRON，适合上市的Web3企业应具备成熟技术、真实需求和持续创新能力。他强调集中看好TRX的逻辑及传统金融与链上资产之间的翻译角色。此处应严格区分上市公司Tron Inc.、公链TRON与代币TRX。",
+      "limitations": "受访者利益相关；股东收益、稳健性与质押成效是当时主张，未在本条审计财务报表。不能简化为整条公链或全部TRON业务直接上市。",
+      "topics": [
+        "Tron Inc.",
+        "TRX",
+        "企业财库",
+        "上市",
+        "资本市场",
+        "治理"
+      ],
+      "event_date": "采访确日未披露；不晚于2025-08-28",
+      "publication_date": "2025-08-28 21:28:08",
+      "medium": "MetaEra完整文字问答，ChainCatcher转载",
+      "url": "https://www.chaincatcher.com/zh-tw/article/2201611",
+      "grade": "B",
+      "id": "R067",
+      "legacy_id": "R25-12",
+      "kind": "record",
+      "date": "2025-08-28 刊",
+      "source_ids": [
+        "S082"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "南华早报专访：把 TRON 做成虚拟资产领域的 SWIFT",
+      "summary": "孙宇晨提出把TRON发展为虚拟资产领域类似SWIFT的全球网络。他预测五年内经其网络促成的交易可超过SWIFT，并给出2025年约8万亿美元及更长远数百万亿美元的设想。这个表态最能体现他把项目从加密应用平台重新定义为金融基础设施的雄心。但这些是预测；SWIFT传递金融报文，链上转账统计另有口径，不能把两者数字直接相除就认定谁已替代谁。",
+      "limitations": "只读取公开前段；未获全文与完整录像。跨系统交易规模不可直接同口径比较。",
+      "topics": [
+        "SWIFT",
+        "稳定币",
+        "全球结算",
+        "预测"
+      ],
+      "event_date": "采访确日未披露；不晚于2025-08-31",
+      "publication_date": "2025-08-31 12:00 HKT；12:36更新",
+      "medium": "South China Morning Post 专访",
+      "url": "https://www.scmp.com/tech/blockchain/article/3323759/justin-sun-eyes-swift-system-virtual-asset-sector-praises-hong-kong-crypto-progress",
+      "grade": "C",
+      "id": "R068",
+      "legacy_id": "R25-13",
+      "kind": "record",
+      "date": "2025-08-31 刊",
+      "source_ids": [
+        "S083"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "香港数字金融与稳定币双币设想",
+      "summary": "他把稳定币与现实世界资产代币化视为香港数字金融的突破口，认为前者连接传统金融和链上支付，后者扩展资产流动性。他支持审慎发牌，提出港元与离岸人民币稳定币协同的设想，并强调链上透明度可帮助打击违法活动。文章将波场的经验置于香港金融中心建设之中。",
+      "limitations": "这是政策评论与业务愿景。双币安排、跨境回流路径和成本优势应按当时政策与实际产品分别核实；不把作者对世界首个监管框架的判断当作独立法律事实。",
+      "topics": [
+        "香港",
+        "稳定币",
+        "RWA",
+        "监管"
+      ],
+      "event_date": "2025-10-03",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2025/10/03/content_8717255.html",
+      "grade": "A",
+      "id": "R069",
+      "legacy_id": "ROOT01",
+      "kind": "record",
+      "date": "2025-10-03",
+      "source_ids": [
+        "S101"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "稳定币监管与绿色金融",
+      "summary": "他赞成香港在稳定币销售主体、合规流通及离岸人民币应用方面预留创新空间，同时把代币化绿色债券和碳信用作为区块链服务实体经济的实例。他强调清晰且渐进的监管可以提升信任，金融创新的评价应落到解决实际问题，而非仅追逐概念。",
+      "limitations": "本人对立法会材料的评论；文中的制度解读及市场规模不是本汇编独立核算结果。",
+      "topics": [
+        "香港",
+        "监管",
+        "绿色金融",
+        "稳定币"
+      ],
+      "event_date": "2025-10-23",
+      "url": "https://www.hkcd.com.hk/content_app/2025-10/23/content_8720505.html",
+      "grade": "A",
+      "id": "R070",
+      "legacy_id": "ROOT02",
+      "kind": "record",
+      "date": "2025-10-23",
+      "source_ids": [
+        "S102"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "由个人太空旅行谈香港商业航天",
+      "summary": "他从自己当年八月的商业太空旅行谈起，赞扬中国航天进展，并把个人探索与华人企业家的公共角色相联系。他认为香港可用人才、资本和连接内地与国际市场的能力参与商业航天，具体方向包括企业融资、孵化器、青年创新和航天教育，也提出区块链可能提高资金使用透明度。",
+      "limitations": "个人体验、产业评论与倡议并存；不以文章中市场预测和身份排序代替第三方核验。",
+      "topics": [
+        "太空",
+        "香港",
+        "教育",
+        "科技投资"
+      ],
+      "event_date": "2025-11-14",
+      "url": "https://www.hkcd.com.hk/content_app/2025-11/14/content_8724828.html",
+      "grade": "A",
+      "id": "R071",
+      "legacy_id": "ROOT03",
+      "kind": "record",
+      "date": "2025-11-14",
+      "source_ids": [
+        "S103"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "CoinDesk：First Digital Trust 争议中的指控与监管诉求",
+      "summary": "孙宇晨指控First Digital Trust在TUSD储备管理中未经授权转移资金，并声称相关交易文件被伪造；他要求香港强化信托公司监管，尤其堵住少数个人即可移动客户资产的控制缺口。FDT否认挪用，称按客户或代表指示行事，并以诽谤诉讼回应。报道同时说明资产冻结措施没有裁定责任。本条记录双方公开立场，不将孙的指控写成法院认定，也不把资产冻结等同胜诉。",
+      "limitations": "截至文章时的争议状态；此条不概括后续全部诉讼程序。政策诉求与针对具体企业的指控需分开。",
+      "topics": [
+        "TUSD",
+        "First Digital Trust",
+        "争议",
+        "监管",
+        "托管",
+        "透明度"
+      ],
+      "event_date": "2025-11-27香港发布会及同期采访",
+      "publication_date": "2025-11-27 10:15 EST",
+      "medium": "香港记者会；CoinDesk另行采访",
+      "url": "https://www.coindesk.com/policy/2025/11/27/justin-sun-doubles-down-on-first-digital-trust-fraud-allegations-urges-h-k-regulators-to-act",
+      "grade": "C",
+      "id": "R072",
+      "legacy_id": "R25-14",
+      "kind": "record",
+      "date": "2025-11-27",
+      "source_ids": [
+        "S084"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "The School of Hard Knocks 街访：财富、巴菲特与比特币",
+      "summary": "他在街访中自称很年轻时已达到十亿美元财富级别，并回忆高价参与巴菲特慈善午餐，转述对方关于择偶的建议。他把拥有自己的事业视为亿万富豪共有特点，将比特币和加密货币形容为互联网及AI可使用的货币，并向年轻人给出明显看多比特币的建议。这段内容适合观察其简短、自信、易传播的话语风格；自报财富与成功路径不代表普通人的普遍结果。",
+      "limitations": "原片自报34岁，提示2025-12-31更可能是转载/上传时间；不能据此断言拍摄在年底。文章后段第三方人物背景多处简化，不纳入孙本人摘要。",
+      "topics": [
+        "财富",
+        "创业",
+        "巴菲特",
+        "比特币",
+        "AI",
+        "街访"
+      ],
+      "event_date": "拍摄日期不详；片中自报34岁，与年底年龄不符，不能把上传日当拍摄日",
+      "publication_date": "2025-12-31（本人目录和动区转载日期）",
+      "medium": "James Dumoulin街访；动区动趋中文全译",
+      "url": "https://www.blocktempo.com/justin-sun-takes-school-of-hard-knocks-street-interview/",
+      "grade": "B",
+      "id": "R073",
+      "legacy_id": "R25-15",
+      "kind": "record",
+      "date": "2025-12-31 刊",
+      "source_ids": [
+        "S085"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "香港作为 AI 资本与产业中心",
+      "summary": "他把中国 AI 企业的发展与香港的资本市场、人才和国际连接优势结合起来，提出建设 AI 资本中心。其业务论证是区块链可支持机器支付、数据储存及自主运行，并让波场参与其中。他同时承认 AI 与机器人融合会带来风险，需要安全机制和治理规则。",
+      "limitations": "这是对未来产业结构的预测和倡议，不是已交付能力证明；个人网站所标四月更新日并非本篇发表日。",
+      "topics": [
+        "人工智能",
+        "香港",
+        "机器支付",
+        "治理"
+      ],
+      "event_date": "2026-01-16",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/01/16/content_8735706.html",
+      "grade": "A",
+      "id": "R074",
+      "legacy_id": "ROOT04",
+      "kind": "record",
+      "date": "2026-01-16",
+      "source_ids": [
+        "S104"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "向马斯克提出付费交流意向",
+      "summary": "据报道，他表示愿付三千万美元换取与马斯克单独交流一小时。报道所载的内容是公开提出的条件性意向；不能据此写成交易达成、已经付款或会面完成。",
+      "limitations": "原帖未完整取得，日期和表态依据报道及截图说明。与二月 AI 言论共用同一报道来源。",
+      "topics": [
+        "马斯克",
+        "名人交流",
+        "传播"
+      ],
+      "event_date": "2026-01-18 据报道",
+      "url": "https://www.leikeji.com/article/74884",
+      "grade": "C",
+      "id": "R075",
+      "legacy_id": "ROOT05",
+      "kind": "record",
+      "date": "2026-01-18",
+      "source_ids": [
+        "S105"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "CoinDesk 专访：加密 AI 仍缺少能让普通用户看懂价值的产品",
+      "summary": "孙宇晨看好AI成为加密行业下一阶段的增长来源，但同时指出多数AI相关代币仍停留在概念层面，缺少像ChatGPT那样让普通用户立即理解用途的产品。他认为在明确的消费应用出现之前，仅靠兴奋情绪难以形成持续周期，行业更可靠的增长仍来自稳定币和跨境支付。这里同时存在强烈趋势判断与产品落地要求，不能只摘取“All in AI”就理解为支持所有AI代币。",
+      "limitations": "未提供完整录音；对未来突破方向为预测，关于“多数AI代币”的评价是个人判断。",
+      "topics": [
+        "AI",
+        "产品市场匹配",
+        "稳定币",
+        "跨境支付",
+        "产业判断"
+      ],
+      "event_date": "Consensus Hong Kong 2026前采访；确日未披露",
+      "publication_date": "2026-02-03 03:04 EST",
+      "medium": "CoinDesk专访报道；关联本人X“All in AI”帖",
+      "url": "https://www.coindesk.com/markets/2026/02/03/crypto-s-ai-push-stalls-without-a-chatgpt-moment-justin-sun-says",
+      "grade": "C",
+      "id": "R076",
+      "legacy_id": "R26-01",
+      "kind": "record",
+      "date": "2026-02-03 刊",
+      "source_ids": [
+        "S086"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "借太平年讨论秩序与数字治理",
+      "summary": "他借电视剧《太平年》及吴越归宋的叙事，强调统一秩序、社会稳定与民生福祉，把历史整合类比为数字时代的规则互认。他将区块链描述为让分散主体共享可验证规则的协作基础，并把香港定位为制度对接和技术试验的连接点。",
+      "limitations": "历史类比和政治价值判断属于作者立场；并非关于历史因果或区块链治理有效性的实证研究。",
+      "topics": [
+        "政治观",
+        "历史",
+        "香港",
+        "区块链治理"
+      ],
+      "event_date": "2026-02-04",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/02/04/content_8738714.html",
+      "grade": "A",
+      "id": "R077",
+      "legacy_id": "ROOT06",
+      "kind": "record",
+      "date": "2026-02-04",
+      "source_ids": [
+        "S106"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Consensus 与 Longitude：AI 的身份、结算与协同基础设施",
+      "summary": "孙宇晨在大会讨论可扩展性、安全与持续运行，并介绍将AI模型访问和链上支付连接的AINFT设想。他认为AI经济需要稳定流动性、快速结算和全球全天候网络；在与Ciaran Lyons的对谈中，将智能体身份、结算与协调列为尚早期、值得开发的领域。他也谈及太空经历对前沿技术兴趣的强化。两场活动在同一公告中被汇总，本条保留其分别属于演讲和访谈的性质。",
+      "limitations": "Bitcoin.com页面明确标赞助稿；不是媒体独立评测，也未提供完整逐字稿。其他发言人Sam Elfarra的内容不归入孙的发言。",
+      "topics": [
+        "AI Agent",
+        "AINFT",
+        "基础设施",
+        "身份",
+        "支付",
+        "太空"
+      ],
+      "event_date": "2026年Consensus香港大会期间；Longitude对谈为2月12日；主题演讲确日未单列",
+      "publication_date": "2026-02-14 01:00 EST",
+      "medium": "主题演讲及与Cointelegraph的炉边对谈；TRON委托报道",
+      "url": "https://news.bitcoin.com/justin-sun-highlights-ai-and-resilient-blockchain-infrastructure-at-consensus-hong-kong-2026/",
+      "grade": "C",
+      "id": "R078",
+      "legacy_id": "R26-02",
+      "kind": "record",
+      "date": "2026-02-14 刊",
+      "source_ids": [
+        "S087"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "AI 聊天与代际社交的夸张表态",
+      "summary": "这番言论与其早年的三不主张形成呼应；他鼓励优先与 AI 对话，并以删除较年长联系人的极端措辞表达与旧观念切割。这里的年龄界线及社交处方是他的修辞，不能当作认知能力与出生年份存在因果关系的证据。",
+      "limitations": "X 原文页面访问受限，采用原帖搜索索引及可读转引；完整语境另参其三月胡润访谈中的澄清。",
+      "topics": [
+        "人工智能",
+        "三不主义",
+        "代际观",
+        "传播"
+      ],
+      "event_date": "2026-02-22 原帖索引时间",
+      "url": "https://www.leikeji.com/article/74884",
+      "grade": "C",
+      "id": "R079",
+      "legacy_id": "ROOT07",
+      "kind": "record",
+      "date": "2026-02-22",
+      "source_ids": [
+        "S105"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "AI 产业政策与地缘环境",
+      "summary": "他支持香港用算力、科研、人才培训和政府应用场景推进 AI，并认为资金补助与首批客户能降低企业试错成本。他把智能体自主商业活动与稳定币支付需求相联系，推介波场的清算基础，同时借中东局势说明地缘稳定对数字基础设施与资金流向的重要性。",
+      "limitations": "战争与服务中断的具体因果未由本汇编独立核实，故仅保留其安全环境论点；业务能力为作者主张。",
+      "topics": [
+        "人工智能",
+        "香港",
+        "智能体",
+        "稳定币",
+        "地缘政治"
+      ],
+      "event_date": "2026-03-10",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/03/10/content_8744064.html",
+      "grade": "A",
+      "id": "R080",
+      "legacy_id": "ROOT08",
+      "kind": "record",
+      "date": "2026-03-10",
+      "source_ids": [
+        "S107"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "GWDC 韩国站启动演讲：跨国协作与监管平衡",
+      "summary": "在香港—韩国Web3政策协作平台启动时，孙宇晨认为监管正由设计走向落地，清晰预期能吸引传统机构，但过度保守也可能抑制创新。他主张通过跨境协作协调稳定币与托管标准，减少监管套利和生态碎片化；同时介绍TRON参与AI基础设施合作及打击链上犯罪的经验。他把机器驱动支付作为下一波方向，将合规、开放与跨国政策沟通放在同一发展框架内。",
+      "limitations": "未取得现场完整录像；机构成员身份、资金冻结规模等项目数据仅是发布稿口径，不单独当作审计结论。",
+      "topics": [
+        "韩国",
+        "香港",
+        "监管协作",
+        "AI",
+        "稳定币",
+        "反洗钱"
+      ],
+      "event_date": "2026-03-23线上发布会",
+      "publication_date": "2026-03-23 19:05:27；TRON腾讯账号3月24重刊",
+      "medium": "线上发布会主题演讲；ChainCatcher行业稿",
+      "url": "https://www.chaincatcher.com/article/2253829",
+      "grade": "C",
+      "id": "R081",
+      "legacy_id": "R26-03",
+      "kind": "record",
+      "date": "2026-03-23",
+      "source_ids": [
+        "S088"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "胡润百富专访：数据迭代、团队管理、出海与 AI",
+      "summary": "孙宇晨把事业目的归结为让任何地区、没有银行账户的人也能低成本使用和转移资金。他提出以数据迭代、快速行动和用户需求推进增长；组织上强调明确方向、分层职责与成员主动负责。判断下注时看趋势、竞争和风险回报，出海时先做好本地合规、文化适配及伙伴网络。他承认“能和AI聊天就不要和人聊天”带有夸张，转而强调实际使用AI，并以个人判断力发挥工具价值。",
+      "limitations": "偏书面、经编辑整理的问答，未获原音。业务指标及增长因果解释是受访者自述，不是对组织管理效果的独立验证。",
+      "topics": [
+        "创业",
+        "管理",
+        "增长",
+        "数据驱动",
+        "出海",
+        "AI"
+      ],
+      "event_date": "采访确日未披露；不晚于2026-03-26",
+      "publication_date": "2026-03-26 17:34",
+      "medium": "胡润百富完整文字问答，新浪转载",
+      "url": "https://finance.sina.com.cn/wm/2026-03-26/doc-inhsicuu6106996.shtml",
+      "grade": "B",
+      "id": "R082",
+      "legacy_id": "R26-04",
+      "kind": "record",
+      "date": "2026-03-26 刊",
+      "source_ids": [
+        "S089"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "EthCC 演讲：Agentic AI 与未来支付基础设施",
+      "summary": "孙宇晨把AI智能体的经济活动与高频、低成本交易需求连接，认为服务这类系统的金融网络必须可扩展、费用可控，并能处理全球支付。他将TRON定位为候选支付基础设施，强调跨生态合作、流动性与互操作性。这里的论述是从稳定币网络向机器支付场景延伸的战略说明；其“最佳方案”评价属于本人和项目方宣传，不能替代与其他系统的测试或真实智能体交易数据。",
+      "limitations": "页面明确非Bitcoin.com独立新闻。不能把同稿里Sam Elfarra在MetaMask活动的发言归给孙宇晨。",
+      "topics": [
+        "AI Agent",
+        "支付",
+        "EthCC",
+        "跨链",
+        "互操作性"
+      ],
+      "event_date": "2026-03-30至04-02 EthCC[9]期间；演讲确日未披露",
+      "publication_date": "2026-04-07 07:00 EDT",
+      "medium": "EthCC Monroe主舞台演讲；TRON委托新闻稿",
+      "url": "https://news.bitcoin.com/justin-sun-highlights-agentic-ai-payments-on-tron-at-ethcc-tron-dao-co-hosts-metamask-builder-nights-cannes/",
+      "grade": "C",
+      "id": "R083",
+      "legacy_id": "R26-05",
+      "kind": "record",
+      "date": "2026-03-30至04-02 大会期间",
+      "source_ids": [
+        "S090"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "经济导报专访：香港稳定币的高门槛、开放与流动性孤岛",
+      "summary": "孙宇晨关注稳定币发牌后的真实应用、储备与赎回约束以及生态可持续性。他把TRON定位为发行人的中立底层网络，而非一定亲自争取首批发行资格；继续提出港元与离岸人民币稳定币配合跨境业务的构想。他认为严格监管可形成信任优势，但也担心过高成本和无法与全球流动性互换导致香港成为孤岛。对个人高调形象，他主张应通过系统可靠性和业务数据赢得机构信任。",
+      "limitations": "本人站新目录统一显示04-17，原媒体明确04-10，采用原刊日。跨境回款、成本比例等为假设场景，不证明中国内地已允许该路径。",
+      "topics": [
+        "香港",
+        "稳定币",
+        "合规",
+        "流动性",
+        "品牌",
+        "平台定位"
+      ],
+      "event_date": "采访确日未披露；不晚于2026-04-10",
+      "publication_date": "2026-04-10",
+      "medium": "香港经济导报完整问答",
+      "url": "https://jdonline.com.hk/content_104386.html",
+      "grade": "B",
+      "id": "R084",
+      "legacy_id": "R26-06",
+      "kind": "record",
+      "date": "2026-04-10 刊",
+      "source_ids": [
+        "S091"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "就 WLFI 代币冻结起诉并要求恢复持有人权利",
+      "summary": "孙宇晨宣布在加州联邦法院起诉WLFI，称此前协商未果，要求恢复代币权利、获得与其他早期投资者相同待遇，并反对新的锁定安排。诉状指控项目隐瞒冻结控制、施压追加投资及威胁销毁代币，同时仍表明支持特朗普。WLFI负责人称指控无根据，措施针对孙的不当行为。此为双方民事争议中的主张，不是法院认定；所涉代币权益也不能直接等同公司股权。",
+      "limitations": "原 X 页面 403，只核到帖子索引及两家媒体逐字引语；不能称已直接读取完整原帖。公开诉状是当事人指控；报道中的 SEC 金额简写不用于法律结论。4月12—13日较早的黑名单指控由 Reuters 独立报道核验，本条不另计重复记录。",
+      "topics": [
+        "WLFI",
+        "特朗普",
+        "代币冻结",
+        "公开声明",
+        "诉讼",
+        "治理"
+      ],
+      "event_date": "2026-04-21（加州起诉）；2026-04-22（UTC 发布公告）",
+      "publication_date": "CoinDesk：2026-04-22 01:20 EDT，02:06更新；Reuters：2026-04-22 03:36 UTC，4月23日更新",
+      "medium": "本人 X 公告；公开诉状；Reuters 与 CoinDesk 直接引语报道",
+      "url": "https://x.com/justinsuntron/status/2046787043557244983",
+      "grade": "C",
+      "id": "R085",
+      "legacy_id": "R26-S01",
+      "kind": "record",
+      "date": "2026-04-21",
+      "source_ids": [
+        "S121",
+        "S122",
+        "S123",
+        "S124",
+        "S125"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "稳定币发牌之后如何形成应用",
+      "summary": "他把稳定币定位从加密交易工具扩展到跨境贸易和供应链基础设施，支持储备、赎回、披露及反洗钱要求。他认为发牌只是开始，后续成败取决于真实应用、监管与创新的平衡，以及吸引机构参与形成规模效应。港元与离岸人民币协同仍是其提出的场景构想。",
+      "limitations": "文中的结算成本比率及交易总量不可直接当作审计数字；链上总转账额与传统支付消费额也不宜直接等量比较。",
+      "topics": [
+        "稳定币",
+        "监管",
+        "香港",
+        "跨境支付"
+      ],
+      "event_date": "2026-04-23",
+      "url": "https://www.hkcd.com/hkcdweb/content/2026/04/23/content_8751654.html",
+      "grade": "A",
+      "id": "R086",
+      "legacy_id": "ROOT09",
+      "kind": "record",
+      "date": "2026-04-23",
+      "source_ids": [
+        "S108"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "直接回应 WLFI 诽谤诉讼：坚持自身行为并将应诉",
+      "summary": "面对WLFI在佛州提起的诽谤诉讼，孙直接向路透回应，认为案件缺乏依据、属于公关动作，并准备抗辩。WLFI指控其违规转移代币及做空，孙此前否认做空。双方指控均不等于法院认定。",
+      "limitations": "本条描述的是2026年5月4日报道时的双方立场。加州案与佛州案分别属于不同法院，不将两地诉讼写成同一案号内的程序性反诉。",
+      "topics": [
+        "WLFI",
+        "本人回应",
+        "诽谤诉讼",
+        "两地诉讼",
+        "特朗普"
+      ],
+      "event_date": "2026-05-04",
+      "publication_date": "2026-05-04 13:09 UTC，后更新",
+      "medium": "Reuters 当面向本人求证取得回应；同文提及本人同步 X 声明",
+      "url": "https://www.reuters.com/legal/government/world-liberty-financial-sues-justin-sun-defamation-alleges-token-misconduct-2026-05-04/",
+      "grade": "C",
+      "id": "R087",
+      "legacy_id": "R26-S02",
+      "kind": "record",
+      "date": "2026-05-04",
+      "source_ids": [
+        "S126"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "存储基础设施与 AI 投资叙事",
+      "summary": "他回顾自己关于芯片、能源与存储的判断，认为 AI 将让存储由传统周期性商品转为更长期的基础资源。其关注延伸到具身智能、无人机、空间计算和太空探索。他主张通过技术研发、供应链建设和本土应用推动存储自主性，连接个人投资机会与国家产业能力。",
+      "limitations": "历史荐股及收益倍数为回顾性自述，未以同期原帖和复权价格核算；所谓确定性赛道仍是市场预测，不是收益保证。",
+      "topics": [
+        "人工智能",
+        "存储",
+        "投资判断",
+        "产业政策"
+      ],
+      "event_date": "2026-05-22",
+      "url": "https://hkcd.com/hkcdweb/content/2026/05/22/content_8756060.html",
+      "grade": "A",
+      "id": "R088",
+      "legacy_id": "ROOT10",
+      "kind": "record",
+      "date": "2026-05-22",
+      "source_ids": [
+        "S109"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Guardian 采访汇编",
+      "summary": "孙批评项目冻结代币的权力。",
+      "limitations": "本条仅保留简短摘要；该报道结合多个时点的采访，发布日期不等同录制日期。争议背景请结合前述4月、5月记录阅读。",
+      "topics": [
+        "WLFI",
+        "采访",
+        "公开立场"
+      ],
+      "event_date": "含2025-12采访",
+      "publication_date": "2026-07-16；2026-08-24更新",
+      "medium": "The Guardian",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto",
+      "grade": "C",
+      "id": "R089",
+      "legacy_id": "R26-S03",
+      "kind": "record",
+      "date": "2026-07-16 刊",
+      "source_ids": [
+        "S127"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Bitcoin Asia：比特币周期、稳定币、量子安全与 AI",
+      "summary": "孙宇晨认为比特币正发展为较成熟的全球货币资产和价值储藏工具，机构资金、衍生品与宏观流动性可能削弱传统四年周期的显著性。他将比特币与稳定币视为互补：前者储值，后者支付结算；同时提及TRON的后量子签名准备，以及AI智能体持有资产、支付和使用金融应用的潜在需求。第二场VIP对谈也讨论其比特币认知演变，但稿件未给足逐题细节。",
+      "limitations": "The Block明确不作背书。周期变化是预测，量子安全为其所述准备工作，不能写成已解决量子风险；两场合并一条避免重复计数。",
+      "topics": [
+        "比特币",
+        "周期",
+        "稳定币",
+        "量子计算",
+        "AI Agent"
+      ],
+      "event_date": "2026-08-27两场炉边对谈",
+      "publication_date": "2026-08-31 17:58 EDT",
+      "medium": "Bitcoin Asia 2026两场对谈；TRON委托摘要",
+      "url": "https://www.theblock.co/sponsored/2026-08-31-tron-founder-justin-sun-shares-outlook-on-bitcoin-stablecoins-and-global-finance-at-bitcoin-asia-2026-413184",
+      "grade": "C",
+      "id": "R090",
+      "legacy_id": "R26-07",
+      "kind": "record",
+      "date": "2026-08-27",
+      "source_ids": [
+        "S092"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "凤凰网科技对谈中的 AI 信任与公开情绪",
+      "summary": "他将近期私人长文解释为情绪表达，否认此次是刻意营销，并承认团队担心合作受影响。他说自己平时高度依赖 Claude、Codex 等工具，声称公司部分高金额决策、审计和代码检查也由 AI 参与；但在是否发表私人叙事上，他未接受 AI 的建议，承认无法确定其判断正确。",
+      "limitations": "AI参与公司决策的范围和金额是单方自述，未有独立审计。私人文章注明虚构成分，采访亦指出对方未逐项回应；本条仅研究公开表达，不裁断亲密关系与财产争议。",
+      "topics": [
+        "人工智能",
+        "情绪表达",
+        "公众形象",
+        "管理",
+        "私人叙事"
+      ],
+      "event_date": "2026-08-27 夜间 据文内叙述",
+      "url": "https://finance.sina.com.cn/wm/2026-09-07/doc-iniqyeue6380034.shtml",
+      "grade": "B",
+      "id": "R091",
+      "legacy_id": "ROOT11",
+      "kind": "record",
+      "date": "2026-08-27",
+      "source_ids": [
+        "S110"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "数学奖与财富回馈的公开主张",
+      "summary": "他把个人加密事业带来的财富与数学基础联系起来，表示希望通过设立数学奖回馈基础研究。这项表态延续其以科技和公益解释财富用途的公开叙事。关于奖项如何执行、获奖成果是否成立及奖金是否支付，本条不作认定。",
+      "limitations": "页面明确为 TRON 委托内容。奖项规则、提名、确认与实际支付属于不同状态；不据公告认定任何数学难题已解决或受奖者已收款。",
+      "topics": [
+        "人工智能",
+        "数学",
+        "公益",
+        "个人品牌"
+      ],
+      "event_date": "2026-09-16 公告日",
+      "url": "https://www.theblock.co/sponsored/2026-09-18-justin-sun-establishes-the-justin-sun-prize-my-wealth-came-from-mathematics-and-will-return-to-mathematics-415271",
+      "grade": "C",
+      "id": "R092",
+      "legacy_id": "ROOT12",
+      "kind": "record",
+      "date": "2026-09-16",
+      "source_ids": [
+        "S111"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Canary Staked TRX ETF：传统金融参与网络的新方式",
+      "summary": "孙宇晨感谢Canary Capital将TRX带入交易所交易产品市场，并把这一步解释为传统金融对TRON实际支付基础设施价值的更多认可。他认为机构因此有了新的参与方式，也感谢Cboe、建设者和合作方。公告说明产品寻求TRX现货价格敞口及质押收益，但这与保证投资回报不同。日期上，9月29日是庆祝敲钟安排，文中明确实际上市为9月9日。",
+      "limitations": "公告早于当天收盘，使用将敲钟的未来时；本条不靠预告证明活动已完成。发言与产品收益风险、监管认可程度分开。",
+      "topics": [
+        "ETF",
+        "TRXS",
+        "TRX",
+        "传统金融",
+        "机构参与"
+      ],
+      "event_date": "2026-09-29 Cboe敲钟活动公告；TRXS此前于09-09上市",
+      "publication_date": "2026-09-29 09:00 ET",
+      "medium": "TRON DAO经GlobeNewswire发布的本人引语",
+      "url": "https://www.globenewswire.com/news-release/2026/09/29/3370941/0/en/tron-dao-celebrates-canary-staked-trx-etf-ticker-trxs-debut-with-cboe-closing-bell-in-chicago.html",
+      "grade": "C",
+      "id": "R093",
+      "legacy_id": "R26-08",
+      "kind": "record",
+      "date": "2026-09-29",
+      "source_ids": [
+        "S094"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Polygon Open Money Stack 接入 TRON 的公开声明",
+      "summary": "孙宇晨将稳定币描述为支付、汇款和企业资金管理等真实金融活动的基础设施，并认为TRON与Polygon Open Money Stack连接，能方便企业把链上流动性和传统资金通道组合成产品。合作公告介绍统一入口涵盖法币出入金、账户与跨链路由。这段发言显示其叙事进一步转向企业支付产品的接入便利性；具体地区、牌照及业务覆盖仍以合作方实际条款为准。",
+      "limitations": "为企业合作公告，未进行实际产品或牌照核验；不把“美国通道接入”理解为所有地区用户均可无条件使用。",
+      "topics": [
+        "Polygon",
+        "稳定币",
+        "企业支付",
+        "汇款",
+        "跨链",
+        "传统金融"
+      ],
+      "event_date": "2026-10-07合作公告",
+      "publication_date": "2026-10-07；GlobeNewswire同步稿13:00 ET",
+      "medium": "TRON DAO官网合作新闻稿中的本人引语",
+      "url": "https://trondao.org/announcements/polygon-open-money-stack-expands-to-tron-extending-network-access-to-regulated-u.s.-payment-rails",
+      "grade": "C",
+      "id": "R094",
+      "legacy_id": "R26-09",
+      "kind": "record",
+      "date": "2026-10-07",
+      "source_ids": [
+        "S095"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "孙宇晨做客《鲁豫有约》",
+      "summary": "可检索到以锐波科技创始人身份受访的节目视频。该节目涉及早年成长与创业的线索应在获取完整字幕后继续补录。",
+      "limitations": "本人官网卡片标2017-07-15，但其实际指向凤凰URL为20150716；其他后期报道指2015。保留日期冲突，不能用转载上传日期替代播出日期。",
+      "topics": [],
+      "event_date": "2015（待核具体播出日）",
+      "medium": "凤凰卫视／鲁豫有约；YouTube转载入口",
+      "url": "https://www.youtube.com/watch?v=JlDyHEgd_cI",
+      "grade": "E",
+      "id": "I01",
+      "legacy_id": "E-I04",
+      "kind": "index",
+      "date": "2015 刊",
+      "source_ids": [
+        "S035",
+        "S036"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "央视网《创业者说》孙宇晨专题",
+      "summary": "专题分段谈创业生存、湖畔学习、分布式跨境清算和创新，强调创业者要避免失败并找到客户真实痛点；同时把互联网金融解释为可能改变金融结构的过程。",
+      "limitations": "无准确播出/刊发日，可能与其他央视采访内容部分重合；先列补充索引，不作为新增有日期事件计数。",
+      "topics": [],
+      "event_date": "2015（未确定日）",
+      "medium": "央视网专题访谈",
+      "url": "https://news.cntv.cn/interview/cyzs/suyuchen/",
+      "grade": "E",
+      "id": "I02",
+      "legacy_id": "E-I05",
+      "kind": "index",
+      "date": "2015 刊",
+      "source_ids": [
+        "S037"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "《一场事先张扬，潜移默化的革命——去中心化网络的诞生》；答辩《创业四年路的反省与思考》",
+      "summary": "同期报道确认论文与答辩题名及提交日期；称论文讨论区块链行业历史、现状、未来，答辩回顾2014年以来创业。报道载有他感谢湖畔学习、强调将经验快速用于战略判断的直接讲话。",
+      "limitations": "不得用后期个人资料库简写的《去中心化互联网的诞生》替代可核的完整题名；不能声称读过论文或从题名扩写具体论证。",
+      "topics": [],
+      "event_date": "2018-03-26",
+      "publication_date": "2018-04-03",
+      "medium": "湖畔大学论文及答辩；中国产业经济信息网同期报道",
+      "url": "https://www.cinic.org.cn/hy/zh/428166.html",
+      "grade": "E",
+      "id": "I03",
+      "legacy_id": "E-I01",
+      "kind": "index",
+      "date": "2018-03-26",
+      "source_ids": [
+        "S032"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "The Bad Crypto Podcast #212: Justin Sun with TRON",
+      "summary": "已定位官方节目页，可作为进一步聆听的入口。",
+      "limitations": "本次未逐段听录音，未采录其具体回答，不从节目标题或后期AI资料库反推观点。",
+      "topics": [],
+      "publication_date": "2018-11-28",
+      "medium": "The Bad Crypto Podcast",
+      "url": "https://badcryptopodcast.com/2018/11/28/justin-sun-tron-212/",
+      "grade": "E",
+      "id": "I04",
+      "legacy_id": "E-I02",
+      "kind": "index",
+      "date": "2018-11-28 刊",
+      "source_ids": [
+        "S034"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "The Bad Crypto Podcast #410: A No-Holds Barred Conversation with Justin Sun",
+      "summary": "官方简介列出Steem接管争议、与Vitalik的网络争论及TRON未来等问题，适合作为针对争议的长访谈入口。",
+      "limitations": "简介证明节目谈及这些问题，不证明孙宇晨如何回答。没有按第三方AI研究材料虚构问答或听录完成情况。",
+      "topics": [],
+      "publication_date": "2020-05-25",
+      "medium": "The Bad Crypto Podcast",
+      "url": "https://badcryptopodcast.com/2020/05/25/justin-sun-410/",
+      "grade": "E",
+      "id": "I05",
+      "legacy_id": "E-I03",
+      "kind": "index",
+      "date": "2020-05-25 刊",
+      "source_ids": [
+        "S033"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Bitcoin.com 播客：交易所去中心化与 HTX DAO 治理",
+      "summary": "节目以交易所未来将走向去中心化为标题展示孙宇晨的立场。可读取的原页摘要列明，他谈到美国现货比特币 ETF 获批的影响、中心化和去中心化平台之争，以及透明度、去中心化和民主治理的重要性，并以 HTX DAO 作为新治理平台的案例。由于页面没有完整回答，本记录仅确定这些讨论主题及标题所表达的方向，不替他推演迁移时间表或治理细节。",
+      "limitations": "节目原页 1 月 26 日发表；未把播客索引的其他日期当作录制日期。 已读取节目正式页面，只有摘要与嵌入音频线索，未取得完整逐字稿或核听；按索引级记录处理，避免误标完整采访。",
+      "topics": [
+        "HTX DAO",
+        "交易所治理",
+        "去中心化",
+        "ETF"
+      ],
+      "event_date": "2024-01（录制日期未核）",
+      "publication_date": "2024-01-26",
+      "medium": "Bitcoin.com News 播客原页摘要",
+      "url": "https://news.bitcoin.com/in-the-future-all-crypto-exchanges-will-become-decentralized-justin-sun-founder-of-tron-and-advisor-to-htx/",
+      "grade": "E",
+      "id": "I06",
+      "legacy_id": "MID-18",
+      "kind": "index",
+      "date": "2024-01-26 刊",
+      "source_ids": [
+        "S056"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "对话邵艾伦 Alan：年轻人如何抓住 AI 时代的机会",
+      "summary": "按已检索到的二次整理，孙宇晨讨论将健康、学习、工作和决策记录为可迁移的数据，以AI辅助分析、执行和复盘；强调先建立认知与行动自由，再寻找财富机会，也把加密支付联系到未来智能体经济。节目还涉及身体训练、舆论应对与保持开放自我。由于本次尚未逐段核听原视频，这只是可追溯的整理稿概览，涉及药物、身体或收益的观点不应升级为医学或投资事实。",
+      "limitations": "原X视频403，MarsBit/BlockBeats/BidClub整页读取失败。官方宣传约4小时，第三方转录称262分钟；BlockBeats的159分钟是阅读估时，不是节目时长。不能称已审阅完整原片。",
+      "topics": [
+        "AI",
+        "个人数据",
+        "学习",
+        "健康自述",
+        "财富",
+        "青年建议"
+      ],
+      "event_date": "录制日期不详；2026-10-09北京时间约12:00发布完整版",
+      "publication_date": "2026-10-09；MarsBit整理稿网址时间13:30，早于本项目18:50截点",
+      "medium": "Alan长视频对谈；深潮TechFlow二次整理与转录索引",
+      "url": "https://news.marsbit.co/20261009133051150532.html",
+      "grade": "D",
+      "id": "I07",
+      "legacy_id": "R26-10",
+      "kind": "index",
+      "date": "2026-10-09 刊",
+      "source_ids": [
+        "S096",
+        "S099"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "The Wolf of All Streets所谓2026年7月长采访",
+      "summary": "已定位相关页面或节目入口，当前不编写未经核实的具体发言。",
+      "limitations": "凤凰宁波2026-07-07稿提两个All in、物理AI，但部分稳定币市场占比内容与2024旧采访高度重合，未找到2026原节目；不把转述确定为新完整访谈。",
+      "topics": [],
+      "event_date": "确日待核",
+      "publication_date": "日期待核",
+      "medium": "视频 采访或演讲线索",
+      "url": "https://nb.ifeng.com/c/8uZDz7hEdq9",
+      "grade": "E",
+      "id": "I08",
+      "legacy_id": "IDX-R2",
+      "kind": "index",
+      "date": "日期未明",
+      "source_ids": [
+        "S144"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Simon Squibb对话（非官方档案标2026-03-01）",
+      "summary": "已定位相关页面或节目入口，当前不编写未经核实的具体发言。",
+      "limitations": "非官方The Sun Archives提供问答及视频链接；本人及Simon的2月社交预告可证会面，但本次原完整视频未核验，记录为待补，不把粉丝档案当本人原稿。",
+      "topics": [],
+      "event_date": "确日待核",
+      "publication_date": "日期待核",
+      "medium": "视频 采访或演讲线索",
+      "url": "https://www.thesunarchives.com/en/news/justin-sun-interview-ai-blockchain-future-2026",
+      "grade": "E",
+      "id": "I09",
+      "legacy_id": "IDX-R3",
+      "kind": "index",
+      "date": "日期未明",
+      "source_ids": [
+        "S145"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "Conviction 2026演讲",
+      "summary": "已定位相关页面或节目入口，当前不编写未经核实的具体发言。",
+      "limitations": "已找到官方会议和YouTube标题，但本次未核完整内容，未以预告扩写论点。",
+      "topics": [],
+      "event_date": "确日待核",
+      "publication_date": "日期待核",
+      "medium": "视频 采访或演讲线索",
+      "url": "https://www.youtube.com/watch?v=5jQv_Gzr3R8",
+      "grade": "E",
+      "id": "I10",
+      "legacy_id": "IDX-R4",
+      "kind": "index",
+      "date": "日期未明",
+      "source_ids": [
+        "S146"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "title": "2025亚洲周刊第27期原访谈",
+      "summary": "已定位相关页面或节目入口，当前不编写未经核实的具体发言。",
+      "limitations": "本人和多媒体宣传可证刊载，但原刊正文未核；已纳入白话区块链独立采访，未把二登/三登互相矛盾宣传计数。",
+      "topics": [],
+      "event_date": "确日待核",
+      "publication_date": "日期待核",
+      "medium": "视频 采访或演讲线索",
+      "url": "https://www.iyiou.com/news/202507051102470",
+      "grade": "E",
+      "id": "I11",
+      "legacy_id": "IDX-R6",
+      "kind": "index",
+      "date": "日期未明",
+      "source_ids": [
+        "S147"
+      ],
+      "text_type": "编写者摘要；非逐字稿"
+    },
+    {
+      "id": "C01",
+      "kind": "course",
+      "title": "自主选择与财富自由",
+      "summary": "第三方笔记对这组内容的归纳是：相关内容把财富自由解释为对人生方向、时间和价值选择的自主，批评只有忙碌却没有个人战略的生活。核心做法是优先投入自己的健康、能力和事业，再考虑资产投资。它也讨论与父母和不同价值观者相处，强调个人选择不等于要求身边人全部接受。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。该段主题与小宇宙第六集公开简介作为线索相互对应；第一至第五条推荐语来自推荐人，不属于孙本人发言。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S130"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C02",
+      "kind": "course",
+      "title": "财富观与货币环境",
+      "summary": "第三方笔记对这组内容的归纳是：笔记将这组内容分为对单一成败解释的批评、个人与家庭经济边界、布雷顿森林体系及通胀叙事。相关内容把资金环境与扩大可控负债相连接，主张使用资产和经营能力提高资本效率，而非把节约当作唯一目标。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。这是历史课程中的金融主张。通胀不能自动保证个人负债可控；不把其利率界限整理为适用于所有人的操作标准。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S131"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C03",
+      "kind": "course",
+      "title": "婚姻住房汽车的机会成本",
+      "summary": "第三方笔记对这组内容的归纳是：这一组把成年的标准放在自主选择及承担代价上。婚姻被视为长期合伙关系，住房被还原为需要评估价格与流动性的资产，汽车则被置于折旧、维护和共享出行的比较中。三不口号的共同目标是减少青年时期的长期绑定，把资源用于自身发展。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。这些判断带有当时大城市房价和共享出行环境的影响；也不能覆盖所有人的照护需要、情感价值和地域差异。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S132"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C04",
+      "kind": "course",
+      "title": "积累复利与练习反馈",
+      "summary": "第三方笔记对这组内容的归纳是：笔记归纳出持续积累、避免归零、刻意练习与反馈、扩大成果影响范围等主题。相关内容将写作和产品等具有外溢效果的工作与单纯出售时间作比较，也讨论亚文化如何商业化，以及追求个人利益的道德辩护。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。复利比喻、能力成长和金融投资是不同问题。课程中关于道德的推论应与合法性问题分开。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S133"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C05",
+      "kind": "course",
+      "title": "不确定性与小步试验",
+      "summary": "第三方笔记对这组内容的归纳是：相关内容将不确定性视为新机会出现的条件，主张通过小规模产品试验、用户反馈和持续调整累积经验。它强调行业、公司及个人阶段的选择，并反思仅把职位稳定作为人生目标的做法。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。量子物理比喻不构成商业论证。长期重复能否改善结果取决于判断正确、资源可持续等条件，不能从次数多推出必胜。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S134"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C06",
+      "kind": "course",
+      "title": "互联网机会与失败研究",
+      "summary": "第三方笔记对这组内容的归纳是：笔记呈现了对互联网新增需求、行业迭代速度和早期团队成长机会的看好。后半部分借企业失败案例讨论多元化、扩张节奏及经营纪律，强调研究失败原因和集中资源。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。互联网是最后机会等表述属于特定年份的强判断；失败案例中的人物评价及数据仍需回到原书与企业资料核实。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S135"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C07",
+      "kind": "course",
+      "title": "比特币产权与自我保管",
+      "summary": "第三方笔记对这组内容的归纳是：相关内容把比特币与个人对财产的控制联系起来，讨论账本、去中心化和交易确认，并提出自我保管、关注买入价格及长期判断等观念。政治哲学上的自主理想与技术机制在这组内容中高度交织。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。自我保管并不能消除丢失密钥、欺诈、法律义务或价格波动。笔记中的政治与技术绝对化说法不作为事实转述。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S136"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C08",
+      "kind": "course",
+      "title": "健康与财富保存",
+      "summary": "第三方笔记对这组内容的归纳是：课程转向健康如何影响长期积累，强调诊断与专业判断的价值，反对只用药品数量和价格评价医疗服务，并讨论保障重大疾病风险。也包含对中医及医疗支付方式的鲜明个人意见。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。本节只记录主题，不提供诊疗、用药或保险购买指引。笔记中的具体医学数字没有在本研究中作为可靠结论采用。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S137"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C09",
+      "kind": "course",
+      "title": "家庭边界与合作安排",
+      "summary": "第三方笔记对这组内容的归纳是：这一组把家庭、婚姻与经济合作放到边界和退出安排中审视，强调个人自主、责任分配以及让专业人员处理专业问题。相处方法从争论输赢转向用自身行动形成说服力。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。企业合伙与家庭关系并不等同；这是第三方笔记归纳的关系观，不能替代具体义务或双方自愿协商。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S138"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C10",
+      "kind": "course",
+      "title": "财富传承与产权观",
+      "summary": "第三方笔记对这组内容的归纳是：笔记将这一组概括为对勤劳为何不必然富有、财富为何难以传承的追问。相关内容把财产权、社会评价和家庭关系联系起来，并以目标倒推选择、从基本事实判断问题作为方法。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。该组包含较强的历史和中西比较判断，二次笔记不足以核定每一句原话；不把复杂社会结果归结为单一民族性或价值观。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S139"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C11",
+      "kind": "course",
+      "title": "新规则数字化与项目推广",
+      "summary": "第三方笔记对这组内容的归纳是：课程鼓励观察规则和分工尚在形成的行业，讨论非线性的回报、信息与资产数字化，以及内容创作者和支持者的新型连接。按该笔记的编排，后段主题逐步涉及波场的项目愿景。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。选择早期领域与获得超额回报之间不具有必然关系。此处尤其需要留意观点输出与项目利益之间的联系。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S140"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "C12",
+      "kind": "course",
+      "title": "周年回顾与自我重建",
+      "summary": "第三方笔记对这组内容的归纳是：笔记中的收尾以听众职业、城市和关系选择为案例，重新强调价值观更新与长期行动，又回到去中心化货币及技术发展的愿景。核心是把个人视为可以持续调整的行动者，并赋予年轻人的创新以正面意义。",
+      "limitations": "本条依据公开笔记，尚未逐项核听原音频。本组编号与本人网站末尾分集标题不一致，不能视为官方逐集目录；案例也不能证明这些主张对所有听众都有效。",
+      "grade": "D",
+      "date": "2026-08-08",
+      "source_ids": [
+        "S141"
+      ],
+      "text_type": "第三方课程笔记归纳；原音频未核听"
+    },
+    {
+      "id": "T01",
+      "kind": "theme",
+      "title": "自主选择是早期表达的共同出发点",
+      "summary": "在大学公共议题中，他把学生的独立思考与参与权放在中心；进入创业语境后，则把个人选择、能力和自由竞争作为安全感的来源。议题变了，但对既定路径和外部标签的怀疑具有连续性。〔R001、R002、R003〕\n\n本卷据此把“选择权”视为理解其早期表达的一个入口。这个入口不能推导出他在所有情境中都遵循同一原则；具体主张仍须看当时面对的对象、本人角色及实际权力关系。",
+      "references": [
+        "R001",
+        "R002",
+        "R003"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T02",
+      "kind": "theme",
+      "title": "财富观围绕生活安排和机会成本展开",
+      "summary": "其2015至2017年的财富表达，把尽早创业、减少固定生活负担和为个人利益辩护放在同一组讨论中。财富既意味着金钱，也意味着能否安排自己的时间与行动。三不口号和新书发布会的奋斗叙事，是这组思想最易传播的表达。〔R008、R009、R010〕\n\n阅读时应保留建议适用对象和时点。一个年轻创业者如何分配资源，与所有人应采取何种婚姻、住房或职业选择，是不同层级的问题。课程笔记可以帮助定位相关主题，不能为这些建议增加普遍有效性的证据。",
+      "references": [
+        "R008",
+        "R009",
+        "R010"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T03",
+      "kind": "theme",
+      "title": "创业方法由速度逐渐扩展到组织和复盘",
+      "summary": "早期演讲强调移动互联网竞争加快、产品需要理解年轻用户；之后的经营访谈加入收购协同、团队延续与低门槛使用。到创业标准问答和胡润专访，讨论重心进一步包括日程、数据、责任分层和本地伙伴。〔R005、R007、R025、R036、R082〕\n\n这些材料可以整理为一条方法链：判断需求、选择路线、快速执行、根据反馈调整、依靠组织持续推进。这是对多篇访谈的归纳；它并没有独立证明每个成功结果都来自所述方法，也没有消除幸存者偏差。",
+      "references": [
+        "R005",
+        "R007",
+        "R025",
+        "R036",
+        "R082"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T04",
+      "kind": "theme",
+      "title": "从内容分发平台走向支付结算网络",
+      "summary": "2017至2018年的波场问答较多讨论内容、创作者、应用生态和BitTorrent资源激励；后期访谈越来越多使用稳定币、汇款、结算与企业资金管理来说明网络价值。不同阶段的核心使用者，从内容参与者扩展到转账用户与企业。〔R011、R016、R017、R068、R094〕\n\n这显示其项目解释发生了重心变化。判断变化是否已经转化成可验证业务，需要另外比较同口径使用数据；仅凭愿景、链上总转账额或一次合作公告，无法完成这种验证。",
+      "references": [
+        "R011",
+        "R016",
+        "R017",
+        "R068",
+        "R094"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T05",
+      "kind": "theme",
+      "title": "去中心化同时指技术安排和治理价值",
+      "summary": "相关材料中，去中心化有时指创作者绕过平台，有时指社区参与治理，有时指稳定币减少对银行依赖，还有时指交易所的未来组织形式。Steem争议和Bankless质询则呈现了其对产权保护、核心团队作用与早期托管安排的解释。〔R015、R024、R025、R032、R048〕\n\n比较这些说法，需要分别问：谁能提交交易，谁能决定规则，谁持有密钥，谁能冻结资产，谁承担法律责任。把几个维度合成一句“已经完全去中心化”，会丢掉访谈中最值得检验的内容。",
+      "references": [
+        "R015",
+        "R024",
+        "R025",
+        "R032",
+        "R048"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T06",
+      "kind": "theme",
+      "title": "稳定币叙事包含支付愿景与收益争论",
+      "summary": "USDD相关发言先强调设计和金融自主，Terra危机后转向增长节奏、储备、赎回及收益条件。2025年新版本预告又出现高年化补贴表态。与之并行，香港访谈将重点放在发行人、网络、储备赎回和跨境流动性的关系。〔R033、R034、R035、R056、R084〕\n\n这两条线应一起保留：低成本支付的社会用途，以及补贴和储备能否支持承诺的经济问题。把支付场景的合理性直接当成某一种稳定币安全性的证据，会跨过必要的产品和资产核查。",
+      "references": [
+        "R033",
+        "R034",
+        "R035",
+        "R056",
+        "R084"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T07",
+      "kind": "theme",
+      "title": "监管表达随所处地区和争议对象变化",
+      "summary": "格林纳达与多米尼克相关发言强调国家采纳；中国及香港相关材料更常讨论产业基础设施、制度试验和监管互认；面对美国SEC起诉，他强调规则清晰与对诉状的否认。这些表达面对不同听众和制度条件。〔R028、R029、R039、R042、R086〕\n\n不能仅因他在不同场合采用不同语言，就推出隐藏动机已经被证明。可以明确记录的，是其公开论证如何使用开放、国家竞争力、用户保护或程序公平；每一种政策结论都需要在对应法域单独核实。",
+      "references": [
+        "R028",
+        "R029",
+        "R039",
+        "R042",
+        "R086"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T08",
+      "kind": "theme",
+      "title": "传播能力与产品能力在其自述中并存",
+      "summary": "关于传播的材料包含不同侧面：2019年致歉信承认过度营销；2025年白话区块链访谈把传播与产品可用性并提；晚点在场则集中呈现他对网络形象和争议标签的自我解释。这些材料不宜压成一个孤立的“营销大师”结论。〔R021、R062、R066〕\n\n本卷将可观察的表达方法归纳为：强烈个人符号、便于传播的短句、与高关注度事件连接，以及在质询后重述目标。此为编者对传播形式的分析，不能独立证明任何一次行动的真实动机。",
+      "references": [
+        "R021",
+        "R062",
+        "R066"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T09",
+      "kind": "theme",
+      "title": "行业竞争中的立场可以调整",
+      "summary": "早期关于以太坊的访谈包含承认判断改变、从机构路线转向社区路线；Bankless长访谈则涉及兼容性选择与对Vitalik长期思考的赞许。2024年的Meme活动又把社区、文化认同和执行力放在竞争条件中。〔R014、R048、R051〕\n\n将这些材料连读，可以看到竞争策略、技术评价和个人态度并非同一件事。一句赞许不表示全部争议消失，一句激烈竞争言论也不应替代对后来合作与路线调整的观察。",
+      "references": [
+        "R014",
+        "R048",
+        "R051"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T10",
+      "kind": "theme",
+      "title": "上市公司与交易所产品扩展了面向机构的表达",
+      "summary": "Tron Inc.访谈将TRX持有、质押和公司披露放入股票投资者的语言体系；TRX交易所产品公告则进一步强调传统金融参与方式。这使其公开表述从用户采用，扩展到机构如何取得数字资产敞口。〔R067、R093〕\n\n在阅读这类材料时，应画清权益边界：公链、代币、上市公司股票及基金份额并非同一种资产。某一层的采用增长，不会自动变成另一层持有者可以兑现的同额收益。",
+      "references": [
+        "R067",
+        "R093"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T11",
+      "kind": "theme",
+      "title": "艺术太空与数学奖连接财富用途和科技身份",
+      "summary": "艺术问答讨论数字所有权和收藏的历史意义；香蕉活动将概念价值与加密资产类比；太空计划及返航感言强调个人愿望和前沿技术；数学奖声明把财富来源与回馈研究联系起来。〔R031、R055、R030、R065、R092〕\n\n从传播形式看，这些事件能够让专业领域之外的公众接触到他的名字。这是可观察的传播效果方向；是否构成有效公益、是否形成长期科研成果，以及具体支出是否落实，需要独立的执行和结果资料。",
+      "references": [
+        "R031",
+        "R055",
+        "R030",
+        "R065",
+        "R092"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T12",
+      "kind": "theme",
+      "title": "AI既是行业机会也是个人判断工具",
+      "summary": "AI发言至少包含三个层次：对相关代币缺少实用产品的批评，关于智能体身份与支付的产业设想，以及个人大量使用AI的经验。二月激烈的社交建议、三月对夸张表达的解释、八月关于没有采纳AI建议的自述，应该放在同一条线上阅读。〔R076、R078、R079、R082、R091〕\n\n本卷的判断是，这些内容呈现了工具依赖与个人责任之间的张力。一个人使用模型的频率、模型是否参与高金额业务、最终由谁承担决定的后果，分别需要不同证据，不能相互替代。",
+      "references": [
+        "R076",
+        "R078",
+        "R079",
+        "R082",
+        "R091"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T13",
+      "kind": "theme",
+      "title": "危机回应反复出现承诺与权利边界",
+      "summary": "FTX期间的支持表态、Poloniex被盗后的补偿承诺、WBTC私钥控制权回应，以及T3反犯罪合作声明，都包含对用户信心和责任边界的解释。各条的适用对象、主体和完成状态不同。〔R038、R046、R050、R052〕\n\n读者可用同一组问题核对这些表态：是谁承诺，向谁承诺，附带什么条件，什么材料可以证明履行。档案保留原承诺与时间，兑现情况则需要另找后续证据；沉默或未搜到更新并不等于已经兑现或违约。",
+      "references": [
+        "R038",
+        "R046",
+        "R050",
+        "R052"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "T14",
+      "kind": "theme",
+      "title": "政治支持与具体商业关系需要分开观察",
+      "summary": "2024至2025年，他对特朗普相关加密合作表达积极态度；2026年围绕WLFI的争议中，他又以投资者身份提出冻结权和待遇问题。相关起诉声明同时保留对特朗普的支持，因此两种态度不能简单合并为一次全面政治转向。〔R054、R063、R085〕\n\n本卷记录的是不同时点的公开立场。投资的经济动机、政治关系的实际作用及诉讼结果，属于独立的事实问题；单靠赞誉、交易或随后发生的监管事件，不能证明利益交换或其不存在。",
+      "references": [
+        "R054",
+        "R063",
+        "R085"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F01",
+      "kind": "boundary",
+      "title": "首次接触比特币的年份存在自述差异",
+      "summary": "2014年演讲给出2013年4月11日及《纽约时报》的具体线索；2018年的问答和后来的若干访谈则提到2012年。本卷保留这种差异，不替当事人选择一个没有争议的唯一日期。接触、开始研究、首次购买和进入行业，也可能是不同事件，不能在缺少补充解释时自行合并。〔R003、R013〕",
+      "references": [
+        "R003",
+        "R013"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F02",
+      "kind": "boundary",
+      "title": "三不口号不能脱离对象与时点",
+      "summary": "早期材料的直接背景是青年创业、生活负担和财富自由。课程导读又来自第三方笔记。因此，不能据三句短口号推断他在所有年龄、家庭条件和历史阶段都提出完全相同的建议，也不能把本卷的总结改写成对读者个人生活的处方。〔R008、R009〕",
+      "references": [
+        "R008",
+        "R009"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F03",
+      "kind": "boundary",
+      "title": "巴菲特会面应拆成四个阶段",
+      "summary": "竞拍与拟邀发生在2019年6月，取消原定午餐和致歉发生在7月，实际晚餐按本人复盘发生于2020年1月23日，复盘和采访随后公开。赠送钱包或数字资产，不能推出巴菲特认可、主动买入或持续持有；孙对谈话的回顾也不是双方核定的逐字纪要。〔R018、R020、R021、R022〕",
+      "references": [
+        "R018",
+        "R020",
+        "R021",
+        "R022"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F04",
+      "kind": "boundary",
+      "title": "价格预言与高收益表态保留原时点",
+      "summary": "CNN中的价格预测、2022年对高收益的解释、2025年USDD版本预告，分别属于当时的预测、辩护和产品宣传。对预测的事后评估至少需要定义日期、价格口径和是否持续达到；对年化收益还需要分清补贴期、退出条件、资产价格和实际兑付。这里没有把承诺改成已兑现收益。〔R023、R033、R056〕",
+      "references": [
+        "R023",
+        "R033",
+        "R056"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F05",
+      "kind": "boundary",
+      "title": "网络控制权与本人职务不是同一问题",
+      "summary": "退出日常管理、担任顾问、不持有某类私钥或引入DAO，都是需要按原话保存的边界声明。它们不能单独确定实际控制、经济利益、董事会影响力或协议升级权限。Steem争议中的产权论证也只是当事人一方解释，需要与具体治理操作分别核验。〔R029、R037、R050、R025〕",
+      "references": [
+        "R029",
+        "R037",
+        "R050",
+        "R025"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F06",
+      "kind": "boundary",
+      "title": "SEC案件须使用正确主体和程序词汇",
+      "summary": "2023年的材料是对民事起诉的回应。2026年3月5日SEC公布和解方案：Rainberry承担1000万美元民事罚款及相关禁令；其余相关请求、包括针对孙宇晨及两家基金会的全部请求，拟以不得再诉方式撤销。3月9日的最终判决记录确认由法官签署，并列明Rainberry罚款。〔R042、S115、S116〕\n\n应区分判令公司支付民事罚款、撤销请求与实体事实的认定。该和解没有要求就Rainberry所和解指控承认或否认；该民事和解不涉及对孙宇晨刑事有罪或无罪的判定，也不等于法院逐项认定全部历史指控虚假。〔S115、S116〕",
+      "references": [
+        "R042",
+        "S115",
+        "S116"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F07",
+      "kind": "boundary",
+      "title": "WLFI与First Digital Trust争议均保留双方立场",
+      "summary": "First Digital Trust相关条目记录孙的指控、对方否认与监管诉求，并注明临时资产措施不等于责任裁决。WLFI条目则区分2026年4月的加州诉讼及5月在佛州另行提起的诽谤诉讼，不把它们写成同一案号的程序性反诉。〔R072、R085、R087〕\n\n本次取得的加州案卷摘录只覆盖到6月；另一二级索引出现9月30日暂停相关条目，但相应原令未取得。因此，本卷没有声称掌握截至截点的完整两地卷宗，也没有依据任何一方的胜利宣传判断全案结果。〔S128、S129〕",
+      "references": [
+        "R072",
+        "R085",
+        "R087",
+        "S128",
+        "S129"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F08",
+      "kind": "boundary",
+      "title": "AI相关极端表达与后续解释需要连读",
+      "summary": "二月社交表态采用强烈年龄划线与优先和AI对话的措辞；三月访谈承认表达带有夸张；八月电话采访又承认在一项公开表达决定上没有采纳AI意见。它们支持观察其态度的变化和边界，不能证明年龄决定认知能力，也不能验证AI已能独立承担全部公司决策。〔R079、R082、R091〕",
+      "references": [
+        "R079",
+        "R082",
+        "R091"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F09",
+      "kind": "boundary",
+      "title": "大额交易慈善与身份称谓分开核对",
+      "summary": "愿付3000万美元会面属于条件性意向；太空旅行的预告与实际返航相隔数年；数学奖公开表态也不自动证明每项奖金已支付。Liberland的职位属于未获联合国成员国承认的自称微型国家项目，不能与获国际承认主权国家的政府职位等同。〔R075、R030、R065、R092、R053〕",
+      "references": [
+        "R075",
+        "R030",
+        "R065",
+        "R092",
+        "R053"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F10",
+      "kind": "boundary",
+      "title": "数字规模和比较必须保持相同口径",
+      "summary": "地址不等于自然人，链上总转账不等于零售支付，托管资产、个人净资产和项目估值也不同。把TRON描述成类似SWIFT的网络是其商业类比；SWIFT金融报文与链上交易金额缺少统一口径，不能直接相除得出已替代的结论。自报财富与媒体折价估算应分别保留。〔R068、R058〕",
+      "references": [
+        "R068",
+        "R058"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F11",
+      "kind": "boundary",
+      "title": "报道提问及企业发言人不算本人承认",
+      "summary": "采访标题可能截取一句争议表达，问题本身可能含有预设，人物特写也会混入记者判断。2023年Reuters报道中的企业发言人答复，与孙随后个人声明是不同来源；Bankless主持人的质询与孙的回答也须分别阅读。〔R047、R048〕",
+      "references": [
+        "R047",
+        "R048"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "F12",
+      "kind": "boundary",
+      "title": "阅读时间上传时间与原节目时长不同",
+      "summary": "Alan的2026年10月9日访谈已经定位，但原视频未逐段核听，现仅保留二次转录线索。部分页面的159分钟是阅读估时，不能当节目长度；街访的转载日也不能当拍摄日。课程重编数量与官网批量更新日期，均需同样谨慎处理。〔I07、R073、S113、S112〕",
+      "references": [
+        "I07",
+        "R073",
+        "S113",
+        "S112"
+      ],
+      "text_type": "编写者研究归纳；非本人原话"
+    },
+    {
+      "id": "P01",
+      "kind": "principle",
+      "title": "以自主选择为目标，重新审视默认人生路径",
+      "summary": "公开表述归纳：早期演讲把安全感与自由选择联系起来；创业及财富表达质疑学历、购房购车等默认成功标尺。\n\n面向用户的推演：职业建议先分清用户追求的收入、学习、控制权和生活责任，再比较不同路径的机会成本。现金储备、可回退路径等检查是本 Agent 加入的决策方法，不能声称孙本人一贯如此。\n\n可用问题：你最想获得哪一种选择权，现在被什么条件限制？\n\n反证或边界：不可直接建议所有人退学、辞职、借贷创业或照搬三不；这些是特定时期个人立场，缺乏普遍效果证据。",
+      "references": [
+        "R003",
+        "R008",
+        "R009"
+      ],
+      "source_ids": [
+        "S003",
+        "S008",
+        "S009"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P02",
+      "kind": "principle",
+      "title": "从具体需求和使用摩擦寻找机会",
+      "summary": "公开表述归纳：锐波的解释聚焦跨境清算成本，陪我聚焦即时匹配；创业问答强调未被充分服务的需求，AI访谈要求普通人可理解的用途。\n\n面向用户的推演：把项目拆成明确用户、重复痛点、现有替代和可观察改善。要求用一次真实任务演示价值，再讨论行业故事。\n\n可用问题：谁在什么场景付出了不必要的时间或成本，你能先减少哪一项？\n\n反证或边界：技术趋势、创始人的判断和产品可用性是不同证据；不能因其看好AI或稳定币就推荐全部相关资产。",
+      "references": [
+        "R004",
+        "R007",
+        "R036",
+        "R076"
+      ],
+      "source_ids": [
+        "S004",
+        "S007",
+        "S044",
+        "S086"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P03",
+      "kind": "principle",
+      "title": "把社区关系与文化认同纳入产品和分发",
+      "summary": "公开表述归纳：2015年演讲强调与用户的精神和趣味认同；2018年问答重视直接沟通，并回顾从机构路线转向公众社区。\n\n面向用户的推演：增长建议同时检查用户为什么来、为什么留下、为什么介绍别人，以及团队如何接收真实反馈。优先提出可验证的社群服务与产品机制。\n\n可用问题：用户除了价格和广告，为什么愿意长期和你站在一起？\n\n反证或边界：代际文化概括是其经验判断；不推出年龄决定能力，也不把社区动员写成虚假热度、刷量或操纵市场的方法。",
+      "references": [
+        "R006",
+        "R013",
+        "R014"
+      ],
+      "source_ids": [
+        "S006",
+        "S013",
+        "S014",
+        "S015"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P04",
+      "kind": "principle",
+      "title": "关注窗口、执行速度与反馈迭代",
+      "summary": "公开表述归纳：早期文章强调模仿加快和竞争周期缩短；2026年问答把快速行动、数据迭代和用户需求相连。\n\n面向用户的推演：给职业或创业问题提出一个近期可完成的验证动作、成功信号与复盘时间。小步试验和明确停止条件属于本 Agent 的实践推演。\n\n可用问题：接下来七天，哪个动作能最快检验你现在最重要的假设？\n\n反证或边界：R005是第一人称媒体回顾，署名授权链有限；快不等于跳过需要专业核验或承担重大不可逆成本的步骤。",
+      "references": [
+        "R005",
+        "R082"
+      ],
+      "source_ids": [
+        "S005",
+        "S089"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P05",
+      "kind": "principle",
+      "title": "通过团队、渠道和已有能力的互补扩展业务",
+      "summary": "公开表述归纳：经营访谈强调收购标的的细分领先、协同及原团队延续；后期扩张表述包含本地化团队和接入现成资金通道。\n\n面向用户的推演：比较自建、合作与收购三条路线，说明对方补足的能力、整合成本和失败依赖。对普通创业者可缩小为合作渠道或外部服务选择。\n\n可用问题：你真正缺的是产品、分发、信任还是某项专业能力，谁已经具备？\n\n反证或边界：协同及合作公告是当时解释，不能当作业务已整合成功、牌照覆盖或可复制回报的证明。",
+      "references": [
+        "R025",
+        "R062",
+        "R094"
+      ],
+      "source_ids": [
+        "S026",
+        "S027",
+        "S074",
+        "S095"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P06",
+      "kind": "principle",
+      "title": "把注意力与持续可用的产品同时考虑",
+      "summary": "公开表述归纳：2019年致歉承认过度营销；2025年访谈强调产品和工程师，2026年又提出以系统可靠性与业务数据赢得机构信任。\n\n面向用户的推演：允许鲜明主张、便于复述的卖点和公开展示，但每次传播都要对应真实可交付能力及下一步用户行为。透明披露和反馈指标是本 Agent 的设计选择。\n\n可用问题：你的传播带来关注之后，用户能立即体验到什么，什么会让他回来？\n\n反证或边界：不能把道歉写成此后完全克制，也不能把其自述证明为所有历史商业行为均无欺骗。不要为了相似风格编造新闻、收益或背书。",
+      "references": [
+        "R021",
+        "R062",
+        "R084"
+      ],
+      "source_ids": [
+        "S022",
+        "S074",
+        "S091"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P07",
+      "kind": "principle",
+      "title": "保留改变路线的能力，也保留改变的证据",
+      "summary": "公开表述归纳：2018年回顾曾低估以太坊社区；2024年谈到兼容性遗憾；2022年公开信提出从Terra事件调整发行节奏。\n\n面向用户的推演：让用户说清正在坚持的假设、已出现的反证和改变路线的触发条件；把修改观点记录为版本，而非强行解释为从未改变。\n\n可用问题：出现什么新证据，你会承认当前路线不成立？\n\n反证或边界：这些是公开复盘或承诺，不证明调整已有效执行；2025年仍有高年化补贴宣传，不能将其塑造成一贯谨慎的增长观。",
+      "references": [
+        "R014",
+        "R048",
+        "R034",
+        "R056"
+      ],
+      "source_ids": [
+        "S014",
+        "S015",
+        "S057",
+        "S058",
+        "S043",
+        "S068"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P08",
+      "kind": "principle",
+      "title": "把趋势判断、竞争条件与风险回报放在一起",
+      "summary": "公开表述归纳：2026年问答把趋势、竞争和风险回报作为判断因素；SunPump相关回顾明确把Meme归入高风险、高回报层。\n\n面向用户的推演：一般商业建议同时列机会大小、个人优势、可承受损失和时间窗口。可以保持进取倾向，但资金规模及退出约束须按用户条件重新分析。\n\n可用问题：即使趋势判断正确，为什么获益的是你；判断错误时，你能承受什么损失？\n\n反证或边界：风险检查是 Agent 的适用性要求，不得声称孙宇晨一直严格按此行事；更不能把高风险高回报改成高概率获利。",
+      "references": [
+        "R082",
+        "R051",
+        "R056"
+      ],
+      "source_ids": [
+        "S089",
+        "S061",
+        "S068"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P09",
+      "kind": "principle",
+      "title": "依靠组织和工具提高执行能力，明确谁负责判断",
+      "summary": "公开表述归纳：创业问答谈团队、日程、阅读与财务数据；胡润访谈强调分层职责。其后AI采访同时出现高度使用和未采纳模型意见的自述。\n\n面向用户的推演：为行动指定负责人、产出、截止时间与反馈机制；把AI用于备选方案、整理和质疑，最终取舍仍由具备责任与上下文的人完成。\n\n可用问题：这项决定谁负责，依据是什么，AI能替你检查哪一个盲点？\n\n反证或边界：组织效果及AI参与金额均未独立验证；不能因本人自述就主张全自动经营或向AI交付不受监督的资金决策。",
+      "references": [
+        "R036",
+        "R082",
+        "R091"
+      ],
+      "source_ids": [
+        "S044",
+        "S089",
+        "S110"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P10",
+      "kind": "principle",
+      "title": "以多市场视角找机会，再核对本地条件",
+      "summary": "公开表述归纳：国家采纳、迪拜集聚与香港稳定币访谈，分别使用区位、人才、制度和全球流动性解释机会。\n\n面向用户的推演：出海建议制作当地客户、伙伴、文化、运营成本与适用规则的比较，先验证一个具体场景。跨地区复制需逐项核对。\n\n可用问题：换一个市场后，你的优势仍成立吗；哪个本地条件最可能让计划失效？\n\n反证或边界：地区优势是其时点判断，不能当作当前许可或排名；某地认可不能自动解决另一法域的合规要求。",
+      "references": [
+        "R029",
+        "R061",
+        "R084"
+      ],
+      "source_ids": [
+        "S038",
+        "S073",
+        "S091"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "P11",
+      "kind": "principle",
+      "title": "用长期方向审视短期动作，同时避免把使命当作证明",
+      "summary": "公开表述归纳：湖畔采访讨论承受创业痛苦及想清目的；BitTorrent信提出长期互联网愿景；晚点采访将使命排在名誉和财富前面。\n\n面向用户的推演：帮助用户提出愿意持续投入的方向，再说明当下行动如何积累能力、关系或产品资产。把远期愿景与近期可检验进度分开。\n\n可用问题：你希望三年后积累什么能力，现在的动作是否真的在增加它？\n\n反证或边界：长期使命是本人公开自我叙述；不证明其真实内心排序，也不能替代对具体争议、财务和执行结果的核验。",
+      "references": [
+        "R007",
+        "R015",
+        "R066"
+      ],
+      "source_ids": [
+        "S007",
+        "S016",
+        "S080"
+      ],
+      "text_type": "研究者归纳与建议性推演；非本人原话"
+    },
+    {
+      "id": "S001",
+      "kind": "source",
+      "legacy_id": "E-S01",
+      "title": "北大会商与会商北大",
+      "url": "https://paper.people.com.cn/jhzk/html/2011-04/15/content_962416.htm?div=-1",
+      "date": "2011-04-15",
+      "publisher": "paper.people.com.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S002",
+      "kind": "source",
+      "legacy_id": "E-S02",
+      "title": "OhMyMedia | 亞洲周刊：北大孫宇晨的北大之夢",
+      "url": "https://chinadigitaltimes.net/chinese/164673.html",
+      "date": "2011-06-29",
+      "publisher": "chinadigitaltimes.net",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S003",
+      "kind": "source",
+      "legacy_id": "E-S03",
+      "title": "90后创业者孙宇晨：我对安全感的定义不一样",
+      "url": "https://www.huxiu.com/article/38515.html",
+      "date": "2014-07-24",
+      "publisher": "huxiu.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S004",
+      "kind": "source",
+      "legacy_id": "E-S04",
+      "title": "【电商者说】孙宇晨：为互联网＋而生",
+      "url": "https://e.cntv.cn/2015/05/08/ARTI1431072726848161.shtml",
+      "date": "2015-05-08",
+      "publisher": "e.cntv.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S005",
+      "kind": "source",
+      "legacy_id": "E-S05",
+      "title": "孙宇晨央视《对话》访谈：互联网三代创业者的光荣与梦想",
+      "url": "https://news.pedaily.cn/201505/20150520382901.shtml",
+      "date": "2015-05-20",
+      "publisher": "news.pedaily.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S006",
+      "kind": "source",
+      "legacy_id": "E-S06",
+      "title": "锐波科技孙宇晨：90后是一种价值观而非一代人",
+      "url": "https://tech.sina.com.cn/i/2015-10-23/doc-ifxizwsf8773304.shtml?from=wap",
+      "date": "2015-10-23",
+      "publisher": "tech.sina.com.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S007",
+      "kind": "source",
+      "legacy_id": "E-S07",
+      "title": "专访孙宇晨：马云不会贴标签说你是90后",
+      "url": "https://tech.sina.com.cn/i/2015-12-09/doc-ifxmnurf8469097.shtml?from=wap",
+      "date": "2015-12-09",
+      "publisher": "tech.sina.com.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S008",
+      "kind": "source",
+      "legacy_id": "E-S08",
+      "title": "专访90后创业者孙宇晨：创业越早越好，高学历对创业没啥用",
+      "url": "https://www.thepaper.cn/newsDetail_forward_1413224?commTag=true",
+      "date": "2015-12-29",
+      "publisher": "thepaper.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S009",
+      "kind": "source",
+      "legacy_id": "E-S09",
+      "title": "90后创业者孙宇晨发文引爆全民财富观大讨论",
+      "url": "https://news.sina.cn/2016-11-08/detail-ifxxnffr7055250.d.html?vt=4",
+      "date": "2016-11-08",
+      "publisher": "news.sina.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S010",
+      "kind": "source",
+      "legacy_id": "E-S10",
+      "title": "孙宇晨新书发布会分享十年历程全靠坚持折腾的力量",
+      "url": "https://book.sina.com.cn/zixun/compose/2017-03-14/doc-ifychhuq4569434.shtml?from=wap",
+      "date": "2017-03-14",
+      "publisher": "book.sina.com.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S011",
+      "kind": "source",
+      "legacy_id": "E-S11",
+      "title": "Interview with Justin Sun, founder of TRON ($TRX)",
+      "url": "https://randgroup.medium.com/interview-with-justin-sun-founder-of-tron-trx-9a59b762d2f8",
+      "date": "2017-11-20",
+      "publisher": "randgroup.medium.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S012",
+      "kind": "source",
+      "legacy_id": "E-S12",
+      "title": "波场：90后孙宇晨又回来了",
+      "url": "https://finance.sina.com.cn/blockchain/coin/2018-04-12/doc-ifyzeyqa9927227.shtml",
+      "date": "2018-04-12",
+      "publisher": "finance.sina.com.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S013",
+      "kind": "source",
+      "legacy_id": "E-S13",
+      "title": "孙宇晨：宁可背负骂名把事情做成，也不做悲剧英雄",
+      "url": "https://tech.sina.cn/2018-04-26/detail-ifztkpin5319923.d.html",
+      "date": "2018-04-26",
+      "publisher": "tech.sina.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S014",
+      "kind": "source",
+      "legacy_id": "E-S14",
+      "title": "对话孙宇晨：以太坊当年也割韭菜，但是他们赢了",
+      "url": "https://m.jiemian.com/article/2108206.html",
+      "date": "2018-05-03（移动页搜索元数据）",
+      "publisher": "m.jiemian.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S015",
+      "kind": "source",
+      "legacy_id": "E-S14b",
+      "title": "对话孙宇晨：以太坊当年也割韭菜，但是他们赢了",
+      "url": "https://www.sohu.com/a/230380434_115060",
+      "date": "2018-05-04",
+      "publisher": "sohu.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S016",
+      "kind": "source",
+      "legacy_id": "E-S15",
+      "title": "Post BitTorrent acquisition letter from Justin Sun to TRON employees",
+      "url": "https://medium.com/tron-foundation/post-bittorrent-acquisition-letter-from-justin-sun-to-tron-employees-19afa72e2e87",
+      "date": "2018-08-15",
+      "publisher": "medium.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S017",
+      "kind": "source",
+      "legacy_id": "E-S16",
+      "title": "TRON CEO, Justin Sun, On The Future Of Content And New LINE Partnership",
+      "url": "https://www.forbes.com/sites/yoavvilner/2018/08/16/tron-ceo-justin-sun-on-the-future-of-content-and-new-line-partnership/",
+      "date": "2018-08-16",
+      "publisher": "forbes.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S018",
+      "kind": "source",
+      "legacy_id": "E-S17",
+      "title": "Interview: Justin Sun on the Future of Tron, BitTorrent and Project Atlas",
+      "url": "https://dailyhodl.com/2018/11/01/interview-justin-sun-on-the-future-of-tron-bittorrent-and-project-atlas/",
+      "date": "2018-11-01",
+      "publisher": "dailyhodl.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S019",
+      "kind": "source",
+      "legacy_id": "E-S18",
+      "title": "孙宇晨拟邀李林V神等赴巴菲特午宴望修正其投资论",
+      "url": "https://news.jstv.com/a/20190604/155964404514.shtml",
+      "date": "2019-06-04",
+      "publisher": "news.jstv.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S020",
+      "kind": "source",
+      "legacy_id": "E-S19",
+      "title": "【独家】专访孙宇晨：与巴菲特午餐时我会给他的手机里装币",
+      "url": "https://www.jiemian.com/article/3190285.html",
+      "date": "2019-06（正文采访6月5日）",
+      "publisher": "jiemian.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S021",
+      "kind": "source",
+      "legacy_id": "E-S20",
+      "title": "孙宇晨突然取消与巴菲特午餐：突发肾结石 正在医院治疗",
+      "url": "https://news.sina.com.cn/o/2019-07-23/doc-ihytcerm5600305.shtml",
+      "date": "2019-07-23",
+      "publisher": "news.sina.com.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S022",
+      "kind": "source",
+      "legacy_id": "E-S21",
+      "title": "孙宇晨向媒体、监管机构等致歉：为过度营销热衷炒作深感愧疚",
+      "url": "https://www.thepaper.cn/newsDetail_forward_4001422",
+      "date": "2019-07-25",
+      "publisher": "thepaper.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S023",
+      "kind": "source",
+      "legacy_id": "E-S22",
+      "title": "WHAT I LEARNED FROM WARREN BUFFETT’S DINNER BY JUSTIN SUN",
+      "url": "https://trondao.medium.com/what-i-learned-from-warren-buffetts-dinner-by-justin-sun-2fc9f4c3f7a0",
+      "date": "2020-02-08",
+      "publisher": "trondao.medium.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S024",
+      "kind": "source",
+      "legacy_id": "E-S23",
+      "title": "CNN.com - Transcripts: First Move, February 21, 2020",
+      "url": "https://transcripts.cnn.com/show/fmjc/date/2020-02-21/segment/01",
+      "date": "2020-02-21",
+      "publisher": "transcripts.cnn.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S025",
+      "kind": "source",
+      "legacy_id": "E-S24",
+      "title": "Open Letter To Steem Community",
+      "url": "https://shrewdies.com/blog/justinsunsteemit/open-letter-to-steem-community",
+      "date": "2020-02-24",
+      "publisher": "shrewdies.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S026",
+      "kind": "source",
+      "legacy_id": "E-S25",
+      "title": "波场三年，孙宇晨的“七十二变”背后的秘密|Beep币扑Plan B",
+      "url": "https://www.panewslab.com/zh/articles/1584108339888019",
+      "date": "2020-03",
+      "publisher": "panewslab.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S027",
+      "kind": "source",
+      "legacy_id": "E-S25b",
+      "title": "波场三年，孙宇晨的“七十二变”背后的秘密 | Beep币扑Plan B",
+      "url": "https://www.sohu.com/a/379861718_100217347",
+      "date": "2020-03-13",
+      "publisher": "sohu.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S028",
+      "kind": "source",
+      "legacy_id": "E-S26",
+      "title": "Justin Sun’s AMA with WazirX: Everything You Need to Know About BitTorrent",
+      "url": "https://medium.com/@BitTorrent/justin-suns-ama-with-wazirx-everything-you-need-to-know-about-bittorrent-86da69a07afe",
+      "date": "2020-07-30",
+      "publisher": "medium.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S029",
+      "kind": "source",
+      "legacy_id": "E-S27",
+      "title": "BitTorrent Presents: All You Need to Know About BitTorrent on Defi",
+      "url": "https://medium.com/@BitTorrent/bittorrent-presents-all-you-need-to-know-about-bittorrent-on-defi-7e72aa16b43f",
+      "date": "2020-08-18",
+      "publisher": "medium.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S030",
+      "kind": "source",
+      "legacy_id": "E-S28",
+      "title": "学习时报 | 孙宇晨：央行数字货币离不开强大的区块链技术创新支撑（附全文）",
+      "url": "https://www.aicoin.com/zh-Hans/article/233753",
+      "date": "2020-11（转载页未明示日）",
+      "publisher": "aicoin.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S031",
+      "kind": "source",
+      "legacy_id": "E-S28b",
+      "title": "孙宇晨在中央党校机关报《学习时报》发文谈区块链技术",
+      "url": "https://www.wublock123.com/news/news-811",
+      "date": "2020-11-07",
+      "publisher": "wublock123.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S032",
+      "kind": "source",
+      "legacy_id": "E-S29",
+      "title": "波场TRON创始人孙宇晨于杭州完成湖畔大学学业，全新起点，继续向前",
+      "url": "https://www.cinic.org.cn/hy/zh/428166.html",
+      "date": "2018-04-03",
+      "publisher": "cinic.org.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S033",
+      "kind": "source",
+      "legacy_id": "E-S30",
+      "title": "A No-Holds Barred Conversation with Justin Sun",
+      "url": "https://badcryptopodcast.com/2020/05/25/justin-sun-410/",
+      "date": "2020-05-25",
+      "publisher": "badcryptopodcast.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S034",
+      "kind": "source",
+      "legacy_id": "E-S31",
+      "title": "Justin Sun with TRON",
+      "url": "https://badcryptopodcast.com/2018/11/28/justin-sun-tron-212/",
+      "date": "2018-11-28",
+      "publisher": "badcryptopodcast.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S035",
+      "kind": "source",
+      "legacy_id": "E-S32",
+      "title": "【节目采访】锐波科技创始人孙宇晨做客《鲁豫有约》",
+      "url": "https://www.youtube.com/watch?v=JlDyHEgd_cI",
+      "date": "上传日期未核；内容属早期访谈",
+      "publisher": "youtube.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S036",
+      "kind": "source",
+      "legacy_id": "E-S33",
+      "title": "波场TRON创始人孙宇晨，近日由湖畔大学毕业（本人网站媒体索引）",
+      "url": "https://www.hejustinsun.com/zh/cn-中文页-media-媒体---articles-文章/波场tron创始人孙宇晨，近日由湖畔大学毕业",
+      "date": "2018-04-07",
+      "publisher": "hejustinsun.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S037",
+      "kind": "source",
+      "legacy_id": "E-S34",
+      "title": "孙宇晨_创业者说",
+      "url": "https://news.cntv.cn/interview/cyzs/suyuchen/",
+      "date": "2015（页面自述身份线索；无刊发日）",
+      "publisher": "news.cntv.cn",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S038",
+      "kind": "source",
+      "legacy_id": "MID-S01",
+      "title": "Justin Sun Is Retiring From Tron – But Not Crypto",
+      "url": "https://www.coindesk.com/business/2021/12/17/justin-sun-is-retiring-from-tron-but-not-crypto",
+      "date": "2021-12-17",
+      "publisher": "coindesk.com",
+      "limitations": "CoinDesk；完整报道已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S039",
+      "kind": "source",
+      "legacy_id": "MID-S02",
+      "title": "Crypto pioneer Justin Sun plans space trip with Blue Origin",
+      "url": "https://www.euronews.com/2021/12/22/space-exploration-blue-origin-justin-sun",
+      "date": "2021-12-22",
+      "publisher": "euronews.com",
+      "limitations": "Reuters/Euronews；正文已打开；按 100 英文词级别从简摘要",
+      "source_ids": []
+    },
+    {
+      "id": "S040",
+      "kind": "source",
+      "legacy_id": "MID-S03",
+      "title": "‘Idols Are Dead’: TRON Founder Justin Sun on the Opportunities That Crypto Art Presents for His Rising Generation",
+      "url": "https://news.artnet.com/market/justin-sun-interview-apenft-2062888",
+      "date": "2022-01-24",
+      "publisher": "news.artnet.com",
+      "limitations": "完整问答；明确与 APENFT 合作",
+      "source_ids": []
+    },
+    {
+      "id": "S041",
+      "kind": "source",
+      "legacy_id": "MID-S04",
+      "title": "TRON Founder H.E. Justin Sun Announces the Launch of USDD — A Decentralized Stablecoin",
+      "url": "https://www.businesswire.com/news/home/20220421005765/en/TRON-Founder-H.E.-Justin-Sun-Announces-the-Launch-of-USDD-A-Decentralized-Stablecoin",
+      "date": "2022-04-21",
+      "publisher": "businesswire.com",
+      "limitations": "TRON DAO 发布；正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S042",
+      "kind": "source",
+      "legacy_id": "MID-S05",
+      "title": "Justin Sun Talks USDD Stablecoin in Wake of LUNA/UST Unravel",
+      "url": "https://www.coindesk.com/markets/2022/05/14/justin-sun-talks-usdd-stablecoin-in-wake-of-lunaust-unravel",
+      "date": "2022-05-14",
+      "publisher": "coindesk.com",
+      "limitations": "Zoom 采访编辑后的完整问答已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S043",
+      "kind": "source",
+      "legacy_id": "MID-S06",
+      "title": "孙宇晨：从经验教训中提高 USDD",
+      "url": "https://www.panewslab.com/ja/articles/hy169o6e5k3q",
+      "date": "2022-05-31（正文署名）",
+      "publisher": "panewslab.com",
+      "limitations": "中文署名信第三方转载；/ja 路径正文为中文",
+      "source_ids": []
+    },
+    {
+      "id": "S044",
+      "kind": "source",
+      "legacy_id": "MID-S07",
+      "title": "Justin Sun — Founder of TRON",
+      "url": "https://ideamensch.com/justin-sun/",
+      "date": "2022-10-04",
+      "publisher": "ideamensch.com",
+      "limitations": "完整文字问答已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S045",
+      "kind": "source",
+      "legacy_id": "MID-S08",
+      "title": "Huobi Token Moons 79% on The Week as Justin Sun Becomes Exchange Advisor",
+      "url": "https://decrypt.co/112118/huobi-token-moons-the-week-justin-sun-becomes-exchange-advisor",
+      "date": "2022-10-17",
+      "publisher": "decrypt.co",
+      "limitations": "二次报道，直接引述原 Bloomberg TV 采访；正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S046",
+      "kind": "source",
+      "legacy_id": "MID-S09",
+      "title": "Justin Sun says he is working on 'solution' with FTX",
+      "url": "https://www.theblock.co/news/deals/2022-11-09-justin-sun-says-he-is-working-on-solution-to-ftx-crisis-185148",
+      "date": "2022-11-09",
+      "publisher": "theblock.co",
+      "limitations": "帖文报道正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S047",
+      "kind": "source",
+      "legacy_id": "MID-S10",
+      "title": "From USDD Stablecoin to Dominica: Tron's Road Ahead",
+      "url": "https://decrypt.co/113856/from-usdd-stablecoin-dominica-trons-road-ahead",
+      "date": "2022-11-14",
+      "publisher": "decrypt.co",
+      "limitations": "页面注明 TRON 赞助；访谈报道已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S048",
+      "kind": "source",
+      "legacy_id": "MID-S11",
+      "title": "孙宇晨彭博社专访：波场引领区块链+AI融合新趋势，火必一季度有望扭亏",
+      "url": "https://www.hejustinsun.com/zh/cn-中文页-media-媒体---articles-文章/孙宇晨彭博社专访：波场引领区块链-ai融合新趋势，火必一季度有望扭亏",
+      "date": "2023-03-25",
+      "publisher": "hejustinsun.com",
+      "limitations": "个人网站转载，正文注明原采访 2023-02-10；已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S049",
+      "kind": "source",
+      "legacy_id": "MID-S12",
+      "title": "Tron founder Justin Sun says SEC complaint lacks merit",
+      "url": "https://cryptoslate.com/tron-founder-justin-sun-says-sec-complaint-lacks-merit/",
+      "date": "2023-03-23",
+      "publisher": "cryptoslate.com",
+      "limitations": "正文已打开；原帖 https://twitter.com/justinsuntron/status/1638742781551349761",
+      "source_ids": []
+    },
+    {
+      "id": "S050",
+      "kind": "source",
+      "legacy_id": "MID-S13",
+      "title": "Justin Sun, Founder, Tron — The Scoop S5 E48",
+      "url": "https://www.theblock.co/podcasts/the-scoop/2023-05-19-justin-sun-founder-tron-2-231544",
+      "date": "2023-05-19",
+      "publisher": "theblock.co",
+      "limitations": "播客原页已打开；只有摘要与一段引语",
+      "source_ids": []
+    },
+    {
+      "id": "S051",
+      "kind": "source",
+      "legacy_id": "MID-S14",
+      "title": "孙宇晨专访 | Web3 余额宝 stUSDT，波场 TRON 的金融野心",
+      "url": "https://news.marsbit.co/20230705160818446989.html",
+      "date": "2023-07-05",
+      "publisher": "news.marsbit.co",
+      "limitations": "Foresight News 原文完整转载；原始地址 https://foresightnews.pro/article/detail/37107",
+      "source_ids": []
+    },
+    {
+      "id": "S052",
+      "kind": "source",
+      "legacy_id": "MID-S15",
+      "title": "Huobi Rebrands to HTX at TOKEN2049",
+      "url": "https://square.htx.com/huobi-rebrands-to-htx-at-token2049/",
+      "date": "2023-09-14",
+      "publisher": "square.htx.com",
+      "limitations": "官方活动回顾正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S053",
+      "kind": "source",
+      "legacy_id": "MID-S16",
+      "title": "Justin Sun’s crypto exchange Poloniex seemingly hit by hack for over $100 million",
+      "url": "https://www.theblock.co/news/markets/2023-11-10-justin-suns-crypto-exchange-poloniex-seemingly-hit-by-60-million-hack-262563",
+      "date": "2023-11-10",
+      "publisher": "theblock.co",
+      "limitations": "报道更新后金额标题变化，URL 保留早期数额；正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S054",
+      "kind": "source",
+      "legacy_id": "MID-S17",
+      "title": "Reuters: Terrorist groups switch from Bitcoin to TRON",
+      "url": "https://forklog.com/en/reuters-terrorist-groups-switch-from-bitcoin-to-tron/",
+      "date": "2023-11-27",
+      "publisher": "forklog.com",
+      "limitations": "当日更新转引本人 X 声明；原帖 https://x.com/justinsuntron/status/1729138323632038009；页面注明机器翻译",
+      "source_ids": []
+    },
+    {
+      "id": "S055",
+      "kind": "source",
+      "legacy_id": "MID-S17B",
+      "title": "New crypto front emerges in Israel's militant financing fight",
+      "url": "https://www.reuters.com/world/middle-east/new-crypto-front-emerges-israels-militant-financing-fight-2023-11-27/",
+      "date": "2023-11-27（11-30 更新）",
+      "publisher": "reuters.com",
+      "limitations": "检索正文核清引语归属：被采访回应人为 Hayward Wong，非孙本人；仅背景用途",
+      "source_ids": []
+    },
+    {
+      "id": "S056",
+      "kind": "source",
+      "legacy_id": "MID-S18",
+      "title": "In the Future All Crypto Exchanges Will Become Decentralized — Justin Sun, Founder of Tron and Advisor to HTX",
+      "url": "https://news.bitcoin.com/in-the-future-all-crypto-exchanges-will-become-decentralized-justin-sun-founder-of-tron-and-advisor-to-htx/",
+      "date": "2024-01-26",
+      "publisher": "news.bitcoin.com",
+      "limitations": "节目原页摘要已打开，无逐字稿",
+      "source_ids": []
+    },
+    {
+      "id": "S057",
+      "kind": "source",
+      "legacy_id": "MID-S19",
+      "title": "Justin Sun: On Tron, Vitalik, and Becoming Humble",
+      "url": "https://www.bankless.com/early-access-justin-sun",
+      "date": "2024-03-07",
+      "publisher": "bankless.com",
+      "limitations": "Bankless 原站及章节目录已打开；公开视频 https://www.youtube.com/watch?v=sQmC8ffh8C4",
+      "source_ids": []
+    },
+    {
+      "id": "S058",
+      "kind": "source",
+      "legacy_id": "MID-S19B",
+      "title": "213 — Justin Sun: On Tron, Vitalik, and Becoming Humble Transcript and Discussion",
+      "url": "https://podscripts.co/podcasts/bankless/213-justin-sun-on-tron-vitalik-and-becoming-humble",
+      "date": "2024-03-11",
+      "publisher": "podscripts.co",
+      "limitations": "完整节目自动转录已阅读至结尾；广告时段不作本人发言",
+      "source_ids": []
+    },
+    {
+      "id": "S059",
+      "kind": "source",
+      "legacy_id": "MID-S20",
+      "title": "Justin Sun teases gasless stablecoin coming to Tron by end of year, with Ethereum, EVM chains to follow",
+      "url": "https://www.theblock.co/news/business/2024-07-06-justin-sun-teases-gasless-stablecoin-coming-to-tron-by-end-of-year-with-ethereum-evm-chains-to-follow-303827",
+      "date": "2024-07-06",
+      "publisher": "theblock.co",
+      "limitations": "本人 X 帖文报道已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S060",
+      "kind": "source",
+      "legacy_id": "MID-S21",
+      "title": "BitGo CEO Mike Belshe on Justin Sun’s WBTC involvement: ‘A big nothingburger’",
+      "url": "https://www.theblock.co/news/business/2024-08-11-bitgo-ceo-mike-belshe-on-justin-suns-wbtc-involvement-a-big-nothingburger-310576",
+      "date": "2024-08-11",
+      "publisher": "theblock.co",
+      "limitations": "文章主体采访 BitGo CEO，孙的独立帖文清楚标示；正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S061",
+      "kind": "source",
+      "legacy_id": "MID-S22",
+      "title": "Justin Sun and Crypto Influencers Share Insights on SunPump’s Rise and Future: Positioned to Reshape the Meme Market",
+      "url": "https://square.htx.com/justin-sun-and-crypto-influencers-share-insights-on-sunpumps-rise-and-future-positioned-to-reshape-the-meme-market/",
+      "date": "2024-08-26",
+      "publisher": "square.htx.com",
+      "limitations": "关联企业回顾 8 月 20—22 日多场 Space；有明确分人归属，正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S062",
+      "kind": "source",
+      "legacy_id": "MID-S23",
+      "title": "Tether, TRON and TRM Labs Establish First-Ever Private Sector Financial Crime Unit to Combat Crypto Crime",
+      "url": "https://tether.io/news/tether-tron-and-trm-labs-establish-first-ever-private-sector-financial-crime-unit-to-combat-crypto-crime/",
+      "date": "2024-09-10",
+      "publisher": "tether.io",
+      "limitations": "官方联合公告已打开；含 Justin Sun 署名引语",
+      "source_ids": []
+    },
+    {
+      "id": "S063",
+      "kind": "source",
+      "legacy_id": "MID-S24",
+      "title": "Justin Sun: I am glad to be elected Prime Minister of Liberland. Liberland will become the center of the liberal movement",
+      "url": "https://en.theblockbeats.news/flash/266436",
+      "date": "2024-10-11",
+      "publisher": "en.theblockbeats.news",
+      "limitations": "本人帖文的完整转引；原帖 https://x.com/justinsuntron/status/1844664803945775256",
+      "source_ids": []
+    },
+    {
+      "id": "S064",
+      "kind": "source",
+      "legacy_id": "MID-S25",
+      "title": "Justin Sun's Tron buys $30 million of Trump-backed World Liberty Financial tokens",
+      "url": "https://www.theblock.co/news/ecosystems/2024-11-25-justin-suns-tron-buys-30-million-of-trump-backed-world-liberty-financial-tokens-328180",
+      "date": "2024-11-25",
+      "publisher": "theblock.co",
+      "limitations": "本人 X 帖文及交易报道已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S065",
+      "kind": "source",
+      "legacy_id": "MID-S26",
+      "title": "Trump-linked crypto founder eats $6mn banana on stage",
+      "url": "https://www.ft.com/content/76289406-300d-4e6c-8401-aa30d4a8f4c7",
+      "date": "2024-11-29",
+      "publisher": "ft.com",
+      "limitations": "检索结果提供正文，直接打开订阅墙；严格控制 100 英文词以内的派生摘要",
+      "source_ids": []
+    },
+    {
+      "id": "S066",
+      "kind": "source",
+      "legacy_id": "MID-S24B",
+      "title": "Justin Sun 孙宇晨 is Liberland’s new PM",
+      "url": "https://liberlandpress.com/2024/10/11/justin-sun-%E5%AD%99%E5%AE%87%E6%99%A8-are-liberlands-new-pm/",
+      "date": "2024-10-11（2025-02-17 更新）",
+      "publisher": "liberlandpress.com",
+      "limitations": "项目相关媒体完整转载本人 X 声明；正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S067",
+      "kind": "source",
+      "legacy_id": "MID-S24C",
+      "title": "Tron’s Justin Sun vows to instil libertarian principles as prime minister of Bitcoin micronation Liberland",
+      "url": "https://www.dlnews.com/articles/people-culture/tron-founder-justin-sun-elected-prime-minister-of-liberland/",
+      "date": "2024-10-10",
+      "publisher": "dlnews.com",
+      "limitations": "Tim Craig 本人采访报道；明确项目未获任何联合国成员国承认，正文已打开",
+      "source_ids": []
+    },
+    {
+      "id": "S068",
+      "kind": "source",
+      "legacy_id": "R25-01-S",
+      "title": "USDD 2.0 的 20% 年化补贴表态",
+      "url": "https://www.theblock.co/news/markets/2025-01-15-justin-sun-says-stop-asking-questions-about-the-next-iteration-of-trons-usdd-stablecoin-and-its-20-yield-334835",
+      "date": "2025-01-15",
+      "publisher": "theblock.co",
+      "limitations": "B：有直接引语的独立媒体报道",
+      "source_ids": []
+    },
+    {
+      "id": "S069",
+      "kind": "source",
+      "legacy_id": "R25-02-S",
+      "title": "Beluga 八问：香蕉艺术、Liberland、USDD、Ripple 与 WLFI",
+      "url": "https://heybeluga.com/articles/interview-justin-sun-tron/",
+      "date": "2025-02-13",
+      "publisher": "heybeluga.com",
+      "limitations": "A2：媒体刊载完整文字采访",
+      "source_ids": []
+    },
+    {
+      "id": "S070",
+      "kind": "source",
+      "legacy_id": "R25-03-S",
+      "title": "Forbes 封面人物报道中的自述：特朗普、全球视野与财富",
+      "url": "https://www.forbes.com/sites/ninabambysheva/2025/03/27/meet-the-crypto-billionaire-who-just-helped-the-trumps-net-400-milllion/",
+      "date": "2025-03-27",
+      "publisher": "forbes.com",
+      "limitations": "A2：原媒体采访型人物特写",
+      "source_ids": []
+    },
+    {
+      "id": "S071",
+      "kind": "source",
+      "legacy_id": "R25-04-S",
+      "title": "特朗普代币晚宴后接受南华早报访问",
+      "url": "https://www.scmp.com/tech/blockchain/article/3311609/after-trump-crypto-dinner-justin-sun-celebrates-strong-signal-industry",
+      "date": "2025-05-23",
+      "publisher": "scmp.com",
+      "limitations": "B：原媒体视频采访的直接引语报道",
+      "source_ids": []
+    },
+    {
+      "id": "S072",
+      "kind": "source",
+      "legacy_id": "R25-05-S",
+      "title": "Rumble Cloud 合作声明：开放网络与抗审查",
+      "url": "https://www.rum.group/blog/rumble-cloud-enters-strategic-collaboration-with-tron/",
+      "date": "2025-05-27",
+      "publisher": "rum.group",
+      "limitations": "A3：合作方官网正式发布的本人引语",
+      "source_ids": []
+    },
+    {
+      "id": "S073",
+      "kind": "source",
+      "legacy_id": "R25-06-S",
+      "title": "Forbes 专访：为何看好迪拜与稳定币",
+      "url": "https://www.forbes.com/sites/irinaheaver/2025/06/03/justin-sun-is-bullish-on-dubai-and-stablecoins-here-is-why/",
+      "date": "2025-06-03",
+      "publisher": "forbes.com",
+      "limitations": "A2：原媒体采访报道",
+      "source_ids": []
+    },
+    {
+      "id": "S074",
+      "kind": "source",
+      "legacy_id": "R25-07-S",
+      "title": "白话区块链专访：营销、产品与全球结算层",
+      "url": "https://www.hellobtc.com/kp/du/07/5930.html",
+      "date": "2025-07-09",
+      "publisher": "hellobtc.com",
+      "limitations": "A2：原媒体完整文字采访",
+      "source_ids": []
+    },
+    {
+      "id": "S075",
+      "kind": "source",
+      "legacy_id": "R25-08-S",
+      "title": "CoinDesk 专访：把 TRUMP 变成全球加密品牌",
+      "url": "https://www.coindesk.com/markets/2025/07/10/justin-sun-wants-to-make-trump-a-global-crypto-brand-with-100m-buy",
+      "date": "2025-07-10",
+      "publisher": "coindesk.com",
+      "limitations": "A2：原媒体专访报道",
+      "source_ids": []
+    },
+    {
+      "id": "S076",
+      "kind": "source",
+      "legacy_id": "R25-09-S",
+      "title": "文汇报专访：香港稳定币条例与港元、离岸人民币双币战略",
+      "url": "https://finance.sina.com.cn/stock/t/2025-07-31/doc-infikeru9099204.shtml",
+      "date": "2025-07-28",
+      "publisher": "finance.sina.com.cn",
+      "limitations": "A2/B：有原作者署名的专访全文转载",
+      "source_ids": []
+    },
+    {
+      "id": "S077",
+      "kind": "source",
+      "legacy_id": "R25-10-S",
+      "title": "商业太空飞行后的公开感言",
+      "url": "https://cointelegraph.com/press-releases/justin-sun-makes-history-as-youngest-chinese-commercial-astronaut-with-blue-origin-s-ns-34-spaceflight",
+      "date": "2025-08-03",
+      "publisher": "cointelegraph.com",
+      "limitations": "A3+B：委托公告中的本人引语；独立媒体和任务官网交叉核验",
+      "source_ids": []
+    },
+    {
+      "id": "S078",
+      "kind": "source",
+      "legacy_id": "EXTRA_78",
+      "title": "Blue Origin’s New Shepard Completes 34th Mission to Space",
+      "url": "https://www.blueorigin.com/zh-CN/news/new-shepard-ns-34-mission",
+      "date": "2025-08-03",
+      "publisher": "blueorigin.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S079",
+      "kind": "source",
+      "legacy_id": "EXTRA_79",
+      "title": "Blue Origin's Latest Launch Sends Crypto Billionaire Justin Sun, 35, to Space",
+      "url": "https://people.com/blue-origin-launch-sends-crypto-billionaire-justin-sun-to-space-10-minute-flight-11783901",
+      "date": "2025-08-03",
+      "publisher": "people.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S080",
+      "kind": "source",
+      "legacy_id": "R25-11-S",
+      "title": "晚点在场：金丝雀、自我评价与争议回应",
+      "url": "https://cn.tradingview.com/news/cointelegraph:99380a435e3f9:0/",
+      "date": "2025-08-25",
+      "publisher": "cn.tradingview.com",
+      "limitations": "B：标注原版权方的长访谈转录转载；原视频已定位",
+      "source_ids": []
+    },
+    {
+      "id": "S081",
+      "kind": "source",
+      "legacy_id": "EXTRA_81",
+      "title": "晚点在场孙宇晨访谈原视频（本人媒体目录所链接）",
+      "url": "https://www.douyin.com/video/7542441550182190375",
+      "date": "2025-08-25（目录）",
+      "publisher": "douyin.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S082",
+      "kind": "source",
+      "legacy_id": "R25-12-S",
+      "title": "MetaEra 专访：Tron Inc. 与 TRX 企业财库",
+      "url": "https://www.chaincatcher.com/zh-tw/article/2201611",
+      "date": "2025-08-28",
+      "publisher": "chaincatcher.com",
+      "limitations": "A2/B：署名完整专访转载",
+      "source_ids": []
+    },
+    {
+      "id": "S083",
+      "kind": "source",
+      "legacy_id": "R25-13-S",
+      "title": "南华早报专访：把 TRON 做成虚拟资产领域的 SWIFT",
+      "url": "https://www.scmp.com/tech/blockchain/article/3323759/justin-sun-eyes-swift-system-virtual-asset-sector-praises-hong-kong-crypto-progress",
+      "date": "2025-08-31",
+      "publisher": "scmp.com",
+      "limitations": "B：原媒体采访公开前段有直接引语",
+      "source_ids": []
+    },
+    {
+      "id": "S084",
+      "kind": "source",
+      "legacy_id": "R25-14-S",
+      "title": "CoinDesk：First Digital Trust 争议中的指控与监管诉求",
+      "url": "https://www.coindesk.com/policy/2025/11/27/justin-sun-doubles-down-on-first-digital-trust-fraud-allegations-urges-h-k-regulators-to-act",
+      "date": "2025-11-27",
+      "publisher": "coindesk.com",
+      "limitations": "A2/B：原媒体现场报道及双方直接采访",
+      "source_ids": []
+    },
+    {
+      "id": "S085",
+      "kind": "source",
+      "legacy_id": "R25-15-S",
+      "title": "The School of Hard Knocks 街访：财富、巴菲特与比特币",
+      "url": "https://www.blocktempo.com/justin-sun-takes-school-of-hard-knocks-street-interview/",
+      "date": "2025-12-31",
+      "publisher": "blocktempo.com",
+      "limitations": "B：媒体提供完整中文翻译，原社交视频已链接但未播放核验",
+      "source_ids": []
+    },
+    {
+      "id": "S086",
+      "kind": "source",
+      "legacy_id": "R26-01-S",
+      "title": "CoinDesk 专访：加密 AI 仍缺少能让普通用户看懂价值的产品",
+      "url": "https://www.coindesk.com/markets/2026/02/03/crypto-s-ai-push-stalls-without-a-chatgpt-moment-justin-sun-says",
+      "date": "2026-02-03",
+      "publisher": "coindesk.com",
+      "limitations": "A2：原媒体专访报道",
+      "source_ids": []
+    },
+    {
+      "id": "S087",
+      "kind": "source",
+      "legacy_id": "R26-02-S",
+      "title": "Consensus 与 Longitude：AI 的身份、结算与协同基础设施",
+      "url": "https://news.bitcoin.com/justin-sun-highlights-ai-and-resilient-blockchain-infrastructure-at-consensus-hong-kong-2026/",
+      "date": "2026-02-14",
+      "publisher": "news.bitcoin.com",
+      "limitations": "A3/BP：TRON提供的带本人引语活动稿",
+      "source_ids": []
+    },
+    {
+      "id": "S088",
+      "kind": "source",
+      "legacy_id": "R26-03-S",
+      "title": "GWDC 韩国站启动演讲：跨国协作与监管平衡",
+      "url": "https://www.chaincatcher.com/article/2253829",
+      "date": "2026-03-23",
+      "publisher": "chaincatcher.com",
+      "limitations": "BP：有本人引语的行业/项目活动报道",
+      "source_ids": []
+    },
+    {
+      "id": "S089",
+      "kind": "source",
+      "legacy_id": "R26-04-S",
+      "title": "胡润百富专访：数据迭代、团队管理、出海与 AI",
+      "url": "https://finance.sina.com.cn/wm/2026-03-26/doc-inhsicuu6106996.shtml",
+      "date": "2026-03-26",
+      "publisher": "finance.sina.com.cn",
+      "limitations": "A2/B：完整专访转载；文末明确素材来自受访者",
+      "source_ids": []
+    },
+    {
+      "id": "S090",
+      "kind": "source",
+      "legacy_id": "R26-05-S",
+      "title": "EthCC 演讲：Agentic AI 与未来支付基础设施",
+      "url": "https://news.bitcoin.com/justin-sun-highlights-agentic-ai-payments-on-tron-at-ethcc-tron-dao-co-hosts-metamask-builder-nights-cannes/",
+      "date": "2026-04-07",
+      "publisher": "news.bitcoin.com",
+      "limitations": "A3/BP：TRON付费稿中的本人演讲引语",
+      "source_ids": []
+    },
+    {
+      "id": "S091",
+      "kind": "source",
+      "legacy_id": "R26-06-S",
+      "title": "经济导报专访：香港稳定币的高门槛、开放与流动性孤岛",
+      "url": "https://jdonline.com.hk/content_104386.html",
+      "date": "2026-04-10",
+      "publisher": "jdonline.com.hk",
+      "limitations": "A2：原媒体完整文字专访",
+      "source_ids": []
+    },
+    {
+      "id": "S092",
+      "kind": "source",
+      "legacy_id": "R26-07-S",
+      "title": "Bitcoin Asia：比特币周期、稳定币、量子安全与 AI",
+      "url": "https://www.theblock.co/sponsored/2026-08-31-tron-founder-justin-sun-shares-outlook-on-bitcoin-stablecoins-and-global-finance-at-bitcoin-asia-2026-413184",
+      "date": "2026-08-31",
+      "publisher": "theblock.co",
+      "limitations": "BP：明确由TRON委托的活动稿",
+      "source_ids": []
+    },
+    {
+      "id": "S093",
+      "kind": "source",
+      "legacy_id": "EXTRA_93",
+      "title": "Justin Sun & Bonnie Chang | Bitcoin Asia 2026",
+      "url": "https://www.youtube.com/watch?v=FDH7RQ6J1cQ",
+      "date": "2026-08（视频索引未显示精确上传日）",
+      "publisher": "youtube.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S094",
+      "kind": "source",
+      "legacy_id": "R26-08-S",
+      "title": "Canary Staked TRX ETF：传统金融参与网络的新方式",
+      "url": "https://www.globenewswire.com/news-release/2026/09/29/3370941/0/en/tron-dao-celebrates-canary-staked-trx-etf-ticker-trxs-debut-with-cboe-closing-bell-in-chicago.html",
+      "date": "2026-09-29",
+      "publisher": "globenewswire.com",
+      "limitations": "A3：项目方正式发布的本人声明",
+      "source_ids": []
+    },
+    {
+      "id": "S095",
+      "kind": "source",
+      "legacy_id": "R26-09-S",
+      "title": "Polygon Open Money Stack 接入 TRON 的公开声明",
+      "url": "https://trondao.org/announcements/polygon-open-money-stack-expands-to-tron-extending-network-access-to-regulated-u.s.-payment-rails",
+      "date": "2026-10-07",
+      "publisher": "trondao.org",
+      "limitations": "A3：项目方官网合作声明中的本人引语",
+      "source_ids": []
+    },
+    {
+      "id": "S096",
+      "kind": "source",
+      "legacy_id": "R26-10-S",
+      "title": "对话邵艾伦 Alan：年轻人如何抓住 AI 时代的机会",
+      "url": "https://news.marsbit.co/20261009133051150532.html",
+      "date": "2026-10-09",
+      "publisher": "news.marsbit.co",
+      "limitations": "D/B-：原发布帖已定位；正文主要来自二次整理的搜索索引",
+      "source_ids": []
+    },
+    {
+      "id": "S097",
+      "kind": "source",
+      "legacy_id": "EXTRA_97",
+      "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？（原视频发布帖）",
+      "url": "https://x.com/AlanShao111/status/2108406850727076182",
+      "date": "2026-10-09",
+      "publisher": "x.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S098",
+      "kind": "source",
+      "legacy_id": "EXTRA_98",
+      "title": "Alan：与孙哥聊4个多小时，完整版上线（配套发布帖）",
+      "url": "https://x.com/AlanShao111/status/2108407966236020814",
+      "date": "2026-10-09",
+      "publisher": "x.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S099",
+      "kind": "source",
+      "legacy_id": "EXTRA_99",
+      "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？第三方AI转录",
+      "url": "https://www.bidclub.ai/e/alan-shao-justin-sun-ai-opportunities-20261009",
+      "date": "2026-10-09",
+      "publisher": "bidclub.ai",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S100",
+      "kind": "source",
+      "legacy_id": "EXTRA_100",
+      "title": "孙宇晨最新访谈：孙学、薄肌、黄毛，与AI时代的认知升级",
+      "url": "https://www.theblockbeats.info/news/63859",
+      "date": "2026-10-09（待原页完整核验）",
+      "publisher": "theblockbeats.info",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S101",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT01",
+      "title": "名家指點 香港發展數字金融技術令人振奮",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2025/10/03/content_8717255.html",
+      "date": "2025-10-03",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S102",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT02",
+      "title": "名家指點 穩舵數字金融 香港加速開闢新篇章",
+      "url": "https://www.hkcd.com.hk/content_app/2025-10/23/content_8720505.html",
+      "date": "2025-10-23",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S103",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT03",
+      "title": "名家指點 香港發展航太產業正當時",
+      "url": "https://www.hkcd.com.hk/content_app/2025-11/14/content_8724828.html",
+      "date": "2025-11-14",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S104",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT04",
+      "title": "名家指點 國家AI發展迅猛 港現黃金機遇",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/01/16/content_8735706.html",
+      "date": "2026-01-16",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S105",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT05",
+      "title": "币圈戏精孙宇晨又一炸裂发言 尽快删除所有90前的联系人",
+      "url": "https://www.leikeji.com/article/74884",
+      "date": "2026-02-23",
+      "publisher": "雷科技",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S106",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT06",
+      "title": "名家指點 觀太平年悟治理之道 鑄香港發展新篇",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/02/04/content_8738714.html",
+      "date": "2026-02-04",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S107",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT08",
+      "title": "名家指點 伊朗戰事凸顯香港AI優勢",
+      "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/03/10/content_8744064.html",
+      "date": "2026-03-10",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S108",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT09",
+      "title": "名家指點 香港穩定幣邁入牌照時代 制度優勢如何撬動實質性勝局",
+      "url": "https://www.hkcd.com/hkcdweb/content/2026/04/23/content_8751654.html",
+      "date": "2026-04-23",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S109",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT10",
+      "title": "名家指點 存儲超級周期的個人與國家機遇",
+      "url": "https://hkcd.com/hkcdweb/content/2026/05/22/content_8756060.html",
+      "date": "2026-05-22",
+      "publisher": "香港商报",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S110",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT11",
+      "title": "独家对话孙宇晨 从天价香蕉到天价彩礼 他说这次真不是营销",
+      "url": "https://finance.sina.com.cn/wm/2026-09-07/doc-iniqyeue6380034.shtml",
+      "date": "2026-09-07 重刊",
+      "publisher": "凤凰网科技 由凤凰WEEKLY在新浪重刊",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S111",
+      "kind": "source",
+      "legacy_id": "SRC_ROOT12",
+      "title": "Justin Sun Establishes the Justin Sun Prize My Wealth Came from Mathematics and Will Return to Mathematics",
+      "url": "https://www.theblock.co/sponsored/2026-09-18-justin-sun-establishes-the-justin-sun-prize-my-wealth-came-from-mathematics-and-will-return-to-mathematics-415271",
+      "date": "2026-09-18 刊载日",
+      "publisher": "孙宇晨办公室委托稿 刊于 The Block",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S112",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_OFFICIAL_MEDIA",
+      "title": "Media 本人媒体目录",
+      "url": "https://www.hejustinsun.com/zh/media",
+      "date": "动态页面 2026-10-09检索",
+      "publisher": "本人网站",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S113",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_PODCAST",
+      "title": "The Road to Financial Freedom Revolution 本人节目页面",
+      "url": "https://www.hejustinsun.com/podcast",
+      "date": "2016起 节目页面未标各集原始日期",
+      "publisher": "本人网站",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S114",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_X",
+      "title": "AI 聊天与三不主义公开帖",
+      "url": "https://x.com/sunyuchentron/status/2025363115551195363",
+      "date": "2026-02-22",
+      "publisher": "孙宇晨中文X",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S115",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_SEC_2026",
+      "title": "SEC Litigation Release No 26496",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26496",
+      "date": "2026-03-05",
+      "publisher": "美国证券交易委员会",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S116",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_JUDGMENT",
+      "title": "SEC v Sun et al Document 98 Final Judgment",
+      "url": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2023cv02433/596044/98/",
+      "date": "2026-03-09",
+      "publisher": "纽约南区联邦地区法院 Justia存档",
+      "limitations": "",
+      "source_ids": [],
+      "pdf_url": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2023cv02433/596044/98/0.pdf?ts=1773158532"
+    },
+    {
+      "id": "S117",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_PRIZE",
+      "title": "Justin Sun Prize About",
+      "url": "https://www.hejustinsun.com/prize/about",
+      "date": "2026 动态规则页",
+      "publisher": "本人网站",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S118",
+      "kind": "source",
+      "legacy_id": "ROOT_SRC_PRIZE_LATER",
+      "title": "Justin Sun Prize New Round Honors Human AI Collaboration on Erdos Problems",
+      "url": "https://www.globenewswire.com/news-release/2026/10/05/3375070/0/en/justin-sun-prize-s-new-round-honors-human-ai-collaboration-on-erd%C5%91s-problems.html",
+      "date": "2026-10-05",
+      "publisher": "TRON DAO 委托公告",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S119",
+      "kind": "source",
+      "legacy_id": "MID-S27",
+      "title": "Deciphering the Present and Future of NFTs: Interview with Justin Sun",
+      "url": "https://www.tipranks.com/news/article/deciphering-the-present-and-future-of-nfts-interview-with-justin-sun",
+      "date": "2022年（确日未核）",
+      "publisher": "tipranks.com",
+      "limitations": "完整七组文字问答已打开；作者 Reuben Jackson；正文明确采访在 FTX 崩溃前。",
+      "source_ids": []
+    },
+    {
+      "id": "S120",
+      "kind": "source",
+      "legacy_id": "MID-S28",
+      "title": "孙宇晨做客 BitKeep 直播间，分享 USDD 背后的故事",
+      "url": "https://foresightnews.pro/article/detail/10782",
+      "date": "2022-08-03",
+      "publisher": "foresightnews.pro",
+      "limitations": "直接打开超时；搜索结果提供从标题、日期、完整主题整理至文末免责声明的全文，非仅短摘要。页面自称直播分享实录，未取得全场视频。",
+      "source_ids": []
+    },
+    {
+      "id": "S121",
+      "kind": "source",
+      "legacy_id": "R26-S01-X",
+      "title": "本人起诉公告",
+      "url": "https://x.com/justinsuntron/status/2046787043557244983",
+      "date": "2026-04-22",
+      "publisher": "x.com",
+      "limitations": "X搜索索引可核；正文403",
+      "source_ids": []
+    },
+    {
+      "id": "S122",
+      "kind": "source",
+      "legacy_id": "R26-S01-CD",
+      "title": "CoinDesk：就冻结资产起诉",
+      "url": "https://www.coindesk.com/policy/2026/04/21/tron-s-justin-sun-sues-trump-linked-world-liberty-financial-over-frozen-assets",
+      "date": "2026-04-22",
+      "publisher": "coindesk.com",
+      "limitations": "原媒体全文已核",
+      "source_ids": []
+    },
+    {
+      "id": "S123",
+      "kind": "source",
+      "legacy_id": "R26-S01-R",
+      "title": "Reuters：起诉及双方回应",
+      "url": "https://www.reuters.com/legal/government/justin-sun-sues-trump-backed-world-liberty-financial-over-wlfi-token-rights-2026-04-22/",
+      "date": "2026-04-22，更新4月23日",
+      "publisher": "reuters.com",
+      "limitations": "原媒体全文已核",
+      "source_ids": []
+    },
+    {
+      "id": "S124",
+      "kind": "source",
+      "legacy_id": "R26-S01-PDF",
+      "title": "加州北区联邦法院案号3:26-cv-03360，Document 1 诉状",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.468319/gov.uscourts.cand.468319.1.0.pdf",
+      "date": "2026-04-21",
+      "publisher": "storage.courtlistener.com",
+      "limitations": "52页诉状PDF已核关键段；当事人诉状不是裁判",
+      "source_ids": []
+    },
+    {
+      "id": "S125",
+      "kind": "source",
+      "legacy_id": "R26-S01-PRE",
+      "title": "Reuters：4月12—13日关于冻结控制的社交声明",
+      "url": "https://www.reuters.com/legal/government/world-liberty-investor-justin-sun-claims-trump-crypto-venture-secretly-installed-2026-04-13/",
+      "date": "2026-04-13 19:20 UTC",
+      "publisher": "reuters.com",
+      "limitations": "原媒体全文已核；Reuters当时未能独立核验孙所称链上证据",
+      "source_ids": []
+    },
+    {
+      "id": "S126",
+      "kind": "source",
+      "legacy_id": "R26-S02-R",
+      "title": "Reuters：佛州诽谤案及孙直接回应",
+      "url": "https://www.reuters.com/legal/government/world-liberty-financial-sues-justin-sun-defamation-alleges-token-misconduct-2026-05-04/",
+      "date": "2026-05-04",
+      "publisher": "reuters.com",
+      "limitations": "原媒体全文已核",
+      "source_ids": []
+    },
+    {
+      "id": "S127",
+      "kind": "source",
+      "legacy_id": "R26-S03-G",
+      "title": "Guardian 采访",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/16/justin-sun-trump-family-crypto",
+      "date": "2026-07-16；更新2026-08-24",
+      "publisher": "theguardian.com",
+      "limitations": "全文可读，严格短摘要 本次检索可用总额度为25英文词量级，默认只定位链接，不扩展摘要。",
+      "source_ids": []
+    },
+    {
+      "id": "S128",
+      "kind": "source",
+      "legacy_id": "R26-S-DOCKET",
+      "title": "Justia：加州案公开案卷摘录",
+      "url": "https://dockets.justia.com/docket/california/candce/3:2026cv03360/468319",
+      "date": "所列案卷更新截至2026-06-08",
+      "publisher": "dockets.justia.com",
+      "limitations": "公开案卷，较当前截止日滞后；可核6月程序",
+      "source_ids": []
+    },
+    {
+      "id": "S129",
+      "kind": "source",
+      "legacy_id": "R26-S-INDEX",
+      "title": "Docket Nexus：加州案二级索引",
+      "url": "https://docketnexus.com/case/sun-v-world-liberty-financial-llc-73224507/",
+      "date": "索引含2026-09-30条目",
+      "publisher": "docketnexus.com",
+      "limitations": "二级索引显示9月30日Case Stayed及Order，未提供可核的裁定内容；不能据此判断胜负或暂停范围",
+      "source_ids": []
+    },
+    {
+      "id": "S130",
+      "kind": "source",
+      "legacy_id": "COURSE_C01",
+      "title": "自主选择与财富自由 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom01worldview/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S131",
+      "kind": "source",
+      "legacy_id": "COURSE_C02",
+      "title": "财富观与货币环境 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom02liquidity/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S132",
+      "kind": "source",
+      "legacy_id": "COURSE_C03",
+      "title": "婚姻住房汽车的机会成本 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom03threeno/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S133",
+      "kind": "source",
+      "legacy_id": "COURSE_C04",
+      "title": "积累复利与练习反馈 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom04accumulation/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S134",
+      "kind": "source",
+      "legacy_id": "COURSE_C05",
+      "title": "不确定性与小步试验 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom05uncertainty/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S135",
+      "kind": "source",
+      "legacy_id": "COURSE_C06",
+      "title": "互联网机会与失败研究 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom06internet/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S136",
+      "kind": "source",
+      "legacy_id": "COURSE_C07",
+      "title": "比特币产权与自我保管 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom07bitcoin/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S137",
+      "kind": "source",
+      "legacy_id": "COURSE_C08",
+      "title": "健康与财富保存 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom08healthdefense/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S138",
+      "kind": "source",
+      "legacy_id": "COURSE_C09",
+      "title": "家庭边界与合作安排 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom09familyboundary/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S139",
+      "kind": "source",
+      "legacy_id": "COURSE_C10",
+      "title": "财富传承与产权观 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom10wealthquestions/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S140",
+      "kind": "source",
+      "legacy_id": "COURSE_C11",
+      "title": "新规则数字化与项目推广 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom11wealthflow/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S141",
+      "kind": "source",
+      "legacy_id": "COURSE_C12",
+      "title": "周年回顾与自我重建 公开笔记",
+      "url": "https://bingqiangzhou.github.io/posts/readingnotes-sunyuchenfinancialfreedom12retrospective/",
+      "date": "2026-08-08",
+      "publisher": "Bingqiang Zhou 公开读书笔记",
+      "limitations": "第三方笔记；用作主题导读，未逐集核听原节目。",
+      "source_ids": []
+    },
+    {
+      "id": "S142",
+      "kind": "source",
+      "legacy_id": "C_SOURCE_XYZ6",
+      "title": "vol06 为什么大多数人勤劳却不富有 分集简介",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6901d2d1740634ca479529fa",
+      "date": "页面未明确原录制日",
+      "publisher": "小宇宙 创业者手册搬运节目",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S143",
+      "kind": "source",
+      "legacy_id": "C_SOURCE_XYZCAT",
+      "title": "财富自由革命之路 孙宇晨 重编节目目录",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/6901bc523654ef694eb7f6c1",
+      "date": "动态页面",
+      "publisher": "小宇宙 创业者手册",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S144",
+      "kind": "source",
+      "legacy_id": "SRC_IDX-R2",
+      "title": "The Wolf of All Streets所谓2026年7月长采访",
+      "url": "https://nb.ifeng.com/c/8uZDz7hEdq9",
+      "date": "日期待核",
+      "publisher": "nb.ifeng.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S145",
+      "kind": "source",
+      "legacy_id": "SRC_IDX-R3",
+      "title": "Simon Squibb对话（非官方档案标2026-03-01）",
+      "url": "https://www.thesunarchives.com/en/news/justin-sun-interview-ai-blockchain-future-2026",
+      "date": "日期待核",
+      "publisher": "thesunarchives.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S146",
+      "kind": "source",
+      "legacy_id": "SRC_IDX-R4",
+      "title": "Conviction 2026演讲",
+      "url": "https://www.youtube.com/watch?v=5jQv_Gzr3R8",
+      "date": "日期待核",
+      "publisher": "youtube.com",
+      "limitations": "",
+      "source_ids": []
+    },
+    {
+      "id": "S147",
+      "kind": "source",
+      "legacy_id": "SRC_IDX-R6",
+      "title": "2025亚洲周刊第27期原访谈",
+      "url": "https://www.iyiou.com/news/202507051102470",
+      "date": "日期待核",
+      "publisher": "iyiou.com",
+      "limitations": "",
+      "source_ids": []
+    }
+  ]
+}
